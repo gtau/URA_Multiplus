@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    
+    <context-param>
+        <param-name>sage.ic.useVOX</param-name>
+        <param-value>true</param-value>
+        <description>Indicates if ICC should communicate to VOX {true|false}</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="AdminVariableInfo-servlet">
+        <servlet-name>AdminVariableInfo</servlet-name>
+        <servlet-class>com.avaya.vp.admin.variables.runtime.AdminVariableInfo</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_9">
+        <servlet-name>Desligar</servlet-name>
+        <servlet-class>flow.Desligar</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_12">
+        <servlet-name>Encerra</servlet-name>
+        <servlet-class>flow.Encerra</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_15">
+        <servlet-name>Log_Inicio</servlet-name>
+        <servlet-class>flow.Log_Inicio</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_105">
+        <servlet-name>Desliga</servlet-name>
+        <servlet-class>flow.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_118">
+        <servlet-name>MenuIdiomas</servlet-name>
+        <servlet-class>flow.MenuIdiomas</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_138">
+        <servlet-name>VerificaTentativa</servlet-name>
+        <servlet-class>flow.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_153">
+        <servlet-name>EncerraChamada</servlet-name>
+        <servlet-class>flow.EncerraChamada</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_156">
+        <servlet-name>SetaPortugues</servlet-name>
+        <servlet-class>flow.SetaPortugues</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_164">
+        <servlet-name>SetaIngles</servlet-name>
+        <servlet-class>flow.SetaIngles</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_170">
+        <servlet-name>SetaEspanhol</servlet-name>
+        <servlet-class>flow.SetaEspanhol</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_176">
+        <servlet-name>MenuPrincipal</servlet-name>
+        <servlet-class>flow.MenuPrincipal</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_1">
+        <servlet-name>MenuPrincipal-Begin</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_4">
+        <servlet-name>MenuPrincipal-VerificaIdioma</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.VerificaIdioma</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_17">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalPort</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.AN_MenuPrincipalPort</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_23">
+        <servlet-name>MenuPrincipal-Mn_Principal</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.Mn_Principal</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_25">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalIng</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.AN_MenuPrincipalIng</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_29">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalEsp</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.AN_MenuPrincipalEsp</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_64">
+        <servlet-name>MenuPrincipal-MenuPontos</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuPontos</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_69">
+        <servlet-name>MenuPrincipal-MenuInformacoesMultiplus</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuInformacoesMultiplus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_71">
+        <servlet-name>MenuPrincipal-MenuTransferencia</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuTransferencia</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_75">
+        <servlet-name>MenuPrincipal-Desliga</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_52">
+        <servlet-name>MenuPrincipal-VerificaTentativaNI</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.VerificaTentativaNI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_61">
+        <servlet-name>MenuPrincipal-MenuAssuntosSenha</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuAssuntosSenha</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_62">
+        <servlet-name>MenuPrincipal-MenuAtualizacaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuAtualizacaoCadastral</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_63">
+        <servlet-name>MenuPrincipal-MenuTAM</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MenuTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_77">
+        <servlet-name>MenuPrincipal-SetaRetorno</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.SetaRetorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_84">
+        <servlet-name>MenuPrincipal-AN_OpcInvalida</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.AN_OpcInvalida</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_89">
+        <servlet-name>MenuPrincipal-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_96">
+        <servlet-name>MenuPrincipal-VerificaTentativaNM</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.VerificaTentativaNM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EncerraChamada_1">
+        <servlet-name>EncerraChamada-Begin</servlet-name>
+        <servlet-class>flow.subflow.EncerraChamada.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EncerraChamada_4">
+        <servlet-name>EncerraChamada-AN_FinalizaChamada</servlet-name>
+        <servlet-class>flow.subflow.EncerraChamada.AN_FinalizaChamada</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EncerraChamada_8">
+        <servlet-name>EncerraChamada-Desliga</servlet-name>
+        <servlet-class>flow.subflow.EncerraChamada.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_1">
+        <servlet-name>AssuntosSenha-Begin</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_4">
+        <servlet-name>AssuntosSenha-ValidacaoMultiplus</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.ValidacaoMultiplus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_1">
+        <servlet-name>ValidacaoMultiplus-Begin</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_4">
+        <servlet-name>ValidacaoMultiplus-VerificaIndicadorParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.VerificaIndicadorParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_13">
+        <servlet-name>ValidacaoMultiplus-ColetaCPFNumMultiplus</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.ColetaCPFNumMultiplus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_34">
+        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_52">
+        <servlet-name>ValidacaoMultiplus-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_47">
+        <servlet-name>ValidacaoMultiplus-AN_ErroIdentificarParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.AN_ErroIdentificarParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_63">
+        <servlet-name>ValidacaoMultiplus-Retorno</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_67">
+        <servlet-name>ValidacaoMultiplus-Operador</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.Operador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_69">
+        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.WSConsultarSaldoParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_91">
+        <servlet-name>ValidacaoMultiplus-AN_ErroCPF</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.AN_ErroCPF</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="AdminVariableInfo-servletmapping">
+        <servlet-name>AdminVariableInfo</servlet-name>
+        <url-pattern>/AdminVariableInfo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_9">
+        <servlet-name>Desligar</servlet-name>
+        <url-pattern>/Desligar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_12">
+        <servlet-name>Encerra</servlet-name>
+        <url-pattern>/Encerra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_15">
+        <servlet-name>Log_Inicio</servlet-name>
+        <url-pattern>/Log_Inicio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_105">
+        <servlet-name>Desliga</servlet-name>
+        <url-pattern>/Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_118">
+        <servlet-name>MenuIdiomas</servlet-name>
+        <url-pattern>/MenuIdiomas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_138">
+        <servlet-name>VerificaTentativa</servlet-name>
+        <url-pattern>/VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_153">
+        <servlet-name>EncerraChamada</servlet-name>
+        <url-pattern>/EncerraChamada</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_156">
+        <servlet-name>SetaPortugues</servlet-name>
+        <url-pattern>/SetaPortugues</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_164">
+        <servlet-name>SetaIngles</servlet-name>
+        <url-pattern>/SetaIngles</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_170">
+        <servlet-name>SetaEspanhol</servlet-name>
+        <url-pattern>/SetaEspanhol</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_176">
+        <servlet-name>MenuPrincipal</servlet-name>
+        <url-pattern>/MenuPrincipal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_1">
+        <servlet-name>MenuPrincipal-Begin</servlet-name>
+        <url-pattern>/MenuPrincipal-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_4">
+        <servlet-name>MenuPrincipal-VerificaIdioma</servlet-name>
+        <url-pattern>/MenuPrincipal-VerificaIdioma</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_17">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalPort</servlet-name>
+        <url-pattern>/MenuPrincipal-AN_MenuPrincipalPort</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_23">
+        <servlet-name>MenuPrincipal-Mn_Principal</servlet-name>
+        <url-pattern>/MenuPrincipal-Mn_Principal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_25">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalIng</servlet-name>
+        <url-pattern>/MenuPrincipal-AN_MenuPrincipalIng</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_29">
+        <servlet-name>MenuPrincipal-AN_MenuPrincipalEsp</servlet-name>
+        <url-pattern>/MenuPrincipal-AN_MenuPrincipalEsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_64">
+        <servlet-name>MenuPrincipal-MenuPontos</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuPontos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_69">
+        <servlet-name>MenuPrincipal-MenuInformacoesMultiplus</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuInformacoesMultiplus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_71">
+        <servlet-name>MenuPrincipal-MenuTransferencia</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuTransferencia</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_75">
+        <servlet-name>MenuPrincipal-Desliga</servlet-name>
+        <url-pattern>/MenuPrincipal-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_52">
+        <servlet-name>MenuPrincipal-VerificaTentativaNI</servlet-name>
+        <url-pattern>/MenuPrincipal-VerificaTentativaNI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_61">
+        <servlet-name>MenuPrincipal-MenuAssuntosSenha</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuAssuntosSenha</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_62">
+        <servlet-name>MenuPrincipal-MenuAtualizacaoCadastral</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuAtualizacaoCadastral</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_63">
+        <servlet-name>MenuPrincipal-MenuTAM</servlet-name>
+        <url-pattern>/MenuPrincipal-MenuTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_77">
+        <servlet-name>MenuPrincipal-SetaRetorno</servlet-name>
+        <url-pattern>/MenuPrincipal-SetaRetorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_84">
+        <servlet-name>MenuPrincipal-AN_OpcInvalida</servlet-name>
+        <url-pattern>/MenuPrincipal-AN_OpcInvalida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_89">
+        <servlet-name>MenuPrincipal-ZeraContador</servlet-name>
+        <url-pattern>/MenuPrincipal-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_96">
+        <servlet-name>MenuPrincipal-VerificaTentativaNM</servlet-name>
+        <url-pattern>/MenuPrincipal-VerificaTentativaNM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EncerraChamada_1">
+        <servlet-name>EncerraChamada-Begin</servlet-name>
+        <url-pattern>/EncerraChamada-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EncerraChamada_4">
+        <servlet-name>EncerraChamada-AN_FinalizaChamada</servlet-name>
+        <url-pattern>/EncerraChamada-AN_FinalizaChamada</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EncerraChamada_8">
+        <servlet-name>EncerraChamada-Desliga</servlet-name>
+        <url-pattern>/EncerraChamada-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_1">
+        <servlet-name>AssuntosSenha-Begin</servlet-name>
+        <url-pattern>/AssuntosSenha-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_4">
+        <servlet-name>AssuntosSenha-ValidacaoMultiplus</servlet-name>
+        <url-pattern>/AssuntosSenha-ValidacaoMultiplus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_1">
+        <servlet-name>ValidacaoMultiplus-Begin</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_4">
+        <servlet-name>ValidacaoMultiplus-VerificaIndicadorParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-VerificaIndicadorParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_13">
+        <servlet-name>ValidacaoMultiplus-ColetaCPFNumMultiplus</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-ColetaCPFNumMultiplus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_34">
+        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-WSIdentificarParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_52">
+        <servlet-name>ValidacaoMultiplus-VerificaTentativa</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_47">
+        <servlet-name>ValidacaoMultiplus-AN_ErroIdentificarParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-AN_ErroIdentificarParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_63">
+        <servlet-name>ValidacaoMultiplus-Retorno</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_67">
+        <servlet-name>ValidacaoMultiplus-Operador</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-Operador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_69">
+        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-WSConsultarSaldoParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_91">
+        <servlet-name>ValidacaoMultiplus-AN_ErroCPF</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-AN_ErroCPF</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

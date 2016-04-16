@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0">
+    <phrase version="1.0">
+        <displayname>MenuIdioma</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>EscolhaLinguagem.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP0</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP0.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP4</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP4.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP5</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP5.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMP9</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMP9.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMPOuvir</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMPOuvir.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP0</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP0.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP4</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP4.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP5</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP5.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMP9</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMP9.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMPOuvir</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMPOuvir.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP0</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP0.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP4</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP4.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP5</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP5.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMP9</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMP9.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMPOuvir</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMPOuvir.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTOpInv</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTOpInv.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGOpInv</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGOpInv.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPOpInv</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPOpInv.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTMPEncer</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTMPEncer.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGMPEncer</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGMPEncer.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPMPEncer</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPMPEncer.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPDigCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPDigCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGDigCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGDigCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTDigCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTDigCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESP10a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESP10a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ING10a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ING10a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PT10a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT10a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>PTEsqCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTEsqCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>INGEsqCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>INGEsqCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESPEsqCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESPEsqCPF.wav</audiofile>
+    </phrase>
+</phraseset>

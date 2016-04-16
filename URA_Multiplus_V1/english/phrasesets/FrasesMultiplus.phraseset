@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0">
+    <phrase version="1.0">
+        <displayname>MenuIdioma</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>EscolhaLinguagem.wav</audiofile>
+    </phrase>
+</phraseset>
