@@ -281,6 +281,262 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>ValidacaoMultiplus-AN_ErroCPF</servlet-name>
         <servlet-class>flow.subflow.ValidacaoMultiplus.AN_ErroCPF</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_13">
+        <servlet-name>AssuntosSenha-MN_AssuntosSenha</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.MN_AssuntosSenha</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_29">
+        <servlet-name>AssuntosSenha-VerificaRetorno</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.VerificaRetorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_35">
+        <servlet-name>AssuntosSenha-NovaSenhaResgate</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.NovaSenhaResgate</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_52">
+        <servlet-name>AssuntosSenha-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_38">
+        <servlet-name>AssuntosSenha-NovaSenhaAcesso</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.NovaSenhaAcesso</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_40">
+        <servlet-name>AssuntosSenha-CodigoAutorizacao</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.CodigoAutorizacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_42">
+        <servlet-name>AssuntosSenha-SetaRetornoVolta</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.SetaRetornoVolta</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_47">
+        <servlet-name>AssuntosSenha-SetaRetornoDesliga</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.SetaRetornoDesliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_72">
+        <servlet-name>AssuntosSenha-Desliga</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_61">
+        <servlet-name>AssuntosSenha-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_123">
+        <servlet-name>MenuPrincipal-Encerra</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.Encerra</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_74">
+        <servlet-name>AssuntosSenha-AN_OpcInvalida</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.AN_OpcInvalida</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_90">
+        <servlet-name>AssuntosSenha-Retorna</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.Retorna</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_126">
+        <servlet-name>MenuPrincipal-DecideRetorno</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.DecideRetorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_1">
+        <servlet-name>NovaSenhaResgate-Begin</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_4">
+        <servlet-name>NovaSenhaResgate-RedefinirSenhaUsuario</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.RedefinirSenhaUsuario</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_1">
+        <servlet-name>RedefinirSenhaUsuario-Begin</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_4">
+        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.WSRedefinirSenhaUsuario</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_18">
+        <servlet-name>RedefinirSenhaUsuario-TransOK</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.TransOK</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_22">
+        <servlet-name>RedefinirSenhaUsuario-AN_ErroTransacao</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.AN_ErroTransacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_29">
+        <servlet-name>RedefinirSenhaUsuario-TransNOK</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.TransNOK</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_9">
+        <servlet-name>NovaSenhaResgate-MenuNovaSenhaResgate</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.MenuNovaSenhaResgate</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_12">
+        <servlet-name>NovaSenhaResgate-VerificaRetorno</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.VerificaRetorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_18">
+        <servlet-name>NovaSenhaResgate-Retorno</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_29">
+        <servlet-name>NovaSenhaResgate-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_36">
+        <servlet-name>NovaSenhaResgate-Desliga</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_38">
+        <servlet-name>NovaSenhaResgate-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_87">
+        <servlet-name>NovaSenhaResgate-SetaRetornoVolta</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.SetaRetornoVolta</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_92">
+        <servlet-name>NovaSenhaResgate-SetaRetornoDesliga</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.SetaRetornoDesliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_1">
+        <servlet-name>NovaSenhaAcesso-Begin</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_129">
+        <servlet-name>NovaSenhaAcesso-VerificaRetorno</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.VerificaRetorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_134">
+        <servlet-name>NovaSenhaAcesso-Retorno</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_103">
+        <servlet-name>NovaSenhaAcesso-Desliga</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_104">
+        <servlet-name>NovaSenhaAcesso-RedefinirSenhaUsuario</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.RedefinirSenhaUsuario</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_137">
+        <servlet-name>NovaSenhaAcesso-SetaRetornoVolta</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.SetaRetornoVolta</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_108">
+        <servlet-name>NovaSenhaAcesso-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_142">
+        <servlet-name>NovaSenhaAcesso-SetaRetornoDesliga</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.SetaRetornoDesliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_147">
+        <servlet-name>NovaSenhaAcesso-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_118">
+        <servlet-name>NovaSenhaAcesso-MenuNovaSenhaAcesso</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.MenuNovaSenhaAcesso</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_107">
+        <servlet-name>AssuntosSenha-InformacoesSenha</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.InformacoesSenha</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_1">
+        <servlet-name>InformacoesSenha-Begin</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_4">
+        <servlet-name>InformacoesSenha-MenuInformacoesSenha</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.MenuInformacoesSenha</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_6">
+        <servlet-name>InformacoesSenha-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_22">
+        <servlet-name>InformacoesSenha-MenuAnterior</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.MenuAnterior</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_24">
+        <servlet-name>InformacoesSenha-SetaRetornoDesliga</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.SetaRetornoDesliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_30">
+        <servlet-name>InformacoesSenha-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_42">
+        <servlet-name>InformacoesSenha-Desliga</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesSenha_46">
+        <servlet-name>InformacoesSenha-Retorno</servlet-name>
+        <servlet-class>flow.subflow.InformacoesSenha.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_1">
+        <servlet-name>MenuAtualizacaoCadastral-Begin</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_4">
+        <servlet-name>MenuAtualizacaoCadastral-ValidacaoMultiplus</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.ValidacaoMultiplus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_9">
+        <servlet-name>MenuAtualizacaoCadastral-Retorno</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_11">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaIdentificado</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.VerificaIdentificado</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_22">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaPermissaoAlteracaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.VerificaPermissaoAlteracaoCadastral</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_1">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-Begin</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_6">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.WSVerificarPermissaoAlteracaoCadastral</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_17">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TransOK</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.TransOK</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_19">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-AN_ErroTransacao</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.AN_ErroTransacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_26">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TransNOK</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.TransNOK</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_33">
+        <servlet-name>MenuAtualizacaoCadastral-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_40">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaFarolAmarelo</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.VerificaFarolAmarelo</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_49">
+        <servlet-name>MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastralAmarelo</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.AN_MenuAtualizacaoCadastralAmarelo</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_53">
+        <servlet-name>MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.AN_MenuAtualizacaoCadastral</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_61">
+        <servlet-name>MenuAtualizacaoCadastral-MenuAtualizacaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.MenuAtualizacaoCadastral</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuAtualizacaoCadastral_79">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaIdioma</servlet-name>
+        <servlet-class>flow.subflow.MenuAtualizacaoCadastral.VerificaIdioma</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -489,6 +745,262 @@ Copyright 2004-2011 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_91">
         <servlet-name>ValidacaoMultiplus-AN_ErroCPF</servlet-name>
         <url-pattern>/ValidacaoMultiplus-AN_ErroCPF</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_13">
+        <servlet-name>AssuntosSenha-MN_AssuntosSenha</servlet-name>
+        <url-pattern>/AssuntosSenha-MN_AssuntosSenha</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_29">
+        <servlet-name>AssuntosSenha-VerificaRetorno</servlet-name>
+        <url-pattern>/AssuntosSenha-VerificaRetorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_35">
+        <servlet-name>AssuntosSenha-NovaSenhaResgate</servlet-name>
+        <url-pattern>/AssuntosSenha-NovaSenhaResgate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_52">
+        <servlet-name>AssuntosSenha-ZeraContador</servlet-name>
+        <url-pattern>/AssuntosSenha-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_38">
+        <servlet-name>AssuntosSenha-NovaSenhaAcesso</servlet-name>
+        <url-pattern>/AssuntosSenha-NovaSenhaAcesso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_40">
+        <servlet-name>AssuntosSenha-CodigoAutorizacao</servlet-name>
+        <url-pattern>/AssuntosSenha-CodigoAutorizacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_42">
+        <servlet-name>AssuntosSenha-SetaRetornoVolta</servlet-name>
+        <url-pattern>/AssuntosSenha-SetaRetornoVolta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_47">
+        <servlet-name>AssuntosSenha-SetaRetornoDesliga</servlet-name>
+        <url-pattern>/AssuntosSenha-SetaRetornoDesliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_72">
+        <servlet-name>AssuntosSenha-Desliga</servlet-name>
+        <url-pattern>/AssuntosSenha-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_61">
+        <servlet-name>AssuntosSenha-VerificaTentativa</servlet-name>
+        <url-pattern>/AssuntosSenha-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_123">
+        <servlet-name>MenuPrincipal-Encerra</servlet-name>
+        <url-pattern>/MenuPrincipal-Encerra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_74">
+        <servlet-name>AssuntosSenha-AN_OpcInvalida</servlet-name>
+        <url-pattern>/AssuntosSenha-AN_OpcInvalida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_90">
+        <servlet-name>AssuntosSenha-Retorna</servlet-name>
+        <url-pattern>/AssuntosSenha-Retorna</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_126">
+        <servlet-name>MenuPrincipal-DecideRetorno</servlet-name>
+        <url-pattern>/MenuPrincipal-DecideRetorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_1">
+        <servlet-name>NovaSenhaResgate-Begin</servlet-name>
+        <url-pattern>/NovaSenhaResgate-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_4">
+        <servlet-name>NovaSenhaResgate-RedefinirSenhaUsuario</servlet-name>
+        <url-pattern>/NovaSenhaResgate-RedefinirSenhaUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_1">
+        <servlet-name>RedefinirSenhaUsuario-Begin</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_4">
+        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_18">
+        <servlet-name>RedefinirSenhaUsuario-TransOK</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-TransOK</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_22">
+        <servlet-name>RedefinirSenhaUsuario-AN_ErroTransacao</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-AN_ErroTransacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_29">
+        <servlet-name>RedefinirSenhaUsuario-TransNOK</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-TransNOK</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_9">
+        <servlet-name>NovaSenhaResgate-MenuNovaSenhaResgate</servlet-name>
+        <url-pattern>/NovaSenhaResgate-MenuNovaSenhaResgate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_12">
+        <servlet-name>NovaSenhaResgate-VerificaRetorno</servlet-name>
+        <url-pattern>/NovaSenhaResgate-VerificaRetorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_18">
+        <servlet-name>NovaSenhaResgate-Retorno</servlet-name>
+        <url-pattern>/NovaSenhaResgate-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_29">
+        <servlet-name>NovaSenhaResgate-ZeraContador</servlet-name>
+        <url-pattern>/NovaSenhaResgate-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_36">
+        <servlet-name>NovaSenhaResgate-Desliga</servlet-name>
+        <url-pattern>/NovaSenhaResgate-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_38">
+        <servlet-name>NovaSenhaResgate-VerificaTentativa</servlet-name>
+        <url-pattern>/NovaSenhaResgate-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_87">
+        <servlet-name>NovaSenhaResgate-SetaRetornoVolta</servlet-name>
+        <url-pattern>/NovaSenhaResgate-SetaRetornoVolta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_92">
+        <servlet-name>NovaSenhaResgate-SetaRetornoDesliga</servlet-name>
+        <url-pattern>/NovaSenhaResgate-SetaRetornoDesliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_1">
+        <servlet-name>NovaSenhaAcesso-Begin</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_129">
+        <servlet-name>NovaSenhaAcesso-VerificaRetorno</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-VerificaRetorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_134">
+        <servlet-name>NovaSenhaAcesso-Retorno</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_103">
+        <servlet-name>NovaSenhaAcesso-Desliga</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_104">
+        <servlet-name>NovaSenhaAcesso-RedefinirSenhaUsuario</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-RedefinirSenhaUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_137">
+        <servlet-name>NovaSenhaAcesso-SetaRetornoVolta</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-SetaRetornoVolta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_108">
+        <servlet-name>NovaSenhaAcesso-VerificaTentativa</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_142">
+        <servlet-name>NovaSenhaAcesso-SetaRetornoDesliga</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-SetaRetornoDesliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_147">
+        <servlet-name>NovaSenhaAcesso-ZeraContador</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_118">
+        <servlet-name>NovaSenhaAcesso-MenuNovaSenhaAcesso</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-MenuNovaSenhaAcesso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_107">
+        <servlet-name>AssuntosSenha-InformacoesSenha</servlet-name>
+        <url-pattern>/AssuntosSenha-InformacoesSenha</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_1">
+        <servlet-name>InformacoesSenha-Begin</servlet-name>
+        <url-pattern>/InformacoesSenha-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_4">
+        <servlet-name>InformacoesSenha-MenuInformacoesSenha</servlet-name>
+        <url-pattern>/InformacoesSenha-MenuInformacoesSenha</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_6">
+        <servlet-name>InformacoesSenha-ZeraContador</servlet-name>
+        <url-pattern>/InformacoesSenha-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_22">
+        <servlet-name>InformacoesSenha-MenuAnterior</servlet-name>
+        <url-pattern>/InformacoesSenha-MenuAnterior</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_24">
+        <servlet-name>InformacoesSenha-SetaRetornoDesliga</servlet-name>
+        <url-pattern>/InformacoesSenha-SetaRetornoDesliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_30">
+        <servlet-name>InformacoesSenha-VerificaTentativa</servlet-name>
+        <url-pattern>/InformacoesSenha-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_42">
+        <servlet-name>InformacoesSenha-Desliga</servlet-name>
+        <url-pattern>/InformacoesSenha-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesSenha_46">
+        <servlet-name>InformacoesSenha-Retorno</servlet-name>
+        <url-pattern>/InformacoesSenha-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_1">
+        <servlet-name>MenuAtualizacaoCadastral-Begin</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_4">
+        <servlet-name>MenuAtualizacaoCadastral-ValidacaoMultiplus</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-ValidacaoMultiplus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_9">
+        <servlet-name>MenuAtualizacaoCadastral-Retorno</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_11">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaIdentificado</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-VerificaIdentificado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_22">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaPermissaoAlteracaoCadastral</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-VerificaPermissaoAlteracaoCadastral</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_1">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-Begin</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_6">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_17">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TransOK</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-TransOK</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_19">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-AN_ErroTransacao</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-AN_ErroTransacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_26">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TransNOK</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-TransNOK</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_33">
+        <servlet-name>MenuAtualizacaoCadastral-ZeraContador</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_40">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaFarolAmarelo</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-VerificaFarolAmarelo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_49">
+        <servlet-name>MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastralAmarelo</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastralAmarelo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_53">
+        <servlet-name>MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastral</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-AN_MenuAtualizacaoCadastral</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_61">
+        <servlet-name>MenuAtualizacaoCadastral-MenuAtualizacaoCadastral</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-MenuAtualizacaoCadastral</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuAtualizacaoCadastral_79">
+        <servlet-name>MenuAtualizacaoCadastral-VerificaIdioma</servlet-name>
+        <url-pattern>/MenuAtualizacaoCadastral-VerificaIdioma</url-pattern>
     </servlet-mapping>
     
     

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="186" package="flow" version="5.0">
+    <ApplicationFlow nextObjectId="188" package="flow" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.AppRoot" id="1" version="3.1">
                 <Property name="Name" value="AppRoot"/>
@@ -727,6 +727,13 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubExitPoint" id="187" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="182"/>
+                                <Property name="Name" value="Encerra"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
                     </ChildItems>
                 </FlowItem>
             </FlowNode>
@@ -984,6 +991,12 @@
                 <TargetNode id="185"/>
                 <Property name="Connection.SourceObjectID" value="184"/>
                 <Property name="Connection.TargetObjectID" value="185"/>
+            </NodeConnection>
+            <NodeConnection id="188" version="1.2">
+                <SourceNode id="176"/>
+                <TargetNode id="182"/>
+                <Property name="Connection.SourceObjectID" value="187"/>
+                <Property name="Connection.TargetObjectID" value="182"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>
