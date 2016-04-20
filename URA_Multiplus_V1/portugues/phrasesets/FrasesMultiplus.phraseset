@@ -270,4 +270,121 @@
         <comments/>
         <audiofile>PTMPEncer.wav</audiofile>
     </phrase>
+    <phrase version="1.0">
+        <displayname>214a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT214a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>213a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT213a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>31a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT31a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>31b</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT31b.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311d</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT311d.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT311f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311e</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT311e.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g4</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g4.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>FalarOp</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PTFalarOp.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311h</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>PT311h.wav</audiofile>
+    </phrase>
 </phraseset>

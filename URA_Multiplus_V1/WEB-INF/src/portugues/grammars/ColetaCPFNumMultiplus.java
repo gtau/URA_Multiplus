@@ -20,8 +20,8 @@ public class ColetaCPFNumMultiplus extends com.avaya.sce.runtime.Grammar {
         setMode("dtmf");
         setBuiltin(true);
         setBuiltinMode("dtmf");
-        setType("number");
-        setOptions("");
+        setType("digits");
+        setOptions("minlength=6;maxlength=8");
 		//}}END:CLASS:CONSTRUCTOR
     }
 
