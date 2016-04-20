@@ -20,13 +20,13 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Menu" id="4" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="330"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="11"/>
-                <Property name="Name" value="MenuInformacoesSenha"/>
+                <Property name="Name" value="MN_InformacoesSenha"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Menu" id="5" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="13" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="MenuInformacoesSenha"/>
+                                <Property name="Name" value="MN_InformacoesSenha"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

@@ -48,7 +48,7 @@
                 </propertystore>
                 <propertystore id="ic" version="1.0">
                     <propertymap>
-                        <property name="enabled" value="true" version="1.0"/>
+                        <property name="enabled" value="false" version="1.0"/>
                     </propertymap>
                     <nestedpropertystore/>
                 </propertystore>
@@ -91,14 +91,6 @@
         <propertystore id="pluggableconnectors" version="1.0">
             <propertymap/>
             <nestedpropertystore>
-                <propertystore id="comavayasceicuiicConnector" version="1.0">
-                    <propertymap>
-                        <property name="displayName" value="Avaya IC Connector" version="1.0"/>
-                        <property name="connectorId" value="com.avaya.sce.ic.ui.icConnector" version="1.0"/>
-                        <property name="currentVersion" value="1" version="1.0"/>
-                    </propertymap>
-                    <nestedpropertystore/>
-                </propertystore>
                 <propertystore id="comavayascedatabaseoperations" version="1.0">
                     <propertymap>
                         <property name="displayName" value="Database" version="1.0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="23" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
+    <ApplicationFlow nextObjectId="29" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="13"/>
@@ -34,7 +34,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="21" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="AN_ErroTransacao"/>
+                                <Property name="Name" value="AN_ErroIdentificarParticipante"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -43,7 +43,9 @@
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Submit" id="22" version="1.2">
-                            <ItemProperties/>
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="26"/>
+                            </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                     </ChildItems>
@@ -96,8 +98,17 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseCondition" id="13" version="1.2">
                                     <ItemProperties/>
                                     <ChildItems>
+                                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="28" version="1.2">
+                                            <ItemProperties>
+                                                <Property name="destVarId" value="CheckRetorno"/>
+                                                <Property name="type" value="assign"/>
+                                                <Property name="sourceConstant" value="operador"/>
+                                            </ItemProperties>
+                                            <ChildItems/>
+                                        </FlowItem>
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="15" version="1.2">
                                             <ItemProperties>
+                                                <Property name="LinkedNodeID" value="19"/>
                                                 <Property name="Name" value="NOK"/>
                                             </ItemProperties>
                                             <ChildItems/>
@@ -109,8 +120,17 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseCondition" id="14" version="1.2">
                             <ItemProperties/>
                             <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="29" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="destVarId" value="CheckRetorno"/>
+                                        <Property name="type" value="assign"/>
+                                        <Property name="sourceConstant" value="operador"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="16" version="1.2">
                                     <ItemProperties>
+                                        <Property name="LinkedNodeID" value="19"/>
                                         <Property name="Name" value="NOK"/>
                                     </ItemProperties>
                                     <ChildItems/>
@@ -119,6 +139,11 @@
                         </FlowItem>
                     </ChildItems>
                 </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="26" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="643"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="102"/>
+                <Property name="Name" value="TransNOK"/>
             </FlowNode>
             <NodeConnection id="10" version="1.2">
                 <SourceNode id="1"/>
@@ -131,6 +156,24 @@
                 <TargetNode id="17"/>
                 <Property name="Connection.SourceObjectID" value="9"/>
                 <Property name="Connection.TargetObjectID" value="17"/>
+            </NodeConnection>
+            <NodeConnection id="24" version="1.2">
+                <SourceNode id="6"/>
+                <TargetNode id="19"/>
+                <Property name="Connection.SourceObjectID" value="15"/>
+                <Property name="Connection.TargetObjectID" value="19"/>
+            </NodeConnection>
+            <NodeConnection id="25" version="1.2">
+                <SourceNode id="6"/>
+                <TargetNode id="19"/>
+                <Property name="Connection.SourceObjectID" value="16"/>
+                <Property name="Connection.TargetObjectID" value="19"/>
+            </NodeConnection>
+            <NodeConnection id="27" version="1.2">
+                <SourceNode id="19"/>
+                <TargetNode id="26"/>
+                <Property name="Connection.SourceObjectID" value="22"/>
+                <Property name="Connection.TargetObjectID" value="26"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

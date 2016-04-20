@@ -195,7 +195,7 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="79" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="332"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="297"/>
-                <Property name="Name" value="untitledData1"/>
+                <Property name="Name" value="VerificaIdioma"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="80" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
@@ -224,7 +224,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="51" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="MenuAtualizacaoCadastralAmarelo"/>
+                                <Property name="Name" value="AN_MenuAtualizacaoCadastralAmarelo"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -256,7 +256,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="55" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="MenuAtualizacaoCadastral"/>
+                                <Property name="Name" value="AN_MenuAtualizacaoCadastral"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -321,7 +321,7 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Choice" id="66" version="1.2">
                             <ItemProperties>
                                 <Property name="ActivateDTMF" value="2"/>
-                                <Property name="LinkedNodeID" value="79"/>
+                                <Property name="LinkedNodeID" value="-1"/>
                                 <Property name="Name" value="2"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -456,12 +456,6 @@
                 <SourceNode id="61"/>
                 <TargetNode id="79"/>
                 <Property name="Connection.SourceObjectID" value="65"/>
-                <Property name="Connection.TargetObjectID" value="79"/>
-            </NodeConnection>
-            <NodeConnection id="84" version="1.2">
-                <SourceNode id="61"/>
-                <TargetNode id="79"/>
-                <Property name="Connection.SourceObjectID" value="66"/>
                 <Property name="Connection.TargetObjectID" value="79"/>
             </NodeConnection>
         </FlowGraph>

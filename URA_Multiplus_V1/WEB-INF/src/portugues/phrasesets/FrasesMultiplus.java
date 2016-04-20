@@ -20,254 +20,98 @@ public class FrasesMultiplus extends com.avaya.sce.runtime.Phraseset {
 		//{{START:PHRASESET:STATIC
 
 		// Create the phrase map, then populate with phrases
-		PHRASE_MAP = new com.avaya.sce.runtime.Phraseset.PhraseMap(164);
+		PHRASE_MAP = new com.avaya.sce.runtime.Phraseset.PhraseMap(60);
 		com.avaya.sce.runtime.Phrase phrase;
 
-		// phrase: MenuIdioma
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MenuIdioma", "EscolhaLinguagem.wav", ""); 
+		// phrase: PT0a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT0a", "PT0a.wav", ""); 
 
-		// phrase: PTMP0
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP0", "PTMP0.wav", ""); 
+		// phrase: ING0a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING0a", "ING0a.wav", ""); 
 
-		// phrase: PTMP1
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP1", "PTMP1.wav", ""); 
+		// phrase: ESP0a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP0a", "ESP0a.wav", ""); 
 
-		// phrase: PTMP2
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP2", "PTMP2.wav", ""); 
+		// phrase: MP0
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP0", "PTMP0.wav", ""); 
 
-		// phrase: PTMP3
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP3", "PTMP3.wav", ""); 
+		// phrase: MP1
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP1", "PTMP1.wav", ""); 
 
-		// phrase: PTMP4
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP4", "PTMP4.wav", ""); 
+		// phrase: MP2
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP2", "PTMP2.wav", ""); 
 
-		// phrase: PTMP5
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP5", "PTMP5.wav", ""); 
+		// phrase: MP3
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP3", "PTMP3.wav", ""); 
 
-		// phrase: PTMP9
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMP9", "PTMP9.wav", ""); 
+		// phrase: MP4
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP4", "PTMP4.wav", ""); 
 
-		// phrase: PTMPOuvir
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMPOuvir", "PTMPOuvir.wav", ""); 
+		// phrase: MP5
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP5", "PTMP5.wav", ""); 
 
-		// phrase: INGMP0
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP0", "INGMP0.wav", ""); 
+		// phrase: MP9
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MP9", "PTMP9.wav", ""); 
 
-		// phrase: INGMP1
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP1", "INGMP1.wav", ""); 
+		// phrase: MPOuvir
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MPOuvir", "PTMPOuvir.wav", ""); 
 
-		// phrase: INGMP2
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP2", "INGMP2.wav", ""); 
+		// phrase: OpInv
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "OpInv", "PTOpInv.wav", ""); 
 
-		// phrase: INGMP3
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP3", "INGMP3.wav", ""); 
+		// phrase: 11d
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "11d", "PT11d.wav", ""); 
 
-		// phrase: INGMP4
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP4", "INGMP4.wav", ""); 
+		// phrase: 11e
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "11e", "PT11e.wav", ""); 
 
-		// phrase: INGMP5
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP5", "INGMP5.wav", ""); 
+		// phrase: 11f
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "11f", "PT11f.wav", ""); 
 
-		// phrase: INGMP9
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMP9", "INGMP9.wav", ""); 
+		// phrase: 11i
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "11i", "PT11i.wav", ""); 
 
-		// phrase: INGMPOuvir
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMPOuvir", "INGMPOuvir.wav", ""); 
+		// phrase: VoltarMenuInicial
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "VoltarMenuInicial", "PTVoltarMenuInicial.wav", ""); 
 
-		// phrase: ESPMP0
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP0", "ESPMP0.wav", ""); 
+		// phrase: SemDuvida
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "SemDuvida", "PTSemDuvida.wav", ""); 
 
-		// phrase: ESPMP1
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP1", "ESPMP1.wav", ""); 
+		// phrase: DigCPF
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "DigCPF", "PTDigCPF.wav", ""); 
 
-		// phrase: ESPMP2
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP2", "ESPMP2.wav", ""); 
+		// phrase: EsqCPF
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "EsqCPF", "PTEsqCPF.wav", ""); 
 
-		// phrase: ESPMP3
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP3", "ESPMP3.wav", ""); 
+		// phrase: 10a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "10a", "PT10a.wav", ""); 
 
-		// phrase: ESPMP4
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP4", "ESPMP4.wav", ""); 
+		// phrase: 111a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "111a", "PT111a.wav", ""); 
 
-		// phrase: ESPMP5
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP5", "ESPMP5.wav", ""); 
+		// phrase: 112a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "112a", "PT112a.wav", ""); 
 
-		// phrase: ESPMP9
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMP9", "ESPMP9.wav", ""); 
+		// phrase: 113a
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "113a", "PT113a.wav", ""); 
 
-		// phrase: ESPMPOuvir
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMPOuvir", "ESPMPOuvir.wav", ""); 
+		// phrase: VoltarMenuAnterior
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "VoltarMenuAnterior", "PTVoltarMenuAnterior.wav", ""); 
 
-		// phrase: PTOpInv
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTOpInv", "PTOpInv.wav", ""); 
+		// phrase: 21d
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "21d", "PT21d.wav", ""); 
 
-		// phrase: INGOpInv
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGOpInv", "INGOpInv.wav", ""); 
+		// phrase: 21e
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "21e", "PT21e.wav", ""); 
 
-		// phrase: ESPOpInv
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPOpInv", "ESPOpInv.wav", ""); 
+		// phrase: 21f
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "21f", "PT21f.wav", ""); 
 
-		// phrase: PTMPEncer
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTMPEncer", "PTMPEncer.wav", ""); 
+		// phrase: 21g
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "21g", "PT21g.wav", ""); 
 
-		// phrase: INGMPEncer
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGMPEncer", "INGMPEncer.wav", ""); 
-
-		// phrase: ESPMPEncer
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPMPEncer", "ESPMPEncer.wav", ""); 
-
-		// phrase: ESPDigCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPDigCPF", "ESPDigCPF.wav", ""); 
-
-		// phrase: INGDigCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGDigCPF", "INGDigCPF.wav", ""); 
-
-		// phrase: PTDigCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTDigCPF", "PTDigCPF.wav", ""); 
-
-		// phrase: ESP10a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP10a", "ESP10a.wav", ""); 
-
-		// phrase: ING10a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING10a", "ING10a.wav", ""); 
-
-		// phrase: PT10a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT10a", "PT10a.wav", ""); 
-
-		// phrase: PTEsqCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTEsqCPF", "PTEsqCPF.wav", ""); 
-
-		// phrase: INGEsqCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGEsqCPF", "INGEsqCPF.wav", ""); 
-
-		// phrase: ESPEsqCPF
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPEsqCPF", "ESPEsqCPF.wav", ""); 
-
-		// phrase: ESP11d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP11d", "ESP11d.wav", ""); 
-
-		// phrase: ESP11e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP11e", "ESP11e.wav", ""); 
-
-		// phrase: ESP11f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP11f", "ESP11f.wav", ""); 
-
-		// phrase: ESP11i
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP11i", "ESP11i.wav", ""); 
-
-		// phrase: ESPVoltarMenuInicial
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPVoltarMenuInicial", "ESPVoltarMenuInicial.wav", ""); 
-
-		// phrase: ESPSemDuvida
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPSemDuvida", "ESPSemDuvida.wav", ""); 
-
-		// phrase: PT11d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT11d", "PT11d.wav", ""); 
-
-		// phrase: PT11e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT11e", "PT11e.wav", ""); 
-
-		// phrase: PT11f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT11f", "PT11f.wav", ""); 
-
-		// phrase: PT11i
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT11i", "PT11i.wav", ""); 
-
-		// phrase: PTVoltarMenuInicial
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTVoltarMenuInicial", "PTVoltarMenuInicial.wav", ""); 
-
-		// phrase: PTSemDuvida
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTSemDuvida", "PTSemDuvida.wav", ""); 
-
-		// phrase: ING11d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING11d", "ING11d.wav", ""); 
-
-		// phrase: ING11e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING11e", "ING11e.wav", ""); 
-
-		// phrase: ING11f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING11f", "ING11f.wav", ""); 
-
-		// phrase: ING11i
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING11i", "ING11i.wav", ""); 
-
-		// phrase: INGVoltarMenuInicial
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGVoltarMenuInicial", "INGVoltarMenuInicial.wav", ""); 
-
-		// phrase: INGSemDuvida
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGSemDuvida", "INGSemDuvida.wav", ""); 
-
-		// phrase: ESP111a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP111a", "ESP111a.wav", ""); 
-
-		// phrase: ING111a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING111a", "ING111a.wav", ""); 
-
-		// phrase: PT111a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT111a", "PT111a.wav", ""); 
-
-		// phrase: PT112a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT112a", "PT112a.wav", ""); 
-
-		// phrase: ING112a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING112a", "ING112a.wav", ""); 
-
-		// phrase: ESP112a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP112a", "ESP112a.wav", ""); 
-
-		// phrase: ESP113a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP113a", "ESP113a.wav", ""); 
-
-		// phrase: ING113a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING113a", "ING113a.wav", ""); 
-
-		// phrase: PT113a
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT113a", "PT113a.wav", ""); 
-
-		// phrase: PTVoltarMenuAnterior
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PTVoltarMenuAnterior", "PTVoltarMenuAnterior.wav", ""); 
-
-		// phrase: INGVoltarMenuAnterior
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "INGVoltarMenuAnterior", "INGVoltarMenuAnterior.wav", ""); 
-
-		// phrase: ESPVoltarMenuAnterior
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESPVoltarMenuAnterior", "ESPVoltarMenuAnterior.wav", ""); 
-
-		// phrase: PT21d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT21d", "PT21d.wav", ""); 
-
-		// phrase: PT21e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT21e", "PT21e.wav", ""); 
-
-		// phrase: PT21f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT21f", "PT21f.wav", ""); 
-
-		// phrase: PT21g
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "PT21g", "PT21g.wav", ""); 
-
-		// phrase: ING21d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING21d", "ING21d.wav", ""); 
-
-		// phrase: ING21e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING21e", "ING21e.wav", ""); 
-
-		// phrase: ING21f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING21f", "ING21f.wav", ""); 
-
-		// phrase: ING21g
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ING21g", "ING21g.wav", ""); 
-
-		// phrase: ESP21d
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP21d", "ESP21d.wav", ""); 
-
-		// phrase: ESP21e
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP21e", "ESP21e.wav", ""); 
-
-		// phrase: ESP21f
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP21f", "ESP21f.wav", ""); 
-
-		// phrase: ESP21g
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ESP21g", "ESP21g.wav", ""); 
+		// phrase: MPEncer
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "MPEncer", "PTMPEncer.wav", ""); 
 
 		//}}END:PHRASESET:STATIC
 	}
@@ -279,7 +123,7 @@ public class FrasesMultiplus extends com.avaya.sce.runtime.Phraseset {
 	 * This method is generated automatically by the code generator
 	 * and should not be manually edited.  Manual edits may be overwritten
 	 * by the code generator.
-	 * Last generated by Orchestration Designer at: 19 DE ABRIL DE 2016 14H20MIN41S BRT
+	 * Last generated by Orchestration Designer at: 20 DE ABRIL DE 2016 9H24MIN53S BRT
 	 * @see com.avaya.sce.runtime.Phraseset#getPhrase(String) 
 	 */ 
 	public com.avaya.sce.runtime.Phrase getPhrase(String phraseName) {

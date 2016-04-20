@@ -121,13 +121,13 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Menu" id="9" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="564"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="10"/>
-                <Property name="Name" value="MenuNovaSenhaResgate"/>
+                <Property name="Name" value="MN_NovaSenhaResgate"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Menu" id="10" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="22" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="MenuNovaSenhaResgate"/>
+                                <Property name="Name" value="MN_NovaSenhaResgate"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

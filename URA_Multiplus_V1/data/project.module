@@ -3,5 +3,6 @@
     <description/>
     <language name="english" root="en-us"/>
     <language name="portugues" root="pt-br"/>
+    <language name="espanhol" root="es-la"/>
     <dependencies/>
 </module>

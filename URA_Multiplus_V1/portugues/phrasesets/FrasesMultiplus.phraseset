@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0">
     <phrase version="1.0">
-        <displayname>MenuIdioma</displayname>
+        <displayname>PT0a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>EscolhaLinguagem.wav</audiofile>
+        <audiofile>PT0a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP0</displayname>
+        <displayname>ING0a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ING0a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ESP0a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ESP0a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP0</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -19,7 +37,7 @@
         <audiofile>PTMP0.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP1</displayname>
+        <displayname>MP1</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -28,7 +46,7 @@
         <audiofile>PTMP1.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP2</displayname>
+        <displayname>MP2</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -37,7 +55,7 @@
         <audiofile>PTMP2.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP3</displayname>
+        <displayname>MP3</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -46,7 +64,7 @@
         <audiofile>PTMP3.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP4</displayname>
+        <displayname>MP4</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -55,7 +73,7 @@
         <audiofile>PTMP4.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP5</displayname>
+        <displayname>MP5</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -64,7 +82,7 @@
         <audiofile>PTMP5.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMP9</displayname>
+        <displayname>MP9</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -73,7 +91,7 @@
         <audiofile>PTMP9.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTMPOuvir</displayname>
+        <displayname>MPOuvir</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -82,151 +100,7 @@
         <audiofile>PTMPOuvir.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>INGMP0</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP0.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP1</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP1.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP2</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP2.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP3</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP3.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP4</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP4.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP5</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP5.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMP9</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMP9.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMPOuvir</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMPOuvir.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP0</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP0.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP1</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP1.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP2</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP2.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP3</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP3.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP4</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP4.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP5</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP5.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMP9</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMP9.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMPOuvir</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMPOuvir.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PTOpInv</displayname>
+        <displayname>OpInv</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -235,187 +109,7 @@
         <audiofile>PTOpInv.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>INGOpInv</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGOpInv.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPOpInv</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPOpInv.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PTMPEncer</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>PTMPEncer.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGMPEncer</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGMPEncer.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPMPEncer</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPMPEncer.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPDigCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPDigCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGDigCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGDigCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PTDigCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>PTDigCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP10a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP10a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING10a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING10a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PT10a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>PT10a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PTEsqCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>PTEsqCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGEsqCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGEsqCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPEsqCPF</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPEsqCPF.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP11d</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP11d.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP11e</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP11e.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP11f</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP11f.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP11i</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP11i.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPVoltarMenuInicial</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPVoltarMenuInicial.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPSemDuvida</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPSemDuvida.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PT11d</displayname>
+        <displayname>11d</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -424,7 +118,7 @@
         <audiofile>PT11d.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT11e</displayname>
+        <displayname>11e</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -433,7 +127,7 @@
         <audiofile>PT11e.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT11f</displayname>
+        <displayname>11f</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -442,7 +136,7 @@
         <audiofile>PT11f.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT11i</displayname>
+        <displayname>11i</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -451,7 +145,7 @@
         <audiofile>PT11i.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTVoltarMenuInicial</displayname>
+        <displayname>VoltarMenuInicial</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -460,7 +154,7 @@
         <audiofile>PTVoltarMenuInicial.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTSemDuvida</displayname>
+        <displayname>SemDuvida</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -469,79 +163,34 @@
         <audiofile>PTSemDuvida.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING11d</displayname>
+        <displayname>DigCPF</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>ING11d.wav</audiofile>
+        <audiofile>PTDigCPF.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING11e</displayname>
+        <displayname>EsqCPF</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>ING11e.wav</audiofile>
+        <audiofile>PTEsqCPF.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING11f</displayname>
+        <displayname>10a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>ING11f.wav</audiofile>
+        <audiofile>PT10a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING11i</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING11i.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGVoltarMenuInicial</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGVoltarMenuInicial.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>INGSemDuvida</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGSemDuvida.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP111a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP111a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING111a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING111a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PT111a</displayname>
+        <displayname>111a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -550,7 +199,7 @@
         <audiofile>PT111a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT112a</displayname>
+        <displayname>112a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -559,43 +208,7 @@
         <audiofile>PT112a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING112a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING112a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP112a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP112a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP113a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP113a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING113a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING113a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PT113a</displayname>
+        <displayname>113a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -604,7 +217,7 @@
         <audiofile>PT113a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PTVoltarMenuAnterior</displayname>
+        <displayname>VoltarMenuAnterior</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -613,25 +226,7 @@
         <audiofile>PTVoltarMenuAnterior.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>INGVoltarMenuAnterior</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>INGVoltarMenuAnterior.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESPVoltarMenuAnterior</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESPVoltarMenuAnterior.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>PT21d</displayname>
+        <displayname>21d</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -640,7 +235,7 @@
         <audiofile>PT21d.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT21e</displayname>
+        <displayname>21e</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -649,7 +244,7 @@
         <audiofile>PT21e.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT21f</displayname>
+        <displayname>21f</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -658,7 +253,7 @@
         <audiofile>PT21f.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>PT21g</displayname>
+        <displayname>21g</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
@@ -667,75 +262,12 @@
         <audiofile>PT21g.wav</audiofile>
     </phrase>
     <phrase version="1.0">
-        <displayname>ING21d</displayname>
+        <displayname>MPEncer</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>ING21d.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING21e</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING21e.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING21f</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING21f.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING21g</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING21g.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP21d</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP21d.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP21e</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP21e.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP21f</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP21f.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP21g</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP21g.wav</audiofile>
+        <audiofile>PTMPEncer.wav</audiofile>
     </phrase>
 </phraseset>

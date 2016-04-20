@@ -2,4 +2,5 @@
 <ProjectLanguages>
     <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="en-us"/>
     <language asr="en-us" localization="pt-br" localizationVersion="3.1.5" name="portugues" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="es-la" localizationVersion="3.1.8" name="espanhol" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="en-us"/>
 </ProjectLanguages>

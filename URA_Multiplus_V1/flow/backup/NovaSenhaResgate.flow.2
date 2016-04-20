@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="98" package="flow.subflow.NovaSenhaResgate" version="5.0">
+    <ApplicationFlow nextObjectId="101" package="flow.subflow.NovaSenhaResgate" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
@@ -16,6 +16,11 @@
                         </FlowItem>
                     </ChildItems>
                 </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="99" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="1103"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="30"/>
+                <Property name="ReferencedNodeID" value="12"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubFlowRef" id="4" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="145"/>
@@ -121,9 +126,7 @@
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="22" version="1.2">
-                            <ItemProperties>
-                                <Property name="Name" value="MenuNovaSenhaResgate"/>
-                            </ItemProperties>
+                            <ItemProperties/>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.FlushPromptQueue" id="23" version="1.2">
@@ -243,7 +246,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="91" version="1.2">
                             <ItemProperties>
-                                <Property name="LinkedNodeID" value="-1"/>
+                                <Property name="LinkedNodeID" value="99"/>
                                 <Property name="Name" value="Default"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -274,7 +277,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="96" version="1.2">
                             <ItemProperties>
-                                <Property name="LinkedNodeID" value="-1"/>
+                                <Property name="LinkedNodeID" value="99"/>
                                 <Property name="Name" value="Default"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -388,6 +391,19 @@
                 <Property name="Connection.SourceObjectID" value="21"/>
                 <Property name="Connection.TargetObjectID" value="92"/>
                 <Bendpoint x="851" y="47"/>
+            </NodeConnection>
+            <NodeConnection id="100" version="1.2">
+                <SourceNode id="92"/>
+                <TargetNode id="99"/>
+                <Property name="Connection.SourceObjectID" value="96"/>
+                <Property name="Connection.TargetObjectID" value="99"/>
+                <Bendpoint x="1070" y="54"/>
+            </NodeConnection>
+            <NodeConnection id="101" version="1.2">
+                <SourceNode id="87"/>
+                <TargetNode id="99"/>
+                <Property name="Connection.SourceObjectID" value="91"/>
+                <Property name="Connection.TargetObjectID" value="99"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

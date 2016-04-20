@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="30" package="flow.subflow.RedefinirSenhaUsuario" version="5.0">
+    <ApplicationFlow nextObjectId="32" package="flow.subflow.RedefinirSenhaUsuario" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="9"/>
@@ -34,6 +34,24 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="6" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="31" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSRedefinirSenhaUsuario"/>
+                                <Property name="destFieldId" value="Retorno"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="OK"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="32" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSRedefinirSenhaUsuario"/>
+                                <Property name="destFieldId" value="IdReciboEntrega"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="ok"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -132,7 +150,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="24" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="AN_ErroTransacao"/>
+                                <Property name="Name" value="AN_ErroIdentificarParticipante"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

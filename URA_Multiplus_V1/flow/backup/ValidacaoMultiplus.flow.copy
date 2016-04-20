@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="99" package="flow.subflow.ValidacaoMultiplus" version="5.0">
+    <ApplicationFlow nextObjectId="102" package="flow.subflow.ValidacaoMultiplus" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
@@ -32,6 +32,15 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="36" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="101" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSIdentificarParticipante"/>
+                                <Property name="destFieldId" value="Retorno"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="OK"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -109,6 +118,14 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="100" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSIdentificarParticipante"/>
+                                <Property name="destFieldId" value="IdParticipante"/>
+                                <Property name="type" value="assign"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="10" version="1.2">
                             <ItemProperties>
                                 <Property name="trace.varId" value="WSIdentificarParticipante"/>
@@ -158,6 +175,15 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="71" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="102" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSSaldoParticipante"/>
+                                <Property name="destFieldId" value="Retorno"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="OK"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -242,7 +268,7 @@
                             <ChildItems>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="16" version="1.2">
                                     <ItemProperties>
-                                        <Property name="Name" value="ColetaCPFNumMultiplus"/>
+                                        <Property name="Name" value="AN_SolicitaCPF"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -295,7 +321,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="49" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="AN_ErroTransacao"/>
+                                <Property name="Name" value="AN_ErroIdentificarParticipante"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="188" package="flow" version="5.0">
+    <ApplicationFlow nextObjectId="190" package="flow" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.AppRoot" id="1" version="3.1">
                 <Property name="Name" value="AppRoot"/>
@@ -31,11 +31,10 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="167" version="1.2">
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="189" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="Idioma"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="ingles"/>
+                                <Property name="type" value="set.language"/>
+                                <Property name="lang" value="english"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -160,11 +159,10 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="173" version="1.2">
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="190" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="Idioma"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="espanhol"/>
+                                <Property name="type" value="set.language"/>
+                                <Property name="lang" value="espanhol"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -751,7 +749,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="127" version="1.2">
                             <ItemProperties>
-                                <Property name="Name" value="MenuIdiomas"/>
+                                <Property name="Name" value="MN_Idiomas"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -863,7 +861,8 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="163" version="1.2">
                             <ItemProperties>
                                 <Property name="destVarId" value="Idioma"/>
-                                <Property name="type" value="assign"/>
+                                <Property name="type" value="set.language"/>
+                                <Property name="lang" value="portugues"/>
                                 <Property name="sourceConstant" value="portugues"/>
                             </ItemProperties>
                             <ChildItems/>

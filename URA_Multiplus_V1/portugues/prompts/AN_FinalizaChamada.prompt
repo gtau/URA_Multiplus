@@ -9,65 +9,12 @@
                 <Property name="BargeIn" value="true"/>
             </Properties>
             <ChildItems>
-                <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
+                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
                     <Properties>
-                        <Property name="LeftVar" value="Idioma"/>
-                        <Property name="Value" value="portugues"/>
-                        <Property name="Compare" value="EqualsIgnoreCase"/>
+                        <Property name="Phraseset" value="FrasesMultiplus"/>
+                        <Property name="Phrase" value="MPEncer"/>
                     </Properties>
-                    <ChildItems>
-                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                            <Properties>
-                                <Property name="Phraseset" value="FrasesMultiplus"/>
-                                <Property name="Phrase" value="PTMPEncer"/>
-                            </Properties>
-                            <ChildItems/>
-                        </Segment>
-                    </ChildItems>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
-                    <Properties>
-                        <Property name="LeftVar" value="Idioma"/>
-                        <Property name="Value" value="ingles"/>
-                        <Property name="Compare" value="EqualsIgnoreCase"/>
-                    </Properties>
-                    <ChildItems>
-                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                            <Properties>
-                                <Property name="Phraseset" value="FrasesMultiplus"/>
-                                <Property name="Phrase" value="INGMPEncer"/>
-                            </Properties>
-                            <ChildItems/>
-                        </Segment>
-                    </ChildItems>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
-                    <Properties>
-                        <Property name="LeftVar" value="Idioma"/>
-                        <Property name="Value" value="espanhol"/>
-                        <Property name="Compare" value="EqualsIgnoreCase"/>
-                    </Properties>
-                    <ChildItems>
-                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                            <Properties>
-                                <Property name="Phraseset" value="FrasesMultiplus"/>
-                                <Property name="Phrase" value="ESPMPEncer"/>
-                            </Properties>
-                            <ChildItems/>
-                        </Segment>
-                    </ChildItems>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.ElseStatement" type="Else">
-                    <Properties/>
-                    <ChildItems>
-                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                            <Properties>
-                                <Property name="Phraseset" value="FrasesMultiplus"/>
-                                <Property name="Phrase" value="PTMPEncer"/>
-                            </Properties>
-                            <ChildItems/>
-                        </Segment>
-                    </ChildItems>
+                    <ChildItems/>
                 </Segment>
             </ChildItems>
         </PromptLevel>
