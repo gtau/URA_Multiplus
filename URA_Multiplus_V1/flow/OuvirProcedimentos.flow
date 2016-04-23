@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="56" package="flow.subflow.OuvirProcedimentos" version="5.0">
+    <ApplicationFlow nextObjectId="57" package="flow.subflow.OuvirProcedimentos" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="16" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="590"/>
@@ -12,6 +12,13 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="18" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="57" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="ContadorVoltasMenu"/>
+                                <Property name="type" value="increment"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -305,6 +312,7 @@
                 <TargetNode id="16"/>
                 <Property name="Connection.SourceObjectID" value="9"/>
                 <Property name="Connection.TargetObjectID" value="16"/>
+                <Bendpoint x="528" y="17"/>
             </NodeConnection>
             <NodeConnection id="51" version="1.2">
                 <SourceNode id="16"/>

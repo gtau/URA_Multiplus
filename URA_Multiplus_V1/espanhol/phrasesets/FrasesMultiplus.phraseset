@@ -1,2 +1,408 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0"/>
+<phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0">
+    <phrase version="1.0">
+        <displayname>0a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>0a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>10a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>10a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>11d</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>11d.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>11e</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>11e.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>11f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>11f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>11i</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>11i.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>21d</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>21d.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>21e</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>21e.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>21f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>21f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>21g</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>21g.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>31a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>31a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>31b</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>31b.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>51a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>51a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>111a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>111a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>112a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>112a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>113a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>113a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>211a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>211a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>213a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>213a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>214a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>214a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311d</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311d.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311e</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311e.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311g3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311g3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>311h</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>311h.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>3113a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>3113f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>DigCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>DigCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>DirOp2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>DirOp2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>EsqCPF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>EsqCPF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>FalarOp</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>FalarOp.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP0</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP0.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP1</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP3</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP4</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP4.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP5</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP5.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MP9</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MP9.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MPEncer</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MPEncer.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>MPOuvir</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MPOuvir.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>OpInv</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>OpInv.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>SemDuvida</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>SemDuvida.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>VoltarMenuAnterior</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>VoltarMenuAnterior.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>VoltarMenuInicial</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>VoltarMenuInicial.wav</audiofile>
+    </phrase>
+</phraseset>

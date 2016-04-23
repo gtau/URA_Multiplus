@@ -6,6 +6,117 @@
             <PageletDescription>URA_Multiplus_V1</PageletDescription>
             <PageletVersion>1.0</PageletVersion>
         </PageletHeader>
-        <PageletBody/>
+        <PageletBody>
+            <PageletFields>
+                <PageletField>
+                    <FieldOrderID>6</FieldOrderID>
+                    <FieldName>VDN:AlteracaoCadastral</FieldName>
+                    <FieldDisplayName>Alteracao Cadastral</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>24113</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a alteracao cadastral</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>1</FieldOrderID>
+                    <FieldName>VDN:AtualizacaoCadastral</FieldName>
+                    <FieldDisplayName>Atualizacao Cadastral</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>24113</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atualizacao cadastral</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>5</FieldOrderID>
+                    <FieldName>VDN:Espanhol</FieldName>
+                    <FieldDisplayName>Espanhol</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>20453</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento espanhol</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>4</FieldOrderID>
+                    <FieldName>VDN:Ingles</FieldName>
+                    <FieldDisplayName>Ingles</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>20452</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento em ingles</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>3</FieldOrderID>
+                    <FieldName>VDN:NaoPrioritario</FieldName>
+                    <FieldDisplayName>Nao Prioritario</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>20252</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento nao prioritario</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>2</FieldOrderID>
+                    <FieldName>VDN:Prioritario</FieldName>
+                    <FieldDisplayName>Atendimento Prioritario</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>20251</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento prioritario</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+            </PageletFields>
+        </PageletBody>
     </DataPagelet>
 </Pagelet>

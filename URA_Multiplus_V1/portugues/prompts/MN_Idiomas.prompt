@@ -12,21 +12,7 @@
                 <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
                     <Properties>
                         <Property name="Phraseset" value="FrasesMultiplus"/>
-                        <Property name="Phrase" value="PT0a"/>
-                    </Properties>
-                    <ChildItems/>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                    <Properties>
-                        <Property name="Phraseset" value="FrasesMultiplus"/>
-                        <Property name="Phrase" value="ING0a"/>
-                    </Properties>
-                    <ChildItems/>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
-                    <Properties>
-                        <Property name="Phraseset" value="FrasesMultiplus"/>
-                        <Property name="Phrase" value="ESP0a"/>
+                        <Property name="Phrase" value="EscolhaLinguagem"/>
                     </Properties>
                     <ChildItems/>
                 </Segment>

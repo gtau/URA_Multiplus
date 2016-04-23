@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <phraseset audiolocation="internal" filename="FrasesMultiplus" version="1.0">
     <phrase version="1.0">
-        <displayname>PT0a</displayname>
+        <displayname>0a</displayname>
         <talent/>
         <phrasetext/>
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT0a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ING0a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ING0a.wav</audiofile>
-    </phrase>
-    <phrase version="1.0">
-        <displayname>ESP0a</displayname>
-        <talent/>
-        <phrasetext/>
-        <basetext/>
-        <searchkeywords/>
-        <comments/>
-        <audiofile>ESP0a.wav</audiofile>
+        <audiofile>0a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP0</displayname>
@@ -34,7 +16,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP0.wav</audiofile>
+        <audiofile>MP0.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP1</displayname>
@@ -43,7 +25,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP1.wav</audiofile>
+        <audiofile>MP1.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP2</displayname>
@@ -52,7 +34,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP2.wav</audiofile>
+        <audiofile>MP2.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP3</displayname>
@@ -61,7 +43,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP3.wav</audiofile>
+        <audiofile>MP3.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP4</displayname>
@@ -70,7 +52,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP4.wav</audiofile>
+        <audiofile>MP4.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP5</displayname>
@@ -79,7 +61,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP5.wav</audiofile>
+        <audiofile>MP5.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MP9</displayname>
@@ -88,7 +70,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMP9.wav</audiofile>
+        <audiofile>MP9.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MPOuvir</displayname>
@@ -97,7 +79,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMPOuvir.wav</audiofile>
+        <audiofile>MPOuvir.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>OpInv</displayname>
@@ -106,7 +88,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTOpInv.wav</audiofile>
+        <audiofile>OpInv.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>11d</displayname>
@@ -115,7 +97,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT11d.wav</audiofile>
+        <audiofile>11d.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>11e</displayname>
@@ -124,7 +106,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT11e.wav</audiofile>
+        <audiofile>11e.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>11f</displayname>
@@ -133,7 +115,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT11f.wav</audiofile>
+        <audiofile>11f.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>11i</displayname>
@@ -142,7 +124,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT11i.wav</audiofile>
+        <audiofile>11i.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>VoltarMenuInicial</displayname>
@@ -151,7 +133,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTVoltarMenuInicial.wav</audiofile>
+        <audiofile>VoltarMenuInicial.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>SemDuvida</displayname>
@@ -160,7 +142,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTSemDuvida.wav</audiofile>
+        <audiofile>SemDuvida.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>DigCPF</displayname>
@@ -169,7 +151,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTDigCPF.wav</audiofile>
+        <audiofile>DigCPF.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>EsqCPF</displayname>
@@ -178,7 +160,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTEsqCPF.wav</audiofile>
+        <audiofile>EsqCPF.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>10a</displayname>
@@ -187,7 +169,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT10a.wav</audiofile>
+        <audiofile>10a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>111a</displayname>
@@ -196,7 +178,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT111a.wav</audiofile>
+        <audiofile>111a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>112a</displayname>
@@ -205,7 +187,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT112a.wav</audiofile>
+        <audiofile>112a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>113a</displayname>
@@ -214,7 +196,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT113a.wav</audiofile>
+        <audiofile>113a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>VoltarMenuAnterior</displayname>
@@ -223,7 +205,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTVoltarMenuAnterior.wav</audiofile>
+        <audiofile>VoltarMenuAnterior.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>21d</displayname>
@@ -232,7 +214,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT21d.wav</audiofile>
+        <audiofile>21d.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>21e</displayname>
@@ -241,7 +223,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT21e.wav</audiofile>
+        <audiofile>21e.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>21f</displayname>
@@ -250,7 +232,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT21f.wav</audiofile>
+        <audiofile>21f.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>21g</displayname>
@@ -259,7 +241,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT21g.wav</audiofile>
+        <audiofile>21g.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>MPEncer</displayname>
@@ -268,7 +250,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTMPEncer.wav</audiofile>
+        <audiofile>MPEncer.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>214a</displayname>
@@ -277,7 +259,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT214a.wav</audiofile>
+        <audiofile>214a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>213a</displayname>
@@ -286,7 +268,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT213a.wav</audiofile>
+        <audiofile>213a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>31a</displayname>
@@ -295,7 +277,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT31a.wav</audiofile>
+        <audiofile>31a.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>31b</displayname>
@@ -304,7 +286,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT31b.wav</audiofile>
+        <audiofile>31b.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>311d</displayname>
@@ -313,7 +295,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT311d.wav</audiofile>
+        <audiofile>311d.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>311f</displayname>
@@ -322,7 +304,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT311f.wav</audiofile>
+        <audiofile>311f.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>311e</displayname>
@@ -331,7 +313,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT311e.wav</audiofile>
+        <audiofile>311e.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>311g1</displayname>
@@ -376,7 +358,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PTFalarOp.wav</audiofile>
+        <audiofile>FalarOp.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>311h</displayname>
@@ -385,6 +367,51 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>PT311h.wav</audiofile>
+        <audiofile>311h.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>3113f</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113f.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>51a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>51a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>211a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>211a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>DIrOp2</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>DirOp2.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>EscolhaLinguagem</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>EscolhaLinguagem.wav</audiofile>
     </phrase>
 </phraseset>
