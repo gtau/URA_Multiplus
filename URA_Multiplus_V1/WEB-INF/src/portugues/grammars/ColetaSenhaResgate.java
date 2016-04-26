@@ -16,7 +16,7 @@ public class ColetaSenhaResgate extends com.avaya.sce.runtime.Grammar {
     public ColetaSenhaResgate() {
 		//{{START:CLASS:CONSTRUCTOR
         super();
-        setRootLanguage("en-us");
+        setRootLanguage("pt-br");
         setMode("dtmf");
         setBuiltin(true);
         setBuiltinMode("dtmf");

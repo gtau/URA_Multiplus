@@ -9,7 +9,7 @@ Copyright 2004-2011 Avaya Inc.
 <web-app id="WebApp_ID">
     <context-param>
         <param-name>sage.startlanguage</param-name>
-        <param-value>portugues</param-value>
+        <param-value>ingles</param-value>
         <description>The starting language for the application.</description>
     </context-param>
     <context-param>
@@ -916,10 +916,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>TAM-Begin</servlet-name>
         <servlet-class>flow.subflow.TAM.Begin</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_4">
-        <servlet-name>TAM-Retorno</servlet-name>
-        <servlet-class>flow.subflow.TAM.Retorno</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_MenuPrincipal_175">
         <servlet-name>MenuPrincipal-TAM</servlet-name>
         <servlet-class>flow.subflow.MenuPrincipal.TAM</servlet-class>
@@ -1077,6 +1074,136 @@ Copyright 2004-2011 Avaya Inc.
     <servlet id="SAGE-callflow-servlet_AtualizacaoCadastral_127">
         <servlet-name>AtualizacaoCadastral-AN_ForaHorarioING</servlet-name>
         <servlet-class>flow.subflow.AtualizacaoCadastral.AN_ForaHorarioING</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_152">
+        <servlet-name>TAM-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.TAM.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_137">
+        <servlet-name>TAM-MN_TAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_TAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_159">
+        <servlet-name>TAM-Desliga</servlet-name>
+        <servlet-class>flow.subflow.TAM.Desliga</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_TAM_200">
+        <servlet-name>TAM-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.TAM.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_171">
+        <servlet-name>TAM-SetaVDNTransf</servlet-name>
+        <servlet-class>flow.subflow.TAM.SetaVDNTransf</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_176">
+        <servlet-name>TAM-Retorno</servlet-name>
+        <servlet-class>flow.subflow.TAM.Retorno</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_TAM_216">
+        <servlet-name>TAM-IncrementaVoltaMenu</servlet-name>
+        <servlet-class>flow.subflow.TAM.IncrementaVoltaMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_1">
+        <servlet-name>MN_ResgateTAM-Begin</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_4">
+        <servlet-name>MN_ResgateTAM-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_22">
+        <servlet-name>MN_ResgateTAM-MN_ResgatesTAM</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.MN_ResgatesTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_43">
+        <servlet-name>MN_ResgateTAM-Desliga</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_44">
+        <servlet-name>MN_ResgateTAM-VerificaTentativa</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.VerificaTentativa</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_224">
+        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_ResgateTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_226">
+        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_ResgatePassagem</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_229">
+        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_CodigoAutTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_57">
+        <servlet-name>MN_ResgateTAM-SetaVDNOpc9</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.SetaVDNOpc9</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_61">
+        <servlet-name>MN_ResgateTAM-SetaVDNOpc2</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.SetaVDNOpc2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_68">
+        <servlet-name>MN_ResgateTAM-Retorno</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgateTAM.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_1">
+        <servlet-name>MN_ResgatePassagem-Begin</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_34">
+        <servlet-name>MN_ResgatePassagem-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_66">
+        <servlet-name>MN_ResgatePassagem-Retorno</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_52">
+        <servlet-name>MN_ResgatePassagem-Desliga</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_53">
+        <servlet-name>MN_ResgatePassagem-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_39">
+        <servlet-name>MN_ResgatePassagem-MN_ResgatePassagem</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.MN_ResgatePassagem</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_ResgatePassagem_60">
+        <servlet-name>MN_ResgatePassagem-AssuntosSenha</servlet-name>
+        <servlet-class>flow.subflow.MN_ResgatePassagem.AssuntosSenha</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_1">
+        <servlet-name>MN_CodigoAutTAM-Begin</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_4">
+        <servlet-name>MN_CodigoAutTAM-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_21">
+        <servlet-name>MN_CodigoAutTAM-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_9">
+        <servlet-name>MN_CodigoAutTAM-MN_CodigoAutTAM</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.MN_CodigoAutTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_27">
+        <servlet-name>MN_CodigoAutTAM-Retorno</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_29">
+        <servlet-name>MN_CodigoAutTAM-Desliga</servlet-name>
+        <servlet-class>flow.subflow.MN_CodigoAutTAM.Desliga</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -1919,10 +2046,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>TAM-Begin</servlet-name>
         <url-pattern>/TAM-Begin</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_4">
-        <servlet-name>TAM-Retorno</servlet-name>
-        <url-pattern>/TAM-Retorno</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_175">
         <servlet-name>MenuPrincipal-TAM</servlet-name>
         <url-pattern>/MenuPrincipal-TAM</url-pattern>
@@ -2080,6 +2204,136 @@ Copyright 2004-2011 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_AtualizacaoCadastral_127">
         <servlet-name>AtualizacaoCadastral-AN_ForaHorarioING</servlet-name>
         <url-pattern>/AtualizacaoCadastral-AN_ForaHorarioING</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_152">
+        <servlet-name>TAM-ZeraContador</servlet-name>
+        <url-pattern>/TAM-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_137">
+        <servlet-name>TAM-MN_TAM</servlet-name>
+        <url-pattern>/TAM-MN_TAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_159">
+        <servlet-name>TAM-Desliga</servlet-name>
+        <url-pattern>/TAM-Desliga</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_200">
+        <servlet-name>TAM-VerificaTentativa</servlet-name>
+        <url-pattern>/TAM-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_171">
+        <servlet-name>TAM-SetaVDNTransf</servlet-name>
+        <url-pattern>/TAM-SetaVDNTransf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_176">
+        <servlet-name>TAM-Retorno</servlet-name>
+        <url-pattern>/TAM-Retorno</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_216">
+        <servlet-name>TAM-IncrementaVoltaMenu</servlet-name>
+        <url-pattern>/TAM-IncrementaVoltaMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_1">
+        <servlet-name>MN_ResgateTAM-Begin</servlet-name>
+        <url-pattern>/MN_ResgateTAM-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_4">
+        <servlet-name>MN_ResgateTAM-ZeraContador</servlet-name>
+        <url-pattern>/MN_ResgateTAM-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_22">
+        <servlet-name>MN_ResgateTAM-MN_ResgatesTAM</servlet-name>
+        <url-pattern>/MN_ResgateTAM-MN_ResgatesTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_43">
+        <servlet-name>MN_ResgateTAM-Desliga</servlet-name>
+        <url-pattern>/MN_ResgateTAM-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_44">
+        <servlet-name>MN_ResgateTAM-VerificaTentativa</servlet-name>
+        <url-pattern>/MN_ResgateTAM-VerificaTentativa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_224">
+        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
+        <url-pattern>/TAM-MN_ResgateTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_226">
+        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
+        <url-pattern>/TAM-MN_ResgatePassagem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_229">
+        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
+        <url-pattern>/TAM-MN_CodigoAutTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_57">
+        <servlet-name>MN_ResgateTAM-SetaVDNOpc9</servlet-name>
+        <url-pattern>/MN_ResgateTAM-SetaVDNOpc9</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_61">
+        <servlet-name>MN_ResgateTAM-SetaVDNOpc2</servlet-name>
+        <url-pattern>/MN_ResgateTAM-SetaVDNOpc2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_68">
+        <servlet-name>MN_ResgateTAM-Retorno</servlet-name>
+        <url-pattern>/MN_ResgateTAM-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_1">
+        <servlet-name>MN_ResgatePassagem-Begin</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_34">
+        <servlet-name>MN_ResgatePassagem-ZeraContador</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_66">
+        <servlet-name>MN_ResgatePassagem-Retorno</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_52">
+        <servlet-name>MN_ResgatePassagem-Desliga</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_53">
+        <servlet-name>MN_ResgatePassagem-SetaVDN</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_39">
+        <servlet-name>MN_ResgatePassagem-MN_ResgatePassagem</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-MN_ResgatePassagem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgatePassagem_60">
+        <servlet-name>MN_ResgatePassagem-AssuntosSenha</servlet-name>
+        <url-pattern>/MN_ResgatePassagem-AssuntosSenha</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_1">
+        <servlet-name>MN_CodigoAutTAM-Begin</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_4">
+        <servlet-name>MN_CodigoAutTAM-ZeraContador</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_21">
+        <servlet-name>MN_CodigoAutTAM-SetaVDN</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_9">
+        <servlet-name>MN_CodigoAutTAM-MN_CodigoAutTAM</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-MN_CodigoAutTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_27">
+        <servlet-name>MN_CodigoAutTAM-Retorno</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_29">
+        <servlet-name>MN_CodigoAutTAM-Desliga</servlet-name>
+        <url-pattern>/MN_CodigoAutTAM-Desliga</url-pattern>
     </servlet-mapping>
     
     

@@ -721,7 +721,7 @@
                 <TargetNode id="120"/>
                 <Property name="Connection.SourceObjectID" value="19"/>
                 <Property name="Connection.TargetObjectID" value="120"/>
-                <Bendpoint x="854" y="175"/>
+                <Bendpoint x="854" y="176"/>
             </NodeConnection>
             <NodeConnection id="124" version="1.2">
                 <SourceNode id="4"/>

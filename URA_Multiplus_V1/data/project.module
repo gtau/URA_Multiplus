@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module category="" descriptorversion="1.0" entrypoint="URA_Multiplus_V1/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="URA_Multiplus_V1">
     <description/>
-    <language name="english" root="en-us"/>
     <language name="portugues" root="pt-br"/>
+    <language name="ingles" root="en-us"/>
     <language name="espanhol" root="es-la"/>
     <dependencies/>
 </module>

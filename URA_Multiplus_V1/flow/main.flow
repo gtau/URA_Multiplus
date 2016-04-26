@@ -736,7 +736,7 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="189" version="1.2">
                             <ItemProperties>
                                 <Property name="type" value="set.language"/>
-                                <Property name="lang" value="english"/>
+                                <Property name="lang" value="ingles"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

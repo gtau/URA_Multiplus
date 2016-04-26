@@ -16,12 +16,12 @@ public class ColetaCPFNumMultiplus extends com.avaya.sce.runtime.Grammar {
     public ColetaCPFNumMultiplus() {
 		//{{START:CLASS:CONSTRUCTOR
         super();
-        setRootLanguage("en-us");
+        setRootLanguage("es-la");
         setMode("dtmf");
         setBuiltin(true);
         setBuiltinMode("dtmf");
-        setType("number");
-        setOptions("");
+        setType("digits");
+        setOptions("minlength=11;maxlength=11");
 		//}}END:CLASS:CONSTRUCTOR
     }
 

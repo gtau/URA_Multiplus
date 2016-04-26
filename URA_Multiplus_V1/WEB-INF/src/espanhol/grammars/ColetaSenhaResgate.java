@@ -16,12 +16,12 @@ public class ColetaSenhaResgate extends com.avaya.sce.runtime.Grammar {
     public ColetaSenhaResgate() {
 		//{{START:CLASS:CONSTRUCTOR
         super();
-        setRootLanguage("en-us");
+        setRootLanguage("es-la");
         setMode("dtmf");
         setBuiltin(true);
         setBuiltinMode("dtmf");
-        setType("number");
-        setOptions("");
+        setType("digits");
+        setOptions("minlength=6;maxlength=8");
 		//}}END:CLASS:CONSTRUCTOR
     }
 

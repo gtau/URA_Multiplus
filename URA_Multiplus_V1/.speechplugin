@@ -99,6 +99,14 @@
                     </propertymap>
                     <nestedpropertystore/>
                 </propertystore>
+                <propertystore id="comavayascews2connector" version="1.0">
+                    <propertymap>
+                        <property name="displayName" value="Web Services (Axis2)" version="1.0"/>
+                        <property name="connectorId" value="com.avaya.sce.ws2.connector" version="1.0"/>
+                        <property name="currentVersion" value="2" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
                 <propertystore id="comavayascectictiConnector" version="1.0">
                     <propertymap>
                         <property name="displayName" value="Avaya AES Connector" version="1.0"/>
@@ -112,7 +120,7 @@
         <propertystore id="prompts" version="1.0">
             <propertymap>
                 <property name="timeout_presentation" value="constant" version="1.0"/>
-                <property name="timeout_constant_number" value="8" version="1.0"/>
+                <property name="timeout_constant_number" value="3" version="1.0"/>
                 <property name="timeout_constant_unit" value="0" version="1.0"/>
             </propertymap>
             <nestedpropertystore/>

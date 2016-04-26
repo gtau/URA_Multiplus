@@ -4,7 +4,7 @@
         <PromptLevel count="1" valid="true">
             <Properties>
                 <Property name="Timeout_Presentation" value="constant"/>
-                <Property name="Timeout" value="8"/>
+                <Property name="Timeout" value="3"/>
                 <Property name="TimeUnit" value="seconds"/>
                 <Property name="BargeIn" value="true"/>
             </Properties>
