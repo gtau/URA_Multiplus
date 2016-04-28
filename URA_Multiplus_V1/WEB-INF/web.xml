@@ -227,8 +227,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.ValidacaoMultiplus.ColetaCPFNumMultiplus</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_34">
-        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
-        <servlet-class>flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante</servlet-class>
+        <servlet-name>ValidacaoMultiplus-TrataIdentificarParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.TrataIdentificarParticipante</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_52">
         <servlet-name>ValidacaoMultiplus-VerificaTentativa</servlet-name>
@@ -912,15 +912,9 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>InformacoesMultiplus-MN_InfoMultiplus</servlet-name>
         <servlet-class>flow.subflow.InformacoesMultiplus.MN_InfoMultiplus</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_1">
-        <servlet-name>TAM-Begin</servlet-name>
-        <servlet-class>flow.subflow.TAM.Begin</servlet-class>
-    </servlet>
     
-    <servlet id="SAGE-callflow-servlet_MenuPrincipal_175">
-        <servlet-name>MenuPrincipal-TAM</servlet-name>
-        <servlet-class>flow.subflow.MenuPrincipal.TAM</servlet-class>
-    </servlet>
+    
+    
     <servlet id="SAGE-callflow-servlet_MenuPrincipal_186">
         <servlet-name>MenuPrincipal-SetaRetornoDeriva</servlet-name>
         <servlet-class>flow.subflow.MenuPrincipal.SetaRetornoDeriva</servlet-class>
@@ -1075,40 +1069,19 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>AtualizacaoCadastral-AN_ForaHorarioING</servlet-name>
         <servlet-class>flow.subflow.AtualizacaoCadastral.AN_ForaHorarioING</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_152">
-        <servlet-name>TAM-ZeraContador</servlet-name>
-        <servlet-class>flow.subflow.TAM.ZeraContador</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_137">
-        <servlet-name>TAM-MN_TAM</servlet-name>
-        <servlet-class>flow.subflow.TAM.MN_TAM</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_159">
-        <servlet-name>TAM-Desliga</servlet-name>
-        <servlet-class>flow.subflow.TAM.Desliga</servlet-class>
-    </servlet>
     
     
     
-    <servlet id="SAGE-callflow-servlet_TAM_200">
-        <servlet-name>TAM-VerificaTentativa</servlet-name>
-        <servlet-class>flow.subflow.TAM.VerificaTentativa</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_171">
-        <servlet-name>TAM-SetaVDNTransf</servlet-name>
-        <servlet-class>flow.subflow.TAM.SetaVDNTransf</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_176">
-        <servlet-name>TAM-Retorno</servlet-name>
-        <servlet-class>flow.subflow.TAM.Retorno</servlet-class>
-    </servlet>
     
     
     
-    <servlet id="SAGE-callflow-servlet_TAM_216">
-        <servlet-name>TAM-IncrementaVoltaMenu</servlet-name>
-        <servlet-class>flow.subflow.TAM.IncrementaVoltaMenu</servlet-class>
-    </servlet>
+    
+    
+    
+    
+    
+    
+    
     <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_1">
         <servlet-name>MN_ResgateTAM-Begin</servlet-name>
         <servlet-class>flow.subflow.MN_ResgateTAM.Begin</servlet-class>
@@ -1129,18 +1102,9 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>MN_ResgateTAM-VerificaTentativa</servlet-name>
         <servlet-class>flow.subflow.MN_ResgateTAM.VerificaTentativa</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_224">
-        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
-        <servlet-class>flow.subflow.TAM.MN_ResgateTAM</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_226">
-        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
-        <servlet-class>flow.subflow.TAM.MN_ResgatePassagem</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_TAM_229">
-        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
-        <servlet-class>flow.subflow.TAM.MN_CodigoAutTAM</servlet-class>
-    </servlet>
+    
+    
+    
     <servlet id="SAGE-callflow-servlet_MN_ResgateTAM_57">
         <servlet-name>MN_ResgateTAM-SetaVDNOpc9</servlet-name>
         <servlet-class>flow.subflow.MN_ResgateTAM.SetaVDNOpc9</servlet-class>
@@ -1204,6 +1168,14 @@ Copyright 2004-2011 Avaya Inc.
     <servlet id="SAGE-callflow-servlet_MN_CodigoAutTAM_29">
         <servlet-name>MN_CodigoAutTAM-Desliga</servlet-name>
         <servlet-class>flow.subflow.MN_CodigoAutTAM.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_107">
+        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_205">
+        <servlet-name>MenuPrincipal-CIATAM</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.CIATAM</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -1360,8 +1332,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/ValidacaoMultiplus-ColetaCPFNumMultiplus</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_34">
-        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
-        <url-pattern>/ValidacaoMultiplus-WSIdentificarParticipante</url-pattern>
+        <servlet-name>ValidacaoMultiplus-TrataIdentificarParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-TrataIdentificarParticipante</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_52">
         <servlet-name>ValidacaoMultiplus-VerificaTentativa</servlet-name>
@@ -2042,15 +2014,9 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>InformacoesMultiplus-MN_InfoMultiplus</servlet-name>
         <url-pattern>/InformacoesMultiplus-MN_InfoMultiplus</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_1">
-        <servlet-name>TAM-Begin</servlet-name>
-        <url-pattern>/TAM-Begin</url-pattern>
-    </servlet-mapping>
     
-    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_175">
-        <servlet-name>MenuPrincipal-TAM</servlet-name>
-        <url-pattern>/MenuPrincipal-TAM</url-pattern>
-    </servlet-mapping>
+    
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_186">
         <servlet-name>MenuPrincipal-SetaRetornoDeriva</servlet-name>
         <url-pattern>/MenuPrincipal-SetaRetornoDeriva</url-pattern>
@@ -2205,40 +2171,19 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>AtualizacaoCadastral-AN_ForaHorarioING</servlet-name>
         <url-pattern>/AtualizacaoCadastral-AN_ForaHorarioING</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_152">
-        <servlet-name>TAM-ZeraContador</servlet-name>
-        <url-pattern>/TAM-ZeraContador</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_137">
-        <servlet-name>TAM-MN_TAM</servlet-name>
-        <url-pattern>/TAM-MN_TAM</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_159">
-        <servlet-name>TAM-Desliga</servlet-name>
-        <url-pattern>/TAM-Desliga</url-pattern>
-    </servlet-mapping>
     
     
     
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_200">
-        <servlet-name>TAM-VerificaTentativa</servlet-name>
-        <url-pattern>/TAM-VerificaTentativa</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_171">
-        <servlet-name>TAM-SetaVDNTransf</servlet-name>
-        <url-pattern>/TAM-SetaVDNTransf</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_176">
-        <servlet-name>TAM-Retorno</servlet-name>
-        <url-pattern>/TAM-Retorno</url-pattern>
-    </servlet-mapping>
     
     
     
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_216">
-        <servlet-name>TAM-IncrementaVoltaMenu</servlet-name>
-        <url-pattern>/TAM-IncrementaVoltaMenu</url-pattern>
-    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_1">
         <servlet-name>MN_ResgateTAM-Begin</servlet-name>
         <url-pattern>/MN_ResgateTAM-Begin</url-pattern>
@@ -2259,18 +2204,9 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>MN_ResgateTAM-VerificaTentativa</servlet-name>
         <url-pattern>/MN_ResgateTAM-VerificaTentativa</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_224">
-        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
-        <url-pattern>/TAM-MN_ResgateTAM</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_226">
-        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
-        <url-pattern>/TAM-MN_ResgatePassagem</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_229">
-        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
-        <url-pattern>/TAM-MN_CodigoAutTAM</url-pattern>
-    </servlet-mapping>
+    
+    
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_MN_ResgateTAM_57">
         <servlet-name>MN_ResgateTAM-SetaVDNOpc9</servlet-name>
         <url-pattern>/MN_ResgateTAM-SetaVDNOpc9</url-pattern>
@@ -2334,6 +2270,14 @@ Copyright 2004-2011 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_MN_CodigoAutTAM_29">
         <servlet-name>MN_CodigoAutTAM-Desliga</servlet-name>
         <url-pattern>/MN_CodigoAutTAM-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_107">
+        <servlet-name>ValidacaoMultiplus-WSIdentificarParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-WSIdentificarParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_205">
+        <servlet-name>MenuPrincipal-CIATAM</servlet-name>
+        <url-pattern>/MenuPrincipal-CIATAM</url-pattern>
     </servlet-mapping>
     
     

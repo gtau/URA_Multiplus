@@ -2,27 +2,18 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="WEB-INF/src"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/scert-07.01.08.04.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/aesclient-07.01.08.04.jar"/>
+	<classpathentry kind="lib" path="D:/Orchestration/Software/LocalizationBundles/en-us_3.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Orchestration/Software/LocalizationBundles/es-la_3.1.8.jar"/>
+	<classpathentry kind="lib" path="D:/Orchestration/Software/LocalizationBundles/pt-br_3.1.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/avwsop2-rt-07.01.08.04.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/adminvar-rt-07.01.08.04.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/scert-07.01.08.04.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/scertcommon-07.01.08.04.jar"/>
-	<classpathentry kind="lib" path="D:/Software/LocalizationBundles/en-us_3.1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Software/LocalizationBundles/es-la_3.1.8.jar"/>
-	<classpathentry kind="lib" path="D:/Software/LocalizationBundles/pt-br_3.1.5.jar"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/avwsop2-rt-07.01.08.04.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/activation-1.1.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/axis2-adb-1.6.2.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/axis2-kernel-1.6.2.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/wss4j-1.5.8.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-api-1.2.13.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-impl-1.2.13.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-dom-1.2.13.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
-	<classpathentry kind="var" path="TOMCAT_HOME/lib/neethi-3.0.2.jar"/>
-	<classpathentry kind="lib" path="WEB-INF/lib/adminvar-rt-07.01.08.04.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>
