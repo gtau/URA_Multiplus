@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<propertystore id="sage" version="1.0">
+    <propertymap/>
+    <nestedpropertystore>
+        <propertystore id="runtimecommon" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="scert" version="1.0">
+                    <propertymap>
+                        <property name="version" value="06.00.09.01" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="runtime" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="tomcat" version="1.0">
+                    <propertymap>
+                        <property name="version" value="tomcatV6" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="scert" version="1.0">
+                    <propertymap>
+                        <property name="version" value="06.00.09.01" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="pluggableconnectors" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="comavayascectictiConnector" version="1.0">
+                    <propertymap>
+                        <property name="connectorId" value="com.avaya.sce.cti.ctiConnector" version="1.0"/>
+                        <property name="currentVersion" value="1" version="1.0"/>
+                        <property name="displayName" value="Avaya AES Connector" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="comavayavpadminVariables" version="1.0">
+                    <propertymap>
+                        <property name="connectorId" value="com.avaya.vp.adminVariables" version="1.0"/>
+                        <property name="currentVersion" value="1" version="1.0"/>
+                        <property name="displayName" value="Voice Portal Configurable Application Variables" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="general" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="project" version="1.0">
+                    <propertymap>
+                        <property name="iconsm" value="icons/defaultapplicationsm.gif" version="1.0"/>
+                        <property name="logpropertiesupdated" value="3.0.17x2" version="1.0"/>
+                        <property name="name" value="URA_Multiplus_V2" version="1.0"/>
+                        <property name="iconlg" value="icons/defaultapplicationlg.gif" version="1.0"/>
+                        <property name="version" value="1.0.0" version="1.0"/>
+                        <property name="dtmfVarsEnabled" value="false" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="ide" version="1.0">
+                    <propertymap>
+                        <property name="version" value="302" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="datasource" version="1.0">
+            <propertymap/>
+            <nestedpropertystore>
+                <propertystore id="ic" version="1.0">
+                    <propertymap>
+                        <property name="enabled" value="false" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="cti" version="1.0">
+                    <propertymap>
+                        <property name="ctienabled" value="true" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+                <propertystore id="ic_vrusm" version="1.0">
+                    <propertymap>
+                        <property name="enabled" value="false" version="1.0"/>
+                    </propertymap>
+                    <nestedpropertystore/>
+                </propertystore>
+            </nestedpropertystore>
+        </propertystore>
+        <propertystore id="grammars" version="1.0">
+            <propertymap>
+                <property name="caching" value="none" version="1.0"/>
+            </propertymap>
+            <nestedpropertystore/>
+        </propertystore>
+    </nestedpropertystore>
+</propertystore>

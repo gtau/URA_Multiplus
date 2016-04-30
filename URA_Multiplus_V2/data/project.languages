@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ingles" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="pt-br" localization="pt-br" localizationVersion="3.1.5" name="portugues" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="pt-br"/>
+    <language asr="es-la" localization="es-la" localizationVersion="3.1.6" name="espanhol" stdPhrasesInstalled="true" stdPhrasesLocation="LOCAL" tts="es-la"/>
+</ProjectLanguages>

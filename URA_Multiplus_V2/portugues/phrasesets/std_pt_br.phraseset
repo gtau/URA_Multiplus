@@ -1,0 +1,4494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phraseset version="">
+    <phrase version="1.0">
+        <displayname>std_a</displayname>
+        <talent></talent>
+        <phrasetext>:a</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following latin letters are spoken with medial inflection and consistent pace and pitch for spelling</comments>
+        <audiofile>0001.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_b</displayname>
+        <talent></talent>
+        <phrasetext>:b</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0002.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_c</displayname>
+        <talent></talent>
+        <phrasetext>:c</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0003.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_d</displayname>
+        <talent></talent>
+        <phrasetext>:d</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0004.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e</displayname>
+        <talent></talent>
+        <phrasetext>:e</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0005.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_f</displayname>
+        <talent></talent>
+        <phrasetext>:f</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0006.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_g</displayname>
+        <talent></talent>
+        <phrasetext>:g</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0007.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_h</displayname>
+        <talent></talent>
+        <phrasetext>:h</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0008.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_i</displayname>
+        <talent></talent>
+        <phrasetext>:i</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0009.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_j</displayname>
+        <talent></talent>
+        <phrasetext>:j</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0010.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_k</displayname>
+        <talent></talent>
+        <phrasetext>:k</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0011.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_l</displayname>
+        <talent></talent>
+        <phrasetext>:l</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0012.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_m</displayname>
+        <talent></talent>
+        <phrasetext>:m</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0013.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_n</displayname>
+        <talent></talent>
+        <phrasetext>:n</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0014.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_o</displayname>
+        <talent></talent>
+        <phrasetext>:o</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0015.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_p</displayname>
+        <talent></talent>
+        <phrasetext>:p</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0016.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_q</displayname>
+        <talent></talent>
+        <phrasetext>:q</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0017.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_r</displayname>
+        <talent></talent>
+        <phrasetext>:r</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0018.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_s</displayname>
+        <talent></talent>
+        <phrasetext>:s</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0019.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_t</displayname>
+        <talent></talent>
+        <phrasetext>:t</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0020.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_u</displayname>
+        <talent></talent>
+        <phrasetext>:u</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0021.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_v</displayname>
+        <talent></talent>
+        <phrasetext>:v</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0022.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_w</displayname>
+        <talent></talent>
+        <phrasetext>:w</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0023.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_x</displayname>
+        <talent></talent>
+        <phrasetext>:x</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0024.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_y</displayname>
+        <talent></talent>
+        <phrasetext>:y</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0025.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_z</displayname>
+        <talent></talent>
+        <phrasetext>:z</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0026.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minus</displayname>
+        <talent></talent>
+        <phrasetext>:-</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>menos</comments>
+        <audiofile>0029.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_0</displayname>
+        <talent></talent>
+        <phrasetext>:0</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>zero (this and following numbers are spoken with medial inflection and consistent pace and pitch for spelling)</comments>
+        <audiofile>0030.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1</displayname>
+        <talent></talent>
+        <phrasetext>:1</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>um</comments>
+        <audiofile>0031.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2</displayname>
+        <talent></talent>
+        <phrasetext>:2</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dois</comments>
+        <audiofile>0032.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_3</displayname>
+        <talent></talent>
+        <phrasetext>:3</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>três</comments>
+        <audiofile>0033.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_4</displayname>
+        <talent></talent>
+        <phrasetext>:4</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatro</comments>
+        <audiofile>0034.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_5</displayname>
+        <talent></talent>
+        <phrasetext>:5</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cinco</comments>
+        <audiofile>0035.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_6</displayname>
+        <talent></talent>
+        <phrasetext>:6</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seis</comments>
+        <audiofile>0036.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_7</displayname>
+        <talent></talent>
+        <phrasetext>:7</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>sets</comments>
+        <audiofile>0037.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_8</displayname>
+        <talent></talent>
+        <phrasetext>:8</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oito</comments>
+        <audiofile>0038.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_9</displayname>
+        <talent></talent>
+        <phrasetext>:9</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>nove</comments>
+        <audiofile>0039.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_10</displayname>
+        <talent></talent>
+        <phrasetext>:10</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dez</comments>
+        <audiofile>0040.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_11</displayname>
+        <talent></talent>
+        <phrasetext>:11</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0041.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_12</displayname>
+        <talent></talent>
+        <phrasetext>:12</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0042.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_13</displayname>
+        <talent></talent>
+        <phrasetext>:13</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0043.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_14</displayname>
+        <talent></talent>
+        <phrasetext>:14</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0044.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_15</displayname>
+        <talent></talent>
+        <phrasetext>:15</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0045.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_16</displayname>
+        <talent></talent>
+        <phrasetext>:16</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0046.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_17</displayname>
+        <talent></talent>
+        <phrasetext>:17</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0047.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_18</displayname>
+        <talent></talent>
+        <phrasetext>:18</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0048.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_19</displayname>
+        <talent></talent>
+        <phrasetext>:19</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0049.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_20</displayname>
+        <talent></talent>
+        <phrasetext>:20</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0050.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_30</displayname>
+        <talent></talent>
+        <phrasetext>:30</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0051.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_40</displayname>
+        <talent></talent>
+        <phrasetext>:40</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0052.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_50</displayname>
+        <talent></talent>
+        <phrasetext>:50</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0053.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_60</displayname>
+        <talent></talent>
+        <phrasetext>:60</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0054.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_70</displayname>
+        <talent></talent>
+        <phrasetext>:70</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0055.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_80</displayname>
+        <talent></talent>
+        <phrasetext>:80</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0056.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_90</displayname>
+        <talent></talent>
+        <phrasetext>:90</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0057.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_100</displayname>
+        <talent></talent>
+        <phrasetext>:100</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cem</comments>
+        <audiofile>0058.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200</displayname>
+        <talent></talent>
+        <phrasetext>:200</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentas</comments>
+        <audiofile>0059.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300</displayname>
+        <talent></talent>
+        <phrasetext>:300</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentas</comments>
+        <audiofile>0060.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400</displayname>
+        <talent></talent>
+        <phrasetext>:400</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentas</comments>
+        <audiofile>0061.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500</displayname>
+        <talent></talent>
+        <phrasetext>:500</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentas</comments>
+        <audiofile>0062.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600</displayname>
+        <talent></talent>
+        <phrasetext>:600</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentas</comments>
+        <audiofile>0063.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700</displayname>
+        <talent></talent>
+        <phrasetext>:700</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentas</comments>
+        <audiofile>0064.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800</displayname>
+        <talent></talent>
+        <phrasetext>:800</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentas</comments>
+        <audiofile>0065.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900</displayname>
+        <talent></talent>
+        <phrasetext>:900</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentas</comments>
+        <audiofile>0066.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_100_plus</displayname>
+        <talent></talent>
+        <phrasetext>:100+</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cento...</comments>
+        <audiofile>0067.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_a_dot</displayname>
+        <talent></talent>
+        <phrasetext>:a.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following latin letters are spoken with falling inflection and consistent pace and pitch for spelling</comments>
+        <audiofile>0071.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_b_dot</displayname>
+        <talent></talent>
+        <phrasetext>:b.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0072.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_c_dot</displayname>
+        <talent></talent>
+        <phrasetext>:c.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0073.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_d_dot</displayname>
+        <talent></talent>
+        <phrasetext>:d.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0074.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e_dot</displayname>
+        <talent></talent>
+        <phrasetext>:e.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0075.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_f_dot</displayname>
+        <talent></talent>
+        <phrasetext>:f.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0076.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_g_dot</displayname>
+        <talent></talent>
+        <phrasetext>:g.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0077.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_h_dot</displayname>
+        <talent></talent>
+        <phrasetext>:h.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0078.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_i_dot</displayname>
+        <talent></talent>
+        <phrasetext>:i.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0079.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_j_dot</displayname>
+        <talent></talent>
+        <phrasetext>:j.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0080.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_k_dot</displayname>
+        <talent></talent>
+        <phrasetext>:k.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0081.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_l_dot</displayname>
+        <talent></talent>
+        <phrasetext>:l.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0082.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_m_dot</displayname>
+        <talent></talent>
+        <phrasetext>:m.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0083.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_n_dot</displayname>
+        <talent></talent>
+        <phrasetext>:n.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0084.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_o_dot</displayname>
+        <talent></talent>
+        <phrasetext>:o.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0085.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_p_dot</displayname>
+        <talent></talent>
+        <phrasetext>:p.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0086.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_q_dot</displayname>
+        <talent></talent>
+        <phrasetext>:q.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0087.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_r_dot</displayname>
+        <talent></talent>
+        <phrasetext>:r.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0088.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_s_dot</displayname>
+        <talent></talent>
+        <phrasetext>:s.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0089.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_t_dot</displayname>
+        <talent></talent>
+        <phrasetext>:t.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0090.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_u_dot</displayname>
+        <talent></talent>
+        <phrasetext>:u.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0091.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_v_dot</displayname>
+        <talent></talent>
+        <phrasetext>:v.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0092.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_w_dot</displayname>
+        <talent></talent>
+        <phrasetext>:w.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0093.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_x_dot</displayname>
+        <talent></talent>
+        <phrasetext>:x.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0094.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_y_dot</displayname>
+        <talent></talent>
+        <phrasetext>:y.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0095.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_z_dot</displayname>
+        <talent></talent>
+        <phrasetext>:z.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0096.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_0_dot</displayname>
+        <talent></talent>
+        <phrasetext>:0.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>zero. (this and following numbers are spoken with falling inflection and consistent pace and pitch for spelling and concatenation)</comments>
+        <audiofile>0100.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1_dot</displayname>
+        <talent></talent>
+        <phrasetext>:1.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>um.</comments>
+        <audiofile>0101.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2_dot</displayname>
+        <talent></talent>
+        <phrasetext>:2.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dois.</comments>
+        <audiofile>0102.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_3_dot</displayname>
+        <talent></talent>
+        <phrasetext>:3.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>três.</comments>
+        <audiofile>0103.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_4_dot</displayname>
+        <talent></talent>
+        <phrasetext>:4.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatro.</comments>
+        <audiofile>0104.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_5_dot</displayname>
+        <talent></talent>
+        <phrasetext>:5.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cinco.</comments>
+        <audiofile>0105.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_6_dot</displayname>
+        <talent></talent>
+        <phrasetext>:6.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seis.</comments>
+        <audiofile>0106.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_7_dot</displayname>
+        <talent></talent>
+        <phrasetext>:7.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>sets.</comments>
+        <audiofile>0107.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_8_dot</displayname>
+        <talent></talent>
+        <phrasetext>:8.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oito.</comments>
+        <audiofile>0108.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_9_dot</displayname>
+        <talent></talent>
+        <phrasetext>:9.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>nove.</comments>
+        <audiofile>0109.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_10_dot</displayname>
+        <talent></talent>
+        <phrasetext>:10.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dez.</comments>
+        <audiofile>0110.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_11_dot</displayname>
+        <talent></talent>
+        <phrasetext>:11.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0111.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_12_dot</displayname>
+        <talent></talent>
+        <phrasetext>:12.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0112.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_13_dot</displayname>
+        <talent></talent>
+        <phrasetext>:13.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0113.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_14_dot</displayname>
+        <talent></talent>
+        <phrasetext>:14.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0114.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_15_dot</displayname>
+        <talent></talent>
+        <phrasetext>:15.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0115.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_16_dot</displayname>
+        <talent></talent>
+        <phrasetext>:16.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0116.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_17_dot</displayname>
+        <talent></talent>
+        <phrasetext>:17.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0117.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_18_dot</displayname>
+        <talent></talent>
+        <phrasetext>:18.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0118.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_19_dot</displayname>
+        <talent></talent>
+        <phrasetext>:19.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0119.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_20_dot</displayname>
+        <talent></talent>
+        <phrasetext>:20.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0120.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_30_dot</displayname>
+        <talent></talent>
+        <phrasetext>:30.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0121.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_40_dot</displayname>
+        <talent></talent>
+        <phrasetext>:40.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0122.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_50_dot</displayname>
+        <talent></talent>
+        <phrasetext>:50.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0123.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_60_dot</displayname>
+        <talent></talent>
+        <phrasetext>:60.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0124.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_70_dot</displayname>
+        <talent></talent>
+        <phrasetext>:70.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0125.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_80_dot</displayname>
+        <talent></talent>
+        <phrasetext>:80.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0126.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_90_dot</displayname>
+        <talent></talent>
+        <phrasetext>:90.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0127.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_100_dot</displayname>
+        <talent></talent>
+        <phrasetext>:100.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cem.</comments>
+        <audiofile>0128.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200_dot</displayname>
+        <talent></talent>
+        <phrasetext>:200.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentas.</comments>
+        <audiofile>0129.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300_dot</displayname>
+        <talent></talent>
+        <phrasetext>:300.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentas.</comments>
+        <audiofile>0130.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400_dot</displayname>
+        <talent></talent>
+        <phrasetext>:400.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentas.</comments>
+        <audiofile>0131.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500_dot</displayname>
+        <talent></talent>
+        <phrasetext>:500.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentas.</comments>
+        <audiofile>0132.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600_dot</displayname>
+        <talent></talent>
+        <phrasetext>:600.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentas.</comments>
+        <audiofile>0133.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700_dot</displayname>
+        <talent></talent>
+        <phrasetext>:700.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentas.</comments>
+        <audiofile>0134.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800_dot</displayname>
+        <talent></talent>
+        <phrasetext>:800.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentas.</comments>
+        <audiofile>0135.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900_dot</displayname>
+        <talent></talent>
+        <phrasetext>:900.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentas.</comments>
+        <audiofile>0136.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_a_q</displayname>
+        <talent></talent>
+        <phrasetext>:a?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following latin letters are spoken with raising inflection and consistent pace and pitch for spelling</comments>
+        <audiofile>0141.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_b_q</displayname>
+        <talent></talent>
+        <phrasetext>:b?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0142.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_c_q</displayname>
+        <talent></talent>
+        <phrasetext>:c?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0143.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_d_q</displayname>
+        <talent></talent>
+        <phrasetext>:d?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0144.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e_q</displayname>
+        <talent></talent>
+        <phrasetext>:e?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0145.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_f_q</displayname>
+        <talent></talent>
+        <phrasetext>:f?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0146.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_g_q</displayname>
+        <talent></talent>
+        <phrasetext>:g?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0147.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_h_q</displayname>
+        <talent></talent>
+        <phrasetext>:h?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0148.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_i_q</displayname>
+        <talent></talent>
+        <phrasetext>:i?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0149.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_j_q</displayname>
+        <talent></talent>
+        <phrasetext>:j?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0150.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_k_q</displayname>
+        <talent></talent>
+        <phrasetext>:k?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0151.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_l_q</displayname>
+        <talent></talent>
+        <phrasetext>:l?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0152.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_m_q</displayname>
+        <talent></talent>
+        <phrasetext>:m?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0153.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_n_q</displayname>
+        <talent></talent>
+        <phrasetext>:n?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0154.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_o_q</displayname>
+        <talent></talent>
+        <phrasetext>:o?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0155.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_p_q</displayname>
+        <talent></talent>
+        <phrasetext>:p?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0156.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_q_q</displayname>
+        <talent></talent>
+        <phrasetext>:q?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0157.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_r_q</displayname>
+        <talent></talent>
+        <phrasetext>:r?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0158.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_s_q</displayname>
+        <talent></talent>
+        <phrasetext>:s?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0159.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_t_q</displayname>
+        <talent></talent>
+        <phrasetext>:t?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0160.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_u_q</displayname>
+        <talent></talent>
+        <phrasetext>:u?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0161.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_v_q</displayname>
+        <talent></talent>
+        <phrasetext>:v?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0162.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_w_q</displayname>
+        <talent></talent>
+        <phrasetext>:w?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0163.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_x_q</displayname>
+        <talent></talent>
+        <phrasetext>:x?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0164.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_y_q</displayname>
+        <talent></talent>
+        <phrasetext>:y?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0165.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_z_q</displayname>
+        <talent></talent>
+        <phrasetext>:z?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0166.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_0_q</displayname>
+        <talent></talent>
+        <phrasetext>:0?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>zero? (this and following numbers are spoken with raising inflection and consistent pace and pitch for spelling and concatenation)</comments>
+        <audiofile>0170.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1_q</displayname>
+        <talent></talent>
+        <phrasetext>:1?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>um?</comments>
+        <audiofile>0171.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2_q</displayname>
+        <talent></talent>
+        <phrasetext>:2?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dois?</comments>
+        <audiofile>0172.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_3_q</displayname>
+        <talent></talent>
+        <phrasetext>:3?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>três?</comments>
+        <audiofile>0173.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_4_q</displayname>
+        <talent></talent>
+        <phrasetext>:4?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatro?</comments>
+        <audiofile>0174.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_5_q</displayname>
+        <talent></talent>
+        <phrasetext>:5?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cinco?</comments>
+        <audiofile>0175.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_6_q</displayname>
+        <talent></talent>
+        <phrasetext>:6?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seis?</comments>
+        <audiofile>0176.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_7_q</displayname>
+        <talent></talent>
+        <phrasetext>:7?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>sets?</comments>
+        <audiofile>0177.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_8_q</displayname>
+        <talent></talent>
+        <phrasetext>:8?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oito?</comments>
+        <audiofile>0178.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_9_q</displayname>
+        <talent></talent>
+        <phrasetext>:9?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>nove?</comments>
+        <audiofile>0179.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_10_q</displayname>
+        <talent></talent>
+        <phrasetext>:10?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>dez?</comments>
+        <audiofile>0180.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_11_q</displayname>
+        <talent></talent>
+        <phrasetext>:11?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0181.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_12_q</displayname>
+        <talent></talent>
+        <phrasetext>:12?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0182.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_13_q</displayname>
+        <talent></talent>
+        <phrasetext>:13?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0183.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_14_q</displayname>
+        <talent></talent>
+        <phrasetext>:14?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0184.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_15_q</displayname>
+        <talent></talent>
+        <phrasetext>:15?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0185.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_16_q</displayname>
+        <talent></talent>
+        <phrasetext>:16?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0186.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_17_q</displayname>
+        <talent></talent>
+        <phrasetext>:17?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0187.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_18_q</displayname>
+        <talent></talent>
+        <phrasetext>:18?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0188.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_19_q</displayname>
+        <talent></talent>
+        <phrasetext>:19?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0189.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_20_q</displayname>
+        <talent></talent>
+        <phrasetext>:20?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0190.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_30_q</displayname>
+        <talent></talent>
+        <phrasetext>:30?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0191.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_40_q</displayname>
+        <talent></talent>
+        <phrasetext>:40?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0192.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_50_q</displayname>
+        <talent></talent>
+        <phrasetext>:50?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0193.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_60_q</displayname>
+        <talent></talent>
+        <phrasetext>:60?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0194.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_70_q</displayname>
+        <talent></talent>
+        <phrasetext>:70?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0195.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_80_q</displayname>
+        <talent></talent>
+        <phrasetext>:80?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0196.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_90_q</displayname>
+        <talent></talent>
+        <phrasetext>:90?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0197.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_100_q</displayname>
+        <talent></talent>
+        <phrasetext>:100?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>cem?</comments>
+        <audiofile>0198.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200_q</displayname>
+        <talent></talent>
+        <phrasetext>:200?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentos?</comments>
+        <audiofile>0199.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300_q</displayname>
+        <talent></talent>
+        <phrasetext>:300?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentos?</comments>
+        <audiofile>0200.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400_q</displayname>
+        <talent></talent>
+        <phrasetext>:400?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentos?</comments>
+        <audiofile>0201.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500_q</displayname>
+        <talent></talent>
+        <phrasetext>:500?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentos?</comments>
+        <audiofile>0202.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600_q</displayname>
+        <talent></talent>
+        <phrasetext>:600?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentos?</comments>
+        <audiofile>0203.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700_q</displayname>
+        <talent></talent>
+        <phrasetext>:700?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentos?</comments>
+        <audiofile>0204.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800_q</displayname>
+        <talent></talent>
+        <phrasetext>:800?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentos?</comments>
+        <audiofile>0205.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900_q</displayname>
+        <talent></talent>
+        <phrasetext>:900?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentos?</comments>
+        <audiofile>0206.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_janeiro</displayname>
+        <talent></talent>
+        <phrasetext>:janeiro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following phrases for months are spoken with medial inflection to concatenate into date format</comments>
+        <audiofile>0210.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_fevereiro</displayname>
+        <talent></talent>
+        <phrasetext>:fevereiro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0211.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_marco</displayname>
+        <talent></talent>
+        <phrasetext>:marco</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0212.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_abril</displayname>
+        <talent></talent>
+        <phrasetext>:abril</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0213.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maio</displayname>
+        <talent></talent>
+        <phrasetext>:maio</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0214.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_junho</displayname>
+        <talent></talent>
+        <phrasetext>:junho</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0215.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_julho</displayname>
+        <talent></talent>
+        <phrasetext>:julho</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0216.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_agosto</displayname>
+        <talent></talent>
+        <phrasetext>:agosto</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0217.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_setembro</displayname>
+        <talent></talent>
+        <phrasetext>:setembro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0218.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_outubro</displayname>
+        <talent></talent>
+        <phrasetext>:outubro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0219.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_novembro</displayname>
+        <talent></talent>
+        <phrasetext>:novembro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0220.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_dezembro</displayname>
+        <talent></talent>
+        <phrasetext>:dezembro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0221.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_domingo</displayname>
+        <talent></talent>
+        <phrasetext>:domingo</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0230.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_segunda_dash_feira</displayname>
+        <talent></talent>
+        <phrasetext>:segunda-feira</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0231.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_terca_dash_feira</displayname>
+        <talent></talent>
+        <phrasetext>:terca-feira</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0232.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quarta_dash_feira</displayname>
+        <talent></talent>
+        <phrasetext>:quarta-feira</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0233.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quinta_dash_feira</displayname>
+        <talent></talent>
+        <phrasetext>:quinta-feira</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0234.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sexta_dash_feira</displayname>
+        <talent></talent>
+        <phrasetext>:sexta-feira</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0235.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sabado</displayname>
+        <talent></talent>
+        <phrasetext>:sabado</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0236.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_primeiro</displayname>
+        <talent></talent>
+        <phrasetext>:primeiro</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0240.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:1(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>uma (this and following phrases are feminine version for numbers with falling inflection)</comments>
+        <audiofile>0241.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:2(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duas</comments>
+        <audiofile>0242.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:200(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentas</comments>
+        <audiofile>0259.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:300(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentas</comments>
+        <audiofile>0260.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:400(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentas</comments>
+        <audiofile>0261.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:500(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentas</comments>
+        <audiofile>0262.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:600(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentas</comments>
+        <audiofile>0263.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:700(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentas</comments>
+        <audiofile>0264.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:800(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentas</comments>
+        <audiofile>0265.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:900(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentas</comments>
+        <audiofile>0266.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+1(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e uma</comments>
+        <audiofile>0267.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+2(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duas</comments>
+        <audiofile>0268.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+200(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duzentas</comments>
+        <audiofile>0285.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+300(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e trezentas</comments>
+        <audiofile>0286.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+400(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quatrocentas</comments>
+        <audiofile>0287.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+500(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quinhentas</comments>
+        <audiofile>0288.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+600(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e seiscentas</comments>
+        <audiofile>0289.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+700(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e setecentas</comments>
+        <audiofile>0290.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+800(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e oitocentas</comments>
+        <audiofile>0291.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900_lparen_fem_rparen</displayname>
+        <talent></talent>
+        <phrasetext>:+900(fem)</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e novecentas</comments>
+        <audiofile>0292.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_0</displayname>
+        <talent></talent>
+        <phrasetext>:+0</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e zero (this and following phrases are used for concatenation with preceeding "and" (e)</comments>
+        <audiofile>0300.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1</displayname>
+        <talent></talent>
+        <phrasetext>:+1</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e um</comments>
+        <audiofile>0301.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2</displayname>
+        <talent></talent>
+        <phrasetext>:+2</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e dois</comments>
+        <audiofile>0302.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_3</displayname>
+        <talent></talent>
+        <phrasetext>:+3</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0303.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_4</displayname>
+        <talent></talent>
+        <phrasetext>:+4</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0304.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_5</displayname>
+        <talent></talent>
+        <phrasetext>:+5</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0305.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_6</displayname>
+        <talent></talent>
+        <phrasetext>:+6</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0306.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_7</displayname>
+        <talent></talent>
+        <phrasetext>:+7</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0307.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_8</displayname>
+        <talent></talent>
+        <phrasetext>:+8</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0308.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_9</displayname>
+        <talent></talent>
+        <phrasetext>:+9</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0309.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_10</displayname>
+        <talent></talent>
+        <phrasetext>:+10</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0310.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_11</displayname>
+        <talent></talent>
+        <phrasetext>:+11</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0311.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_12</displayname>
+        <talent></talent>
+        <phrasetext>:+12</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0312.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_13</displayname>
+        <talent></talent>
+        <phrasetext>:+13</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0313.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_14</displayname>
+        <talent></talent>
+        <phrasetext>:+14</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0314.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_15</displayname>
+        <talent></talent>
+        <phrasetext>:+15</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0315.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_16</displayname>
+        <talent></talent>
+        <phrasetext>:+16</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0316.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_17</displayname>
+        <talent></talent>
+        <phrasetext>:+17</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0317.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_18</displayname>
+        <talent></talent>
+        <phrasetext>:+18</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0318.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_19</displayname>
+        <talent></talent>
+        <phrasetext>:+19</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0319.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_20</displayname>
+        <talent></talent>
+        <phrasetext>:+20</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0320.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_30</displayname>
+        <talent></talent>
+        <phrasetext>:+30</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0321.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_40</displayname>
+        <talent></talent>
+        <phrasetext>:+40</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0322.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_50</displayname>
+        <talent></talent>
+        <phrasetext>:+50</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0323.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_60</displayname>
+        <talent></talent>
+        <phrasetext>:+60</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0324.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_70</displayname>
+        <talent></talent>
+        <phrasetext>:+70</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0325.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_80</displayname>
+        <talent></talent>
+        <phrasetext>:+80</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0326.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_90</displayname>
+        <talent></talent>
+        <phrasetext>:+90</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0327.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_100</displayname>
+        <talent></talent>
+        <phrasetext>:+100</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e cem</comments>
+        <audiofile>0328.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200</displayname>
+        <talent></talent>
+        <phrasetext>:+200</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duzentos</comments>
+        <audiofile>0329.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300</displayname>
+        <talent></talent>
+        <phrasetext>:+300</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e trezentos</comments>
+        <audiofile>0330.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400</displayname>
+        <talent></talent>
+        <phrasetext>:+400</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quatrocentos</comments>
+        <audiofile>0331.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500</displayname>
+        <talent></talent>
+        <phrasetext>:+500</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quinhentos</comments>
+        <audiofile>0332.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600</displayname>
+        <talent></talent>
+        <phrasetext>:+600</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e seiscentos</comments>
+        <audiofile>0333.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700</displayname>
+        <talent></talent>
+        <phrasetext>:+700</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e setecentos</comments>
+        <audiofile>0334.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800</displayname>
+        <talent></talent>
+        <phrasetext>:+800</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e oitocentos</comments>
+        <audiofile>0335.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900</displayname>
+        <talent></talent>
+        <phrasetext>:+900</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e novecentos</comments>
+        <audiofile>0336.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_100_plus</displayname>
+        <talent></talent>
+        <phrasetext>:+100+</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e cento...</comments>
+        <audiofile>0337.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_real</displayname>
+        <talent></talent>
+        <phrasetext>:real</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0340.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_reais</displayname>
+        <talent></talent>
+        <phrasetext>:reais</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0341.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavo</displayname>
+        <talent></talent>
+        <phrasetext>:centavo</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0342.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavos</displayname>
+        <talent></talent>
+        <phrasetext>:centavos</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0343.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_mil</displayname>
+        <talent></talent>
+        <phrasetext>:mil</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0344.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhao</displayname>
+        <talent></talent>
+        <phrasetext>:milhao</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0345.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhoes</displayname>
+        <talent></talent>
+        <phrasetext>:milhoes</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0346.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhao</displayname>
+        <talent></talent>
+        <phrasetext>:bilhao</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0347.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhoes</displayname>
+        <talent></talent>
+        <phrasetext>:bilhoes</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0348.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhao</displayname>
+        <talent></talent>
+        <phrasetext>:trilhao</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0349.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhoes</displayname>
+        <talent></talent>
+        <phrasetext>:trilhoes</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0350.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_hora</displayname>
+        <talent></talent>
+        <phrasetext>:hora</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0360.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_horas</displayname>
+        <talent></talent>
+        <phrasetext>:horas</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0361.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minuto</displayname>
+        <talent></talent>
+        <phrasetext>:minuto</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0362.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minutos</displayname>
+        <talent></talent>
+        <phrasetext>:minutos</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0363.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_manha</displayname>
+        <talent></talent>
+        <phrasetext>:da manha</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0364.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_tarde</displayname>
+        <talent></talent>
+        <phrasetext>:da tarde</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0365.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_noite</displayname>
+        <talent></talent>
+        <phrasetext>:da noite</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0366.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e_meia</displayname>
+        <talent></talent>
+        <phrasetext>:e meia</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0367.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_meiodia</displayname>
+        <talent></talent>
+        <phrasetext>:meiodia</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0368.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maianoite</displayname>
+        <talent></talent>
+        <phrasetext>:maianoite</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0369.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_negativo</displayname>
+        <talent></talent>
+        <phrasetext>:negativo</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0370.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_virgula</displayname>
+        <talent></talent>
+        <phrasetext>:virgula</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0371.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_de</displayname>
+        <talent></talent>
+        <phrasetext>:de</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0372.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_and</displayname>
+        <talent></talent>
+        <phrasetext>:e</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0373.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_janeiro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:janeiro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following phrases for months are spoken with falling inflection to concatenate into date format</comments>
+        <audiofile>0460.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_fevereiro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:fevereiro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0461.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_marco_dot</displayname>
+        <talent></talent>
+        <phrasetext>:marco.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0462.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_abril_dot</displayname>
+        <talent></talent>
+        <phrasetext>:abril.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0463.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maio_dot</displayname>
+        <talent></talent>
+        <phrasetext>:maio.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0464.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_junho_dot</displayname>
+        <talent></talent>
+        <phrasetext>:junho.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0465.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_julho_dot</displayname>
+        <talent></talent>
+        <phrasetext>:julho.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0466.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_agosto_dot</displayname>
+        <talent></talent>
+        <phrasetext>:agosto.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0467.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_setembro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:setembro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0468.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_outubro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:outubro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0469.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_novembro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:novembro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0470.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_dezembro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:dezembro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0471.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_domingo_dot</displayname>
+        <talent></talent>
+        <phrasetext>:domingo.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0480.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_segunda_dash_feira_dot</displayname>
+        <talent></talent>
+        <phrasetext>:segunda-feira.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0481.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_terca_dash_feira_dot</displayname>
+        <talent></talent>
+        <phrasetext>:terca-feira.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0482.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quarta_dash_feira_dot</displayname>
+        <talent></talent>
+        <phrasetext>:quarta-feira.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0483.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quinta_dash_feira_dot</displayname>
+        <talent></talent>
+        <phrasetext>:quinta-feira.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0484.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sexta_dash_feira_dot</displayname>
+        <talent></talent>
+        <phrasetext>:sexta-feira.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0485.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sabado_dot</displayname>
+        <talent></talent>
+        <phrasetext>:sabado.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0486.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_primeiro_dot</displayname>
+        <talent></talent>
+        <phrasetext>:primeiro.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0490.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:1(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>uma. (this and followinf phrases are feminine version for numbers with falling inflection)</comments>
+        <audiofile>0491.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:2(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duas.</comments>
+        <audiofile>0492.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:200(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentas.</comments>
+        <audiofile>0509.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:300(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentas.</comments>
+        <audiofile>0510.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:400(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentas.</comments>
+        <audiofile>0511.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:500(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentas.</comments>
+        <audiofile>0512.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:600(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentas.</comments>
+        <audiofile>0513.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:700(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentas.</comments>
+        <audiofile>0514.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:800(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentas.</comments>
+        <audiofile>0515.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:900(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentas.</comments>
+        <audiofile>0516.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+1(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e uma.</comments>
+        <audiofile>0517.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+2(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duas.</comments>
+        <audiofile>0518.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+200(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duzentas.</comments>
+        <audiofile>0535.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+300(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e trezentas.</comments>
+        <audiofile>0536.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+400(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quatrocentas.</comments>
+        <audiofile>0537.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+500(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quinhentas.</comments>
+        <audiofile>0538.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+600(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e seiscentas.</comments>
+        <audiofile>0539.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+700(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e setecentas.</comments>
+        <audiofile>0540.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+800(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e oitocentas.</comments>
+        <audiofile>0541.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900_lparen_fem_rparen_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+900(fem).</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e novecentas.</comments>
+        <audiofile>0542.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_0_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+0.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e zero. (this and following phrases are used for concatenation with preceeding "and" (e) and spoken with flaling inflection)</comments>
+        <audiofile>0550.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+1.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e um.</comments>
+        <audiofile>0551.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+2.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e dois.</comments>
+        <audiofile>0552.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_3_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+3.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0553.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_4_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+4.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0554.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_5_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+5.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0555.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_6_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+6.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0556.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_7_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+7.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0557.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_8_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+8.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0558.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_9_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+9.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0559.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_10_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+10.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0560.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_11_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+11.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0561.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_12_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+12.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0562.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_13_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+13.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0563.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_14_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+14.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0564.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_15_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+15.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0565.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_16_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+16.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0566.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_17_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+17.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0567.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_18_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+18.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0568.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_19_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+19.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0569.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_20_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+20.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0570.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_30_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+30.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0571.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_40_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+40.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0572.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_50_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+50.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0573.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_60_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+60.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0574.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_70_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+70.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0575.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_80_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+80.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0576.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_90_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+90.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0577.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_100_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+100.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e cem.</comments>
+        <audiofile>0578.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+200.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duzentos.</comments>
+        <audiofile>0579.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+300.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0580.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+400.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0581.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+500.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0582.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+600.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0583.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+700.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0584.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+800.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0585.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900_dot</displayname>
+        <talent></talent>
+        <phrasetext>:+900.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0586.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_real_dot</displayname>
+        <talent></talent>
+        <phrasetext>:real.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0590.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_reais_dot</displayname>
+        <talent></talent>
+        <phrasetext>:reais.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0591.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavo_dot</displayname>
+        <talent></talent>
+        <phrasetext>:centavo.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0592.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavos_dot</displayname>
+        <talent></talent>
+        <phrasetext>:centavos.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0593.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_mil_dot</displayname>
+        <talent></talent>
+        <phrasetext>:mil.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0594.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhao_dot</displayname>
+        <talent></talent>
+        <phrasetext>:milhao.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0595.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhoes_dot</displayname>
+        <talent></talent>
+        <phrasetext>:milhoes.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0596.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhao_dot</displayname>
+        <talent></talent>
+        <phrasetext>:bilhao.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0597.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhoes_dot</displayname>
+        <talent></talent>
+        <phrasetext>:bilhoes.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0598.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhao_dot</displayname>
+        <talent></talent>
+        <phrasetext>:trilhao.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0599.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhoes_dot</displayname>
+        <talent></talent>
+        <phrasetext>:trilhoes.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0600.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_hora_dot</displayname>
+        <talent></talent>
+        <phrasetext>:hora.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0610.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_horas_dot</displayname>
+        <talent></talent>
+        <phrasetext>:horas.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0611.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minuto_dot</displayname>
+        <talent></talent>
+        <phrasetext>:minuto.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0612.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minutos_dot</displayname>
+        <talent></talent>
+        <phrasetext>:minutos.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0613.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_manha_dot</displayname>
+        <talent></talent>
+        <phrasetext>:da manha.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0614.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_tarde_dot</displayname>
+        <talent></talent>
+        <phrasetext>:da tarde.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0615.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_noite_dot</displayname>
+        <talent></talent>
+        <phrasetext>:da noite.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0616.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e_meia_dot</displayname>
+        <talent></talent>
+        <phrasetext>:e meia.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0617.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_meiodia_dot</displayname>
+        <talent></talent>
+        <phrasetext>:meiodia.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0618.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maianoite_dot</displayname>
+        <talent></talent>
+        <phrasetext>:maianoite.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0619.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_negativo_dot</displayname>
+        <talent></talent>
+        <phrasetext>:negativo.</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0620.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_janeiro_q</displayname>
+        <talent></talent>
+        <phrasetext>:janeiro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>this and following phrases for months are spoken with raising inflection to concatenate into date format</comments>
+        <audiofile>0710.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_fevereiro_q</displayname>
+        <talent></talent>
+        <phrasetext>:fevereiro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0711.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_marco_q</displayname>
+        <talent></talent>
+        <phrasetext>:marco?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0712.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_abril_q</displayname>
+        <talent></talent>
+        <phrasetext>:abril?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0713.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maio_q</displayname>
+        <talent></talent>
+        <phrasetext>:maio?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0714.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_junho_q</displayname>
+        <talent></talent>
+        <phrasetext>:junho?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0715.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_julho_q</displayname>
+        <talent></talent>
+        <phrasetext>:julho?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0716.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_agosto_q</displayname>
+        <talent></talent>
+        <phrasetext>:agosto?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0717.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_setembro_q</displayname>
+        <talent></talent>
+        <phrasetext>:setembro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0718.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_outubro_q</displayname>
+        <talent></talent>
+        <phrasetext>:outubro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0719.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_novembro_q</displayname>
+        <talent></talent>
+        <phrasetext>:novembro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0720.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_dezembro_q</displayname>
+        <talent></talent>
+        <phrasetext>:dezembro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0721.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_domingo_q</displayname>
+        <talent></talent>
+        <phrasetext>:domingo?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0730.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_segunda_dash_feira_q</displayname>
+        <talent></talent>
+        <phrasetext>:segunda-feira?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0731.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_terca_dash_feira_q</displayname>
+        <talent></talent>
+        <phrasetext>:terca-feira?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0732.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quarta_dash_feira_q</displayname>
+        <talent></talent>
+        <phrasetext>:quarta-feira?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0733.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_quinta_dash_feira_q</displayname>
+        <talent></talent>
+        <phrasetext>:quinta-feira?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0734.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sexta_dash_feira_q</displayname>
+        <talent></talent>
+        <phrasetext>:sexta-feira?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0735.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sabado_q</displayname>
+        <talent></talent>
+        <phrasetext>:sabado?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0736.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_primeiro_q</displayname>
+        <talent></talent>
+        <phrasetext>:primeiro?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0740.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_1_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:1(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>uma? (this and following phrases are feminine version for numbers with raising inflection)</comments>
+        <audiofile>0741.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_2_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:2(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duas?</comments>
+        <audiofile>0742.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_200_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:200(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>duzentas?</comments>
+        <audiofile>0759.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_300_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:300(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>trezentas?</comments>
+        <audiofile>0760.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_400_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:400(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quatrocentas?</comments>
+        <audiofile>0761.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_500_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:500(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>quinhentas?</comments>
+        <audiofile>0762.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_600_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:600(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>seiscentas?</comments>
+        <audiofile>0763.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_700_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:700(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>setecentas?</comments>
+        <audiofile>0764.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_800_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:800(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>oitocentas?</comments>
+        <audiofile>0765.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_900_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:900(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>novecentas?</comments>
+        <audiofile>0766.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+1(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e uma?</comments>
+        <audiofile>0767.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+2(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duas?</comments>
+        <audiofile>0768.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+200(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e duzentas?</comments>
+        <audiofile>0785.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+300(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e trezentas?</comments>
+        <audiofile>0786.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+400(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quatrocentas?</comments>
+        <audiofile>0787.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+500(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e quinhentas?</comments>
+        <audiofile>0788.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+600(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e seiscentas?</comments>
+        <audiofile>0789.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+700(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e setecentas?</comments>
+        <audiofile>0790.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+800(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e oitocentas?</comments>
+        <audiofile>0791.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900_lparen_fem_rparen_q</displayname>
+        <talent></talent>
+        <phrasetext>:+900(fem)?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e novecentas?</comments>
+        <audiofile>0792.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_0_q</displayname>
+        <talent></talent>
+        <phrasetext>:+0?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e zero? (this and following phrases are used for concatenation with preceeding "and" (e) and spoken with flaling inflection)</comments>
+        <audiofile>0800.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_1_q</displayname>
+        <talent></talent>
+        <phrasetext>:+1?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e um?</comments>
+        <audiofile>0801.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_2_q</displayname>
+        <talent></talent>
+        <phrasetext>:+2?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e dois?</comments>
+        <audiofile>0802.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_3_q</displayname>
+        <talent></talent>
+        <phrasetext>:+3?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0803.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_4_q</displayname>
+        <talent></talent>
+        <phrasetext>:+4?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0804.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_5_q</displayname>
+        <talent></talent>
+        <phrasetext>:+5?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0805.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_6_q</displayname>
+        <talent></talent>
+        <phrasetext>:+6?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0806.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_7_q</displayname>
+        <talent></talent>
+        <phrasetext>:+7?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0807.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_8_q</displayname>
+        <talent></talent>
+        <phrasetext>:+8?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0808.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_9_q</displayname>
+        <talent></talent>
+        <phrasetext>:+9?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0809.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_10_q</displayname>
+        <talent></talent>
+        <phrasetext>:+10?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0810.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_11_q</displayname>
+        <talent></talent>
+        <phrasetext>:+11?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0811.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_12_q</displayname>
+        <talent></talent>
+        <phrasetext>:+12?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0812.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_13_q</displayname>
+        <talent></talent>
+        <phrasetext>:+13?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0813.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_14_q</displayname>
+        <talent></talent>
+        <phrasetext>:+14?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0814.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_15_q</displayname>
+        <talent></talent>
+        <phrasetext>:+15?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0815.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_16_q</displayname>
+        <talent></talent>
+        <phrasetext>:+16?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0816.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_17_q</displayname>
+        <talent></talent>
+        <phrasetext>:+17?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0817.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_18_q</displayname>
+        <talent></talent>
+        <phrasetext>:+18?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0818.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_19_q</displayname>
+        <talent></talent>
+        <phrasetext>:+19?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0819.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_20_q</displayname>
+        <talent></talent>
+        <phrasetext>:+20?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0820.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_30_q</displayname>
+        <talent></talent>
+        <phrasetext>:+30?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0821.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_40_q</displayname>
+        <talent></talent>
+        <phrasetext>:+40?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0822.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_50_q</displayname>
+        <talent></talent>
+        <phrasetext>:+50?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0823.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_60_q</displayname>
+        <talent></talent>
+        <phrasetext>:+60?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0824.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_70_q</displayname>
+        <talent></talent>
+        <phrasetext>:+70?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0825.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_80_q</displayname>
+        <talent></talent>
+        <phrasetext>:+80?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0826.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_90_q</displayname>
+        <talent></talent>
+        <phrasetext>:+90?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0827.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_100_q</displayname>
+        <talent></talent>
+        <phrasetext>:+100?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>e cem?</comments>
+        <audiofile>0828.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_200_q</displayname>
+        <talent></talent>
+        <phrasetext>:+200?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0829.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_300_q</displayname>
+        <talent></talent>
+        <phrasetext>:+300?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0830.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_400_q</displayname>
+        <talent></talent>
+        <phrasetext>:+400?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0831.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_500_q</displayname>
+        <talent></talent>
+        <phrasetext>:+500?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0832.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_600_q</displayname>
+        <talent></talent>
+        <phrasetext>:+600?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0833.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_700_q</displayname>
+        <talent></talent>
+        <phrasetext>:+700?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0834.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_800_q</displayname>
+        <talent></talent>
+        <phrasetext>:+800?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0835.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_plus_900_q</displayname>
+        <talent></talent>
+        <phrasetext>:+900?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0836.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_real_q</displayname>
+        <talent></talent>
+        <phrasetext>:real?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0840.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_reais_q</displayname>
+        <talent></talent>
+        <phrasetext>:reais?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0841.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavo_q</displayname>
+        <talent></talent>
+        <phrasetext>:centavo?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0842.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_centavos_q</displayname>
+        <talent></talent>
+        <phrasetext>:centavos?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0843.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_mil_q</displayname>
+        <talent></talent>
+        <phrasetext>:mil?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0844.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhao_q</displayname>
+        <talent></talent>
+        <phrasetext>:milhao?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0845.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_milhoes_q</displayname>
+        <talent></talent>
+        <phrasetext>:milhoes?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0846.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhao_q</displayname>
+        <talent></talent>
+        <phrasetext>:bilhao?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0847.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_bilhoes_q</displayname>
+        <talent></talent>
+        <phrasetext>:bilhoes?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0848.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhao_q</displayname>
+        <talent></talent>
+        <phrasetext>:trilhao?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0849.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_trilhoes_q</displayname>
+        <talent></talent>
+        <phrasetext>:trilhoes?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0850.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_hora_q</displayname>
+        <talent></talent>
+        <phrasetext>:hora?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0860.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_horas_q</displayname>
+        <talent></talent>
+        <phrasetext>:horas?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0861.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minuto_q</displayname>
+        <talent></talent>
+        <phrasetext>:minuto?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0862.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_minutos_q</displayname>
+        <talent></talent>
+        <phrasetext>:minutos?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0863.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_manha_q</displayname>
+        <talent></talent>
+        <phrasetext>:da manha?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0864.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_tarde_q</displayname>
+        <talent></talent>
+        <phrasetext>:da tarde?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0865.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_da_noite_q</displayname>
+        <talent></talent>
+        <phrasetext>:da noite?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0866.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_e_meia_q</displayname>
+        <talent></talent>
+        <phrasetext>:e meia?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0867.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_meiodia_q</displayname>
+        <talent></talent>
+        <phrasetext>:meiodia?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0868.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_maianoite_q</displayname>
+        <talent></talent>
+        <phrasetext>:maianoite?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0869.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_negativo_q</displayname>
+        <talent></talent>
+        <phrasetext>:negativo?</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments></comments>
+        <audiofile>0870.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_050</displayname>
+        <talent></talent>
+        <phrasetext>:sil.050</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 50ms&gt;</comments>
+        <audiofile>0880.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_100</displayname>
+        <talent></talent>
+        <phrasetext>:sil.100</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 100ms&gt;</comments>
+        <audiofile>0881.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_200</displayname>
+        <talent></talent>
+        <phrasetext>:sil.200</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 200ms&gt;</comments>
+        <audiofile>0882.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_300</displayname>
+        <talent></talent>
+        <phrasetext>:sil.300</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 300ms&gt;</comments>
+        <audiofile>0883.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_400</displayname>
+        <talent></talent>
+        <phrasetext>:sil.400</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 400ms&gt;</comments>
+        <audiofile>0884.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_500</displayname>
+        <talent></talent>
+        <phrasetext>:sil.500</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 500ms&gt;</comments>
+        <audiofile>0885.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>std_sil_dot_600</displayname>
+        <talent></talent>
+        <phrasetext>:sil.600</phrasetext>
+        <basetext></basetext>
+        <searchkeywords></searchkeywords>
+        <comments>&lt;silence of 600ms&gt;</comments>
+        <audiofile>0886.wav</audiofile>
+    </phrase>
+</phraseset>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="URA_Multiplus_V2/Start" forcesubdialogcall="false" frameworkversion="06.00.09.01" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="URA_Multiplus_V2">
+    <description/>
+    <language name="portugues" root="pt-br"/>
+    <language name="espanhol" root="es-la"/>
+    <language name="ingles" root="en-us"/>
+    <dependencies/>
+</module>
