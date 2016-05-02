@@ -6,7 +6,6 @@ file may be preserved, it is best to manage this file through the application de
 
 Copyright 2004-2011 Avaya Inc.
 --><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
-
 <web-app id="WebApp_ID">
     <context-param>
         <param-name>sage.startlanguage</param-name>
@@ -58,6 +57,18 @@ Copyright 2004-2011 Avaya Inc.
         <param-value>none</param-value>
         <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
     </context-param>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <servlet id="avayadefaultdisconnecthandler-servlet">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
@@ -155,10 +166,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>AtualizacaoCadastral-SetaRetornoDesliga</servlet-name>
         <servlet-class>flow.subflow.AtualizacaoCadastral.SetaRetornoDesliga</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_AtualizacaoCadastral_9">
-        <servlet-name>AtualizacaoCadastral-Retorno</servlet-name>
-        <servlet-class>flow.subflow.AtualizacaoCadastral.Retorno</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_AtualizacaoCadastral_11">
         <servlet-name>AtualizacaoCadastral-VerificaIdentificado</servlet-name>
         <servlet-class>flow.subflow.AtualizacaoCadastral.VerificaIdentificado</servlet-class>
@@ -248,8 +256,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.AutenticarUsuario.AssuntosSenha</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_AutenticarUsuario_174">
-        <servlet-name>AutenticarUsuario-WSAutenticarUsuario</servlet-name>
-        <servlet-class>flow.subflow.AutenticarUsuario.WSAutenticarUsuario</servlet-class>
+        <servlet-name>AutenticarUsuario-TrataAutenticarUsuario</servlet-name>
+        <servlet-class>flow.subflow.AutenticarUsuario.TrataAutenticarUsuario</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_AutenticarUsuario_110">
         <servlet-name>AutenticarUsuario-ColetaSenhaResgate</servlet-name>
@@ -276,8 +284,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.AutenticarUsuario.Retorno</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ConsultarParticipante_34">
-        <servlet-name>ConsultarParticipante-WSConsultarParticipante</servlet-name>
-        <servlet-class>flow.subflow.ConsultarParticipante.WSConsultarParticipante</servlet-class>
+        <servlet-name>ConsultarParticipante-TrataConsultarParticipante</servlet-name>
+        <servlet-class>flow.subflow.ConsultarParticipante.TrataConsultarParticipante</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ConsultarParticipante_50">
         <servlet-name>ConsultarParticipante-AN_ErroTransacao</servlet-name>
@@ -308,8 +316,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.EncerraChamada.Desliga</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_EnviarEmailParticipante_34">
-        <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
-        <servlet-class>flow.subflow.EnviarEmailParticipante.WSEnviarEmailParticipante</servlet-class>
+        <servlet-name>EnviarEmailParticipante-TrataEnviarEmailParticipante</servlet-name>
+        <servlet-class>flow.subflow.EnviarEmailParticipante.TrataEnviarEmailParticipante</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_EnviarEmailParticipante_50">
         <servlet-name>EnviarEmailParticipante-AN_ErroTransacao</servlet-name>
@@ -420,8 +428,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.GerarAtendimento.Begin</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_GerarAtendimento_67">
-        <servlet-name>GerarAtendimento-WSGerarAtendimento</servlet-name>
-        <servlet-class>flow.subflow.GerarAtendimento.WSGerarAtendimento</servlet-class>
+        <servlet-name>GerarAtendimento-TrataGerarAtendimento</servlet-name>
+        <servlet-class>flow.subflow.GerarAtendimento.TrataGerarAtendimento</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_GerarAtendimento_62">
         <servlet-name>GerarAtendimento-AN_ErroTransacao</servlet-name>
@@ -619,10 +627,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>Start</servlet-name>
         <servlet-class>flow.Start</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_MenuPrincipal_205">
-        <servlet-name>MenuPrincipal-CIATAM</servlet-name>
-        <servlet-class>flow.subflow.MenuPrincipal.CIATAM</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_MenuPrincipal_1">
         <servlet-name>MenuPrincipal-Begin</servlet-name>
         <servlet-class>flow.subflow.MenuPrincipal.Begin</servlet-class>
@@ -636,8 +641,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.MenuPrincipal.AN_OpcInvalida</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_MenuPrincipal_23">
-        <servlet-name>MenuPrincipal-Mn_Principal</servlet-name>
-        <servlet-class>flow.subflow.MenuPrincipal.Mn_Principal</servlet-class>
+        <servlet-name>MenuPrincipal-MN_Principal</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.MN_Principal</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_MenuPrincipal_89">
         <servlet-name>MenuPrincipal-ZeraContador</servlet-name>
@@ -1004,8 +1009,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.RedefinirSenhaUsuario.TransOK</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_4">
-        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</servlet-name>
-        <servlet-class>flow.subflow.RedefinirSenhaUsuario.WSRedefinirSenhaUsuario</servlet-class>
+        <servlet-name>RedefinirSenhaUsuario-TrataRedefinirSenhaUsuario</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.TrataRedefinirSenhaUsuario</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_22">
         <servlet-name>RedefinirSenhaUsuario-AN_ErroTransacao</servlet-name>
@@ -1028,8 +1033,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.SolicitarExtratoParticipante.AN_ErroTransacao</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_39">
-        <servlet-name>SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</servlet-name>
-        <servlet-class>flow.subflow.SolicitarExtratoParticipante.WSSolicitarExtratoParticipante</servlet-class>
+        <servlet-name>SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</servlet-name>
+        <servlet-class>flow.subflow.SolicitarExtratoParticipante.TrataSolicitarExtratoParticipante</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_53">
         <servlet-name>SolicitarExtratoParticipante-TransNOK</servlet-name>
@@ -1044,8 +1049,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.ValidacaoMultiplus.Begin</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_69">
-        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipante</servlet-name>
-        <servlet-class>flow.subflow.ValidacaoMultiplus.WSConsultarSaldoParticipante</servlet-class>
+        <servlet-name>ValidacaoMultiplus-TrataConsultarSaldoParticipante</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.TrataConsultarSaldoParticipante</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_4">
         <servlet-name>ValidacaoMultiplus-VerificaIndicadorParticipante</servlet-name>
@@ -1096,20 +1101,178 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.AN_ErroTransacao</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_6">
-        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</servlet-name>
-        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.WSVerificarPermissaoAlteracaoCadastral</servlet-class>
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TrataVerificarPermissaoAlteracaoCadastral</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.TrataVerificarPermissaoAlteracaoCadastral</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_26">
         <servlet-name>VerificaPermissaoAlteracaoCadastral-TransNOK</servlet-name>
         <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.TransNOK</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_CIATAM_1">
-        <servlet-name>CIATAM-Begin</servlet-name>
-        <servlet-class>flow.subflow.CIATAM.Begin</servlet-class>
+    
+    
+    <servlet id="SAGE-callflow-servlet_AutenticarUsuario_219">
+        <servlet-name>AutenticarUsuario-WSAutenticarUsuarios</servlet-name>
+        <servlet-class>flow.subflow.AutenticarUsuario.WSAutenticarUsuarios</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_CIATAM_4">
-        <servlet-name>CIATAM-untitledSubReturn1</servlet-name>
-        <servlet-class>flow.subflow.CIATAM.untitledSubReturn1</servlet-class>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_210">
+        <servlet-name>MenuPrincipal-AN_BemVindo</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.AN_BemVindo</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_1">
+        <servlet-name>TAM-Begin</servlet-name>
+        <servlet-class>flow.subflow.TAM.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_4">
+        <servlet-name>TAM-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.TAM.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_137">
+        <servlet-name>TAM-MN_TAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_TAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_MenuPrincipal_218">
+        <servlet-name>MenuPrincipal-TAM</servlet-name>
+        <servlet-class>flow.subflow.MenuPrincipal.TAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_152">
+        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_ResgateTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_176">
+        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_CodigoAutTAM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_208">
+        <servlet-name>TAM-Desliga</servlet-name>
+        <servlet-class>flow.subflow.TAM.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_210">
+        <servlet-name>TAM-SetaRetornoVolta</servlet-name>
+        <servlet-class>flow.subflow.TAM.SetaRetornoVolta</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_163">
+        <servlet-name>TAM-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.TAM.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_195">
+        <servlet-name>TAM-VerificaTentativas</servlet-name>
+        <servlet-class>flow.subflow.TAM.VerificaTentativas</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_169">
+        <servlet-name>TAM-Retorno</servlet-name>
+        <servlet-class>flow.subflow.TAM.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_171">
+        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
+        <servlet-class>flow.subflow.TAM.MN_ResgatePassagem</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TAM_221">
+        <servlet-name>TAM-SetaOperador</servlet-name>
+        <servlet-class>flow.subflow.TAM.SetaOperador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_113">
+        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipantes</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.WSConsultarSaldoParticipantes</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaResgate_103">
+        <servlet-name>NovaSenhaResgate-SetaVarsTrans</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaResgate.SetaVarsTrans</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RedefinirSenhaUsuario_33">
+        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuarios</servlet-name>
+        <servlet-class>flow.subflow.RedefinirSenhaUsuario.WSRedefinirSenhaUsuarios</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_NovaSenhaAcesso_167">
+        <servlet-name>NovaSenhaAcesso-SetaVarsTrans</servlet-name>
+        <servlet-class>flow.subflow.NovaSenhaAcesso.SetaVarsTrans</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_VerificaPermissaoAlteracaoCadastral_33">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastrais</servlet-name>
+        <servlet-class>flow.subflow.VerificaPermissaoAlteracaoCadastral.WSVerificarPermissaoAlteracaoCadastrais</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ProcedimentosEmail_71">
+        <servlet-name>ProcedimentosEmail-SetaTemplate</servlet-name>
+        <servlet-class>flow.subflow.ProcedimentosEmail.SetaTemplate</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_ValidacaoMultiplus_117">
+        <servlet-name>ValidacaoMultiplus-GuardaCPF</servlet-name>
+        <servlet-class>flow.subflow.ValidacaoMultiplus.GuardaCPF</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AutenticarUsuario_223">
+        <servlet-name>AutenticarUsuario-GuardaSenha</servlet-name>
+        <servlet-class>flow.subflow.AutenticarUsuario.GuardaSenha</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_ConsultarParticipante_62">
+        <servlet-name>ConsultarParticipante-WSConsultarParticipantes</servlet-name>
+        <servlet-class>flow.subflow.ConsultarParticipante.WSConsultarParticipantes</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_1">
+        <servlet-name>CodigoAutorizacao-Begin</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_34">
+        <servlet-name>CodigoAutorizacao-ZeraContador</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.ZeraContador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_39">
+        <servlet-name>CodigoAutorizacao-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_55">
+        <servlet-name>CodigoAutorizacao-Retorno</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_56">
+        <servlet-name>CodigoAutorizacao-Desliga</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.Desliga</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CodigoAutorizacao_45">
+        <servlet-name>CodigoAutorizacao-MN_CodigoAutorizacao</servlet-name>
+        <servlet-class>flow.subflow.CodigoAutorizacao.MN_CodigoAutorizacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AssuntosSenha_139">
+        <servlet-name>AssuntosSenha-CodigoAutorizacao</servlet-name>
+        <servlet-class>flow.subflow.AssuntosSenha.CodigoAutorizacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AtualizacaoCadastral_232">
+        <servlet-name>AtualizacaoCadastral-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.AtualizacaoCadastral.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_AtualizacaoCadastral_237">
+        <servlet-name>AtualizacaoCadastral-Retorno</servlet-name>
+        <servlet-class>flow.subflow.AtualizacaoCadastral.Retorno</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Pontos_254">
+        <servlet-name>Pontos-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.Pontos.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ExtratoEmail_267">
+        <servlet-name>ExtratoEmail-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.ExtratoEmail.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_InformacoesMultiplus_123">
+        <servlet-name>InformacoesMultiplus-SetaVDN</servlet-name>
+        <servlet-class>flow.subflow.InformacoesMultiplus.SetaVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Operador_73">
+        <servlet-name>Operador-VerificaVDN</servlet-name>
+        <servlet-class>flow.subflow.Operador.VerificaVDN</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_67">
+        <servlet-name>SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</servlet-name>
+        <servlet-class>flow.subflow.SolicitarExtratoParticipante.WSSolicitarExtratoParticipante</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_GerarAtendimento_95">
+        <servlet-name>GerarAtendimento-WSGerarAtendimentos</servlet-name>
+        <servlet-class>flow.subflow.GerarAtendimento.WSGerarAtendimentos</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EnviarEmailParticipante_72">
+        <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
+        <servlet-class>flow.subflow.EnviarEmailParticipante.WSEnviarEmailParticipante</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -1207,10 +1370,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>AtualizacaoCadastral-SetaRetornoDesliga</servlet-name>
         <url-pattern>/AtualizacaoCadastral-SetaRetornoDesliga</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_AtualizacaoCadastral_9">
-        <servlet-name>AtualizacaoCadastral-Retorno</servlet-name>
-        <url-pattern>/AtualizacaoCadastral-Retorno</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_AtualizacaoCadastral_11">
         <servlet-name>AtualizacaoCadastral-VerificaIdentificado</servlet-name>
         <url-pattern>/AtualizacaoCadastral-VerificaIdentificado</url-pattern>
@@ -1300,8 +1460,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/AutenticarUsuario-AssuntosSenha</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_AutenticarUsuario_174">
-        <servlet-name>AutenticarUsuario-WSAutenticarUsuario</servlet-name>
-        <url-pattern>/AutenticarUsuario-WSAutenticarUsuario</url-pattern>
+        <servlet-name>AutenticarUsuario-TrataAutenticarUsuario</servlet-name>
+        <url-pattern>/AutenticarUsuario-TrataAutenticarUsuario</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_AutenticarUsuario_110">
         <servlet-name>AutenticarUsuario-ColetaSenhaResgate</servlet-name>
@@ -1328,8 +1488,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/AutenticarUsuario-Retorno</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ConsultarParticipante_34">
-        <servlet-name>ConsultarParticipante-WSConsultarParticipante</servlet-name>
-        <url-pattern>/ConsultarParticipante-WSConsultarParticipante</url-pattern>
+        <servlet-name>ConsultarParticipante-TrataConsultarParticipante</servlet-name>
+        <url-pattern>/ConsultarParticipante-TrataConsultarParticipante</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ConsultarParticipante_50">
         <servlet-name>ConsultarParticipante-AN_ErroTransacao</servlet-name>
@@ -1360,8 +1520,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/EncerraChamada-Desliga</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_EnviarEmailParticipante_34">
-        <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
-        <url-pattern>/EnviarEmailParticipante-WSEnviarEmailParticipante</url-pattern>
+        <servlet-name>EnviarEmailParticipante-TrataEnviarEmailParticipante</servlet-name>
+        <url-pattern>/EnviarEmailParticipante-TrataEnviarEmailParticipante</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_EnviarEmailParticipante_50">
         <servlet-name>EnviarEmailParticipante-AN_ErroTransacao</servlet-name>
@@ -1472,8 +1632,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/GerarAtendimento-Begin</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_GerarAtendimento_67">
-        <servlet-name>GerarAtendimento-WSGerarAtendimento</servlet-name>
-        <url-pattern>/GerarAtendimento-WSGerarAtendimento</url-pattern>
+        <servlet-name>GerarAtendimento-TrataGerarAtendimento</servlet-name>
+        <url-pattern>/GerarAtendimento-TrataGerarAtendimento</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_GerarAtendimento_62">
         <servlet-name>GerarAtendimento-AN_ErroTransacao</servlet-name>
@@ -1671,10 +1831,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>Start</servlet-name>
         <url-pattern>/Start</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_205">
-        <servlet-name>MenuPrincipal-CIATAM</servlet-name>
-        <url-pattern>/MenuPrincipal-CIATAM</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_1">
         <servlet-name>MenuPrincipal-Begin</servlet-name>
         <url-pattern>/MenuPrincipal-Begin</url-pattern>
@@ -1688,8 +1845,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/MenuPrincipal-AN_OpcInvalida</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_23">
-        <servlet-name>MenuPrincipal-Mn_Principal</servlet-name>
-        <url-pattern>/MenuPrincipal-Mn_Principal</url-pattern>
+        <servlet-name>MenuPrincipal-MN_Principal</servlet-name>
+        <url-pattern>/MenuPrincipal-MN_Principal</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_89">
         <servlet-name>MenuPrincipal-ZeraContador</servlet-name>
@@ -2056,8 +2213,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/RedefinirSenhaUsuario-TransOK</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_4">
-        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</servlet-name>
-        <url-pattern>/RedefinirSenhaUsuario-WSRedefinirSenhaUsuario</url-pattern>
+        <servlet-name>RedefinirSenhaUsuario-TrataRedefinirSenhaUsuario</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-TrataRedefinirSenhaUsuario</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_22">
         <servlet-name>RedefinirSenhaUsuario-AN_ErroTransacao</servlet-name>
@@ -2080,8 +2237,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/SolicitarExtratoParticipante-AN_ErroTransacao</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_39">
-        <servlet-name>SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</servlet-name>
-        <url-pattern>/SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</url-pattern>
+        <servlet-name>SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</servlet-name>
+        <url-pattern>/SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_53">
         <servlet-name>SolicitarExtratoParticipante-TransNOK</servlet-name>
@@ -2096,8 +2253,8 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/ValidacaoMultiplus-Begin</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_69">
-        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipante</servlet-name>
-        <url-pattern>/ValidacaoMultiplus-WSConsultarSaldoParticipante</url-pattern>
+        <servlet-name>ValidacaoMultiplus-TrataConsultarSaldoParticipante</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-TrataConsultarSaldoParticipante</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_4">
         <servlet-name>ValidacaoMultiplus-VerificaIndicadorParticipante</servlet-name>
@@ -2148,19 +2305,177 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/VerificaPermissaoAlteracaoCadastral-AN_ErroTransacao</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_6">
-        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</servlet-name>
-        <url-pattern>/VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastral</url-pattern>
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-TrataVerificarPermissaoAlteracaoCadastral</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-TrataVerificarPermissaoAlteracaoCadastral</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_26">
         <servlet-name>VerificaPermissaoAlteracaoCadastral-TransNOK</servlet-name>
         <url-pattern>/VerificaPermissaoAlteracaoCadastral-TransNOK</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_CIATAM_1">
-        <servlet-name>CIATAM-Begin</servlet-name>
-        <url-pattern>/CIATAM-Begin</url-pattern>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_AutenticarUsuario_219">
+        <servlet-name>AutenticarUsuario-WSAutenticarUsuarios</servlet-name>
+        <url-pattern>/AutenticarUsuario-WSAutenticarUsuarios</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_CIATAM_4">
-        <servlet-name>CIATAM-untitledSubReturn1</servlet-name>
-        <url-pattern>/CIATAM-untitledSubReturn1</url-pattern>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_210">
+        <servlet-name>MenuPrincipal-AN_BemVindo</servlet-name>
+        <url-pattern>/MenuPrincipal-AN_BemVindo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_1">
+        <servlet-name>TAM-Begin</servlet-name>
+        <url-pattern>/TAM-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_4">
+        <servlet-name>TAM-ZeraContador</servlet-name>
+        <url-pattern>/TAM-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_137">
+        <servlet-name>TAM-MN_TAM</servlet-name>
+        <url-pattern>/TAM-MN_TAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_MenuPrincipal_218">
+        <servlet-name>MenuPrincipal-TAM</servlet-name>
+        <url-pattern>/MenuPrincipal-TAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_152">
+        <servlet-name>TAM-MN_ResgateTAM</servlet-name>
+        <url-pattern>/TAM-MN_ResgateTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_176">
+        <servlet-name>TAM-MN_CodigoAutTAM</servlet-name>
+        <url-pattern>/TAM-MN_CodigoAutTAM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_208">
+        <servlet-name>TAM-Desliga</servlet-name>
+        <url-pattern>/TAM-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_210">
+        <servlet-name>TAM-SetaRetornoVolta</servlet-name>
+        <url-pattern>/TAM-SetaRetornoVolta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_163">
+        <servlet-name>TAM-SetaVDN</servlet-name>
+        <url-pattern>/TAM-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_195">
+        <servlet-name>TAM-VerificaTentativas</servlet-name>
+        <url-pattern>/TAM-VerificaTentativas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_169">
+        <servlet-name>TAM-Retorno</servlet-name>
+        <url-pattern>/TAM-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_171">
+        <servlet-name>TAM-MN_ResgatePassagem</servlet-name>
+        <url-pattern>/TAM-MN_ResgatePassagem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TAM_221">
+        <servlet-name>TAM-SetaOperador</servlet-name>
+        <url-pattern>/TAM-SetaOperador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_113">
+        <servlet-name>ValidacaoMultiplus-WSConsultarSaldoParticipantes</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-WSConsultarSaldoParticipantes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaResgate_103">
+        <servlet-name>NovaSenhaResgate-SetaVarsTrans</servlet-name>
+        <url-pattern>/NovaSenhaResgate-SetaVarsTrans</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RedefinirSenhaUsuario_33">
+        <servlet-name>RedefinirSenhaUsuario-WSRedefinirSenhaUsuarios</servlet-name>
+        <url-pattern>/RedefinirSenhaUsuario-WSRedefinirSenhaUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_NovaSenhaAcesso_167">
+        <servlet-name>NovaSenhaAcesso-SetaVarsTrans</servlet-name>
+        <url-pattern>/NovaSenhaAcesso-SetaVarsTrans</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_VerificaPermissaoAlteracaoCadastral_33">
+        <servlet-name>VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastrais</servlet-name>
+        <url-pattern>/VerificaPermissaoAlteracaoCadastral-WSVerificarPermissaoAlteracaoCadastrais</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ProcedimentosEmail_71">
+        <servlet-name>ProcedimentosEmail-SetaTemplate</servlet-name>
+        <url-pattern>/ProcedimentosEmail-SetaTemplate</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidacaoMultiplus_117">
+        <servlet-name>ValidacaoMultiplus-GuardaCPF</servlet-name>
+        <url-pattern>/ValidacaoMultiplus-GuardaCPF</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AutenticarUsuario_223">
+        <servlet-name>AutenticarUsuario-GuardaSenha</servlet-name>
+        <url-pattern>/AutenticarUsuario-GuardaSenha</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_ConsultarParticipante_62">
+        <servlet-name>ConsultarParticipante-WSConsultarParticipantes</servlet-name>
+        <url-pattern>/ConsultarParticipante-WSConsultarParticipantes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_1">
+        <servlet-name>CodigoAutorizacao-Begin</servlet-name>
+        <url-pattern>/CodigoAutorizacao-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_34">
+        <servlet-name>CodigoAutorizacao-ZeraContador</servlet-name>
+        <url-pattern>/CodigoAutorizacao-ZeraContador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_39">
+        <servlet-name>CodigoAutorizacao-SetaVDN</servlet-name>
+        <url-pattern>/CodigoAutorizacao-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_55">
+        <servlet-name>CodigoAutorizacao-Retorno</servlet-name>
+        <url-pattern>/CodigoAutorizacao-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_56">
+        <servlet-name>CodigoAutorizacao-Desliga</servlet-name>
+        <url-pattern>/CodigoAutorizacao-Desliga</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CodigoAutorizacao_45">
+        <servlet-name>CodigoAutorizacao-MN_CodigoAutorizacao</servlet-name>
+        <url-pattern>/CodigoAutorizacao-MN_CodigoAutorizacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AssuntosSenha_139">
+        <servlet-name>AssuntosSenha-CodigoAutorizacao</servlet-name>
+        <url-pattern>/AssuntosSenha-CodigoAutorizacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AtualizacaoCadastral_232">
+        <servlet-name>AtualizacaoCadastral-SetaVDN</servlet-name>
+        <url-pattern>/AtualizacaoCadastral-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_AtualizacaoCadastral_237">
+        <servlet-name>AtualizacaoCadastral-Retorno</servlet-name>
+        <url-pattern>/AtualizacaoCadastral-Retorno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Pontos_254">
+        <servlet-name>Pontos-SetaVDN</servlet-name>
+        <url-pattern>/Pontos-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ExtratoEmail_267">
+        <servlet-name>ExtratoEmail-SetaVDN</servlet-name>
+        <url-pattern>/ExtratoEmail-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_InformacoesMultiplus_123">
+        <servlet-name>InformacoesMultiplus-SetaVDN</servlet-name>
+        <url-pattern>/InformacoesMultiplus-SetaVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Operador_73">
+        <servlet-name>Operador-VerificaVDN</servlet-name>
+        <url-pattern>/Operador-VerificaVDN</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_67">
+        <servlet-name>SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</servlet-name>
+        <url-pattern>/SolicitarExtratoParticipante-WSSolicitarExtratoParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GerarAtendimento_95">
+        <servlet-name>GerarAtendimento-WSGerarAtendimentos</servlet-name>
+        <url-pattern>/GerarAtendimento-WSGerarAtendimentos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EnviarEmailParticipante_72">
+        <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
+        <url-pattern>/EnviarEmailParticipante-WSEnviarEmailParticipante</url-pattern>
     </servlet-mapping>
 </web-app>

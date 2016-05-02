@@ -21,7 +21,7 @@ public class ColetaSenhaResgate extends com.avaya.sce.runtime.Grammar {
         setBuiltin(true);
         setBuiltinMode("dtmf");
         setType("digits");
-        setOptions("minlength=6;maxlength=8");
+        setOptions("minlength=4;maxlength=8");
 		//}}END:CLASS:CONSTRUCTOR
     }
 

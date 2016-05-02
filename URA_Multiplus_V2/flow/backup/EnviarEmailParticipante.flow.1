@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="61" package="flow.subflow.EnviarEmailParticipante" version="5.0">
+    <ApplicationFlow nextObjectId="76" package="flow.subflow.EnviarEmailParticipante" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="10"/>
@@ -11,7 +11,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
                             <ItemProperties>
-                                <Property name="LinkedNodeID" value="34"/>
+                                <Property name="LinkedNodeID" value="72"/>
                                 <Property name="Name" value="Start"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -20,38 +20,20 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="33" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="436"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="43"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="627"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="40"/>
                 <Property name="Name" value="TransOK"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="34" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="158"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="58"/>
-                <Property name="Name" value="WSEnviarEmailParticipante"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="336"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="56"/>
+                <Property name="Name" value="TrataEnviarEmailParticipante"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="35" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="36" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="37" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSEnviarEmailParticipante"/>
-                                <Property name="destFieldId" value="Retorno"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="OK"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="38" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSEnviarEmailParticipante"/>
-                                <Property name="destFieldId" value="IdReciboEntrega"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="ok"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -67,16 +49,16 @@
                             <ItemProperties>
                                 <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
                                 <Property name="trace.text" value="aqui Id Recibo Entrega preenchido"/>
-                                <Property name="trace.fieldId" value="IdReciboEntrega"/>
+                                <Property name="trace.fieldId" value="idRecibo"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="41" version="1.2">
                             <ItemProperties>
-                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="Operator" value="="/>
                                 <Property name="LeftOperandID" value="WSEnviarEmailParticipante"/>
                                 <Property name="LeftOperandFieldID" value="Retorno"/>
-                                <Property name="RightConstOperand" value="OK"/>
+                                <Property name="RightConstOperand" value="0"/>
                             </ItemProperties>
                             <ChildItems>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="42" version="1.2">
@@ -141,9 +123,9 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Form" id="50" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="435"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="626"/>
                 <Property name="FlowNodeEditPart.WidgetIcon" value="announce.gif"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="87"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="84"/>
                 <Property name="Name" value="AN_ErroTransacao"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Form" id="51" version="1.2">
                     <ItemProperties/>
@@ -175,16 +157,33 @@
                 <Property name="Name" value="Transacao Enviar Email Participante"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="56" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="625"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="86"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="816"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="83"/>
                 <Property name="Name" value="TransNOK"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Servlet" id="72" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="134"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="57"/>
+                <Property name="Name" value="untitledServlet1"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Servlet" id="73" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="74" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="34"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
             </FlowNode>
             <NodeConnection id="57" version="1.2">
                 <SourceNode id="34"/>
                 <TargetNode id="33"/>
                 <Property name="Connection.SourceObjectID" value="43"/>
                 <Property name="Connection.TargetObjectID" value="33"/>
-                <Bendpoint x="379" y="57"/>
+                <Bendpoint x="570" y="54"/>
             </NodeConnection>
             <NodeConnection id="58" version="1.2">
                 <SourceNode id="34"/>
@@ -204,10 +203,16 @@
                 <Property name="Connection.SourceObjectID" value="54"/>
                 <Property name="Connection.TargetObjectID" value="56"/>
             </NodeConnection>
-            <NodeConnection id="61" version="1.2">
+            <NodeConnection id="75" version="1.2">
                 <SourceNode id="1"/>
-                <TargetNode id="34"/>
+                <TargetNode id="72"/>
                 <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="72"/>
+            </NodeConnection>
+            <NodeConnection id="76" version="1.2">
+                <SourceNode id="72"/>
+                <TargetNode id="34"/>
+                <Property name="Connection.SourceObjectID" value="74"/>
                 <Property name="Connection.TargetObjectID" value="34"/>
             </NodeConnection>
         </FlowGraph>

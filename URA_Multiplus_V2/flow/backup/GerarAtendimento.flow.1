@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="89" package="flow.subflow.GerarAtendimento" version="5.0">
+    <ApplicationFlow nextObjectId="94" package="flow.subflow.GerarAtendimento" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="6"/>
@@ -11,7 +11,7 @@
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
                             <ItemProperties>
-                                <Property name="LinkedNodeID" value="67"/>
+                                <Property name="LinkedNodeID" value="90"/>
                                 <Property name="Name" value="Start"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -19,34 +19,23 @@
                     </ChildItems>
                 </FlowItem>
             </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Label" id="83" version="3.1">
+                <Property name="FlowNodeEditPart.Width" value="208"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="40"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="8"/>
+                <Property name="FlowNodeEditPart.Height" value="29"/>
+                <Property name="Name" value="Transacao Gerar Atendimento"/>
+            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="67" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="180"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="327"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="48"/>
-                <Property name="Name" value="WSGerarAtendimento"/>
+                <Property name="Name" value="TrataGerarAtendimento"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="68" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="69" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="70" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSGerarAtendimento"/>
-                                <Property name="destFieldId" value="Retorno"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="OK"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="71" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSGerarAtendimento"/>
-                                <Property name="destFieldId" value="NumProtocolo"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="123456"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -68,10 +57,10 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="74" version="1.2">
                             <ItemProperties>
-                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="Operator" value="="/>
                                 <Property name="LeftOperandID" value="WSGerarAtendimento"/>
                                 <Property name="LeftOperandFieldID" value="Retorno"/>
-                                <Property name="RightConstOperand" value="OK"/>
+                                <Property name="RightConstOperand" value="0"/>
                             </ItemProperties>
                             <ChildItems>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="75" version="1.2">
@@ -135,25 +124,35 @@
                     </ChildItems>
                 </FlowItem>
             </FlowNode>
-            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Label" id="83" version="3.1">
-                <Property name="FlowNodeEditPart.Width" value="208"/>
-                <Property name="FlowNodeEditPart.WidgetX" value="40"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="8"/>
-                <Property name="FlowNodeEditPart.Height" value="29"/>
-                <Property name="Name" value="Transacao Gerar Atendimento"/>
-            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="84" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="647"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="794"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="76"/>
                 <Property name="Name" value="TransNOK"/>
             </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Servlet" id="90" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="112"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="48"/>
+                <Property name="Name" value="WSGerarAtendimento"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Servlet" id="91" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="92" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="67"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="61" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="458"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="605"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="33"/>
                 <Property name="Name" value="TransOK"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Form" id="62" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="457"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="604"/>
                 <Property name="FlowNodeEditPart.WidgetIcon" value="announce.gif"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="77"/>
                 <Property name="Name" value="AN_ErroTransacao"/>
@@ -190,7 +189,7 @@
                 <TargetNode id="61"/>
                 <Property name="Connection.SourceObjectID" value="76"/>
                 <Property name="Connection.TargetObjectID" value="61"/>
-                <Bendpoint x="401" y="47"/>
+                <Bendpoint x="548" y="47"/>
             </NodeConnection>
             <NodeConnection id="87" version="1.2">
                 <SourceNode id="67"/>
@@ -204,10 +203,16 @@
                 <Property name="Connection.SourceObjectID" value="82"/>
                 <Property name="Connection.TargetObjectID" value="62"/>
             </NodeConnection>
-            <NodeConnection id="89" version="1.2">
+            <NodeConnection id="93" version="1.2">
                 <SourceNode id="1"/>
-                <TargetNode id="67"/>
+                <TargetNode id="90"/>
                 <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="90"/>
+            </NodeConnection>
+            <NodeConnection id="94" version="1.2">
+                <SourceNode id="90"/>
+                <TargetNode id="67"/>
+                <Property name="Connection.SourceObjectID" value="92"/>
                 <Property name="Connection.TargetObjectID" value="67"/>
             </NodeConnection>
         </FlowGraph>

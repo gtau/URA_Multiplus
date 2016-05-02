@@ -9,6 +9,168 @@
         <PageletBody>
             <PageletFields>
                 <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:AutenticarUsuario</FieldName>
+                    <FieldDisplayName>Autenticar Usuario</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/AutenticarUsuariov1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:ConsultarParticipante</FieldName>
+                    <FieldDisplayName>Consultar Participante</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarParticipantev1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:ConsultarSaldoParticipante</FieldName>
+                    <FieldDisplayName>Consultar Saldo Participante</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarSaldoParticipantev1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:EnviarEmailParticipante</FieldName>
+                    <FieldDisplayName>Enviar Email Participante</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/EnviarEmailParticipantev1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:GerarAtendimento</FieldName>
+                    <FieldDisplayName>Gerar Atendimento</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/GerarAtendimentov1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:IdentificarParticipante</FieldName>
+                    <FieldDisplayName>Identificar Participante</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/IdentificarParticipantev1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:RedefinirSenhaUsuario</FieldName>
+                    <FieldDisplayName>Redefinir Senha Usuario</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/RedefinirSenhaUsuariov1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:SolicitarExtratoParticipante</FieldName>
+                    <FieldDisplayName>Solicitar Extrato Participante</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/SolicitarExtratoParticipantev1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>EndPoints:VerificarPermissaoAlteracaoCadastral</FieldName>
+                    <FieldDisplayName>Verificar Permissao Alteracao Cadastral</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/VerificarPermissaoAlteracaoCadastralv1?wsdl</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
                     <FieldOrderID>6</FieldOrderID>
                     <FieldName>VDN:AlteracaoCadastral</FieldName>
                     <FieldDisplayName>Alteracao Cadastral</FieldDisplayName>
@@ -63,6 +225,24 @@
                     <FieldScope>Local</FieldScope>
                 </PageletField>
                 <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>VDN:ExtratoEmail</FieldName>
+                    <FieldDisplayName>Extrato Via Email</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>24111</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a  extrato via email</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
                     <FieldOrderID>4</FieldOrderID>
                     <FieldName>VDN:Ingles</FieldName>
                     <FieldDisplayName>Ingles</FieldDisplayName>
@@ -77,6 +257,42 @@
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription>VDN referente a atendimento em ingles</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>VDN:MenuPrincipal</FieldName>
+                    <FieldDisplayName>Menu Principal</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>27474</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento menu pricipal</FieldDescription>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>VDN:MenuSenhas</FieldName>
+                    <FieldDisplayName>Menu Senhas</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>5</MinLength>
+                            <MaxLength>5</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>21329</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription>VDN referente a atendimento menu senhas</FieldDescription>
                     <FieldAccessLevel>1</FieldAccessLevel>
                     <FieldScope>Local</FieldScope>
                 </PageletField>

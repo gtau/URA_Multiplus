@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="72" package="flow.subflow.Operador" version="5.0">
+    <ApplicationFlow nextObjectId="77" package="flow.subflow.Operador" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
@@ -18,7 +18,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="33" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="25"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="175"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="184"/>
                 <Property name="Name" value="PreencheUUI"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="34" version="1.2">
@@ -33,8 +33,8 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="43" version="1.2">
                             <ItemProperties>
                                 <Property name="sourceFieldId" value="CPFNumMultiplus"/>
-                                <Property name="destVarId" value="UUI"/>
                                 <Property name="sourceVarId" value="WSIdentificarParticipante"/>
+                                <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="assign"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -50,8 +50,8 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="45" version="1.2">
                             <ItemProperties>
                                 <Property name="sourceFieldId" value="Nome"/>
-                                <Property name="destVarId" value="UUI"/>
                                 <Property name="sourceVarId" value="WSIdentificarParticipante"/>
+                                <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="concatenate"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -67,16 +67,16 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="47" version="1.2">
                             <ItemProperties>
                                 <Property name="sourceFieldId" value="Sobrenome"/>
-                                <Property name="destVarId" value="UUI"/>
                                 <Property name="sourceVarId" value="WSIdentificarParticipante"/>
+                                <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="concatenate"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="49" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="UUI"/>
                                 <Property name="sourceVarId" value="UUI"/>
+                                <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="trim"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -90,8 +90,8 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="59" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="UUILength"/>
                                 <Property name="sourceVarId" value="UUI"/>
+                                <Property name="destVarId" value="UUILength"/>
                                 <Property name="type" value="length"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -113,10 +113,10 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="60" version="1.2">
                                     <ItemProperties>
                                         <Property name="start" value="0"/>
-                                        <Property name="destVarId" value="UUI"/>
                                         <Property name="sourceVarId" value="UUI"/>
-                                        <Property name="type" value="substring"/>
+                                        <Property name="destVarId" value="UUI"/>
                                         <Property name="numChars" value="96"/>
+                                        <Property name="type" value="substring"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -163,7 +163,7 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="66" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="830"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="57"/>
-                <Property name="ReferencedNodeID" value="33"/>
+                <Property name="ReferencedNodeID" value="14"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="19" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="371"/>
@@ -188,7 +188,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="25" version="1.2">
                             <ItemProperties>
-                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="Operator" value="NotEmpty"/>
                                 <Property name="LeftOperandID" value="WSIdentificarParticipante"/>
                                 <Property name="LeftOperandFieldID" value="IdParticipante"/>
                                 <Property name="RightConstOperand" value="OK"/>
@@ -258,7 +258,30 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="56" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="766"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="98"/>
-                <Property name="ReferencedNodeID" value="33"/>
+                <Property name="ReferencedNodeID" value="73"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="73" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="22"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="184"/>
+                <Property name="Name" value="VerificaVDN"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="74" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="75" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="76" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="33"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="10" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="371"/>
@@ -322,6 +345,7 @@
                 <TargetNode id="4"/>
                 <Property name="Connection.SourceObjectID" value="3"/>
                 <Property name="Connection.TargetObjectID" value="4"/>
+                <Bendpoint x="108" y="17"/>
             </NodeConnection>
             <NodeConnection id="11" version="1.2">
                 <SourceNode id="4"/>
@@ -334,7 +358,7 @@
                 <TargetNode id="19"/>
                 <Property name="Connection.SourceObjectID" value="8"/>
                 <Property name="Connection.TargetObjectID" value="19"/>
-                <Bendpoint x="337" y="67"/>
+                <Bendpoint x="336" y="69"/>
             </NodeConnection>
             <NodeConnection id="28" version="1.2">
                 <SourceNode id="19"/>
@@ -354,6 +378,7 @@
                 <TargetNode id="19"/>
                 <Property name="Connection.SourceObjectID" value="7"/>
                 <Property name="Connection.TargetObjectID" value="19"/>
+                <Bendpoint x="336" y="61"/>
             </NodeConnection>
             <NodeConnection id="57" version="1.2">
                 <SourceNode id="14"/>
@@ -378,6 +403,12 @@
                 <TargetNode id="54"/>
                 <Property name="Connection.SourceObjectID" value="36"/>
                 <Property name="Connection.TargetObjectID" value="54"/>
+            </NodeConnection>
+            <NodeConnection id="77" version="1.2">
+                <SourceNode id="73"/>
+                <TargetNode id="33"/>
+                <Property name="Connection.SourceObjectID" value="76"/>
+                <Property name="Connection.TargetObjectID" value="33"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

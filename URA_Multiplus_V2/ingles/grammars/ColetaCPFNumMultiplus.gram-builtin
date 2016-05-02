@@ -5,7 +5,7 @@
         <type value="static"/>
     </properties>
     <data>
-        <options value="minlength=12;maxlength=12"/>
+        <options value="minlength=11;maxlength=12"/>
         <builtintype value="digits"/>
     </data>
 </grammar>

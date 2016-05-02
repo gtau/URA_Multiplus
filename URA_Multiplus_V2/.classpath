@@ -10,5 +10,19 @@
 	<classpathentry kind="lib" path="WEB-INF/lib/scert-06.00.09.01.jar"/>
 	<classpathentry kind="var" path="TOMCAT_HOME/lib/scertcommon-06.00.09.01.jar"/>
 	<classpathentry kind="lib" path="WEB-INF/lib/aesclient-06.00.09.01.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/avwsop2-rt-06.00.09.01.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/activation-1.1.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/wss4j-1.5.8.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-api-1.2.8.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-impl-1.2.8.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axiom-dom-1.2.8.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/neethi-2.0.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/transacoesMultiplus.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/xalan-2.7.0.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axis2-adb-1.5.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axis2-kernel-1.5.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/axis2-saaj-1.5.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/xstream-1.4.9.jar"/>
 	<classpathentry kind="output" path="WEB-INF/classes"/>
 </classpath>

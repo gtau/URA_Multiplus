@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<wsdl:definitions name="GerarAtendimentov1"
+	targetNamespace="http://ebs.multiplusfidelidade.com.br/v1"
+	xmlns:ebs="http://ebs.multiplusfidelidade.com.br/v1"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<wsdl:documentation>
+		<![CDATA[
+		WSDL gerado automaticamente em 16/08/2013 15:12:14
+		]]>
+	</wsdl:documentation>
+
+	<wsp:Policy wsu:Id="wss_username_token_service_policy"
+		xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+		xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+		xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+		<sp:UsernameToken>
+			<wsp:Policy>
+				<sp:WssUsernameToken11 />
+			</wsp:Policy>
+		</sp:UsernameToken>
+	</wsp:Policy>
+
+	<wsdl:types>
+		<xsd:schema>
+			<xsd:import namespace="http://ebs.multiplusfidelidade.com.br/v1" schemaLocation="GerarAtendimentov1.xsd" />
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="MetaInformacaoMsg">
+		<wsdl:part name="MetaInformacao" element="ebs:MetaInformacao" />
+	</wsdl:message>
+
+	<wsdl:message name="GerarAtendimentoInputMsg">
+		<wsdl:part name="GerarAtendimentoInput" element="ebs:GerarAtendimentoInput" />
+	</wsdl:message>
+
+	<wsdl:message name="GerarAtendimentoOutputMsg">
+		<wsdl:part name="GerarAtendimentoOutput" element="ebs:GerarAtendimentoOutput" />
+	</wsdl:message>
+
+	<wsdl:message name="GerarAtendimentoFaultMsg">
+		<wsdl:part name="GerarAtendimentoFault" element="ebs:GerarAtendimentoFault" />
+	</wsdl:message>
+
+	<wsdl:message name="ErroTecnicoFaultMsg">
+		<wsdl:part name="ErroTecnicoFault" element="ebs:ErroTecnicoFault" />
+	</wsdl:message>
+
+
+	<wsdl:portType name="GerarAtendimentov1_PortType">
+
+		<wsdl:operation name="gerarAtendimento">
+			<wsdl:input message="ebs:GerarAtendimentoInputMsg" />
+			<wsdl:output message="ebs:GerarAtendimentoOutputMsg" />
+			<wsdl:fault name="GerarAtendimentoFault" message="ebs:GerarAtendimentoFaultMsg" />
+			<wsdl:fault name="ErroTecnicoFault" message="ebs:ErroTecnicoFaultMsg" />
+		</wsdl:operation>
+
+	</wsdl:portType>
+
+	<wsdl:binding name="GerarAtendimentov1_SOAPBinding" type="ebs:GerarAtendimentov1_PortType">
+
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+
+		<wsdl:operation name="gerarAtendimento">
+			<soap:operation soapAction="gerarAtendimento" />
+			<wsdl:input>
+				<soap:header message="ebs:MetaInformacaoMsg" part="MetaInformacao" use="literal" />
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="GerarAtendimentoFault">
+			    <soap:fault name="GerarAtendimentoFault" use="literal" />
+			</wsdl:fault>
+			<wsdl:fault name="ErroTecnicoFault">
+			    <soap:fault name="ErroTecnicoFault" use="literal" />
+			</wsdl:fault>
+
+		</wsdl:operation>
+
+	</wsdl:binding>
+
+	<wsdl:service name="GerarAtendimentov1">
+		<wsdl:port name="GerarAtendimentov1" binding="ebs:GerarAtendimentov1_SOAPBinding">
+			<soap:address location="http://esb.multiplusfidelidade.com.br/EBS/GerarAtendimentov1" />
+		</wsdl:port>
+	</wsdl:service>
+
+</wsdl:definitions>

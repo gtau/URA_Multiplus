@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <PromptDoc>
-    <Prompt addreply="false" audioonly="false" bargeintype="speech" order="standard" version="1.0">
+    <Prompt audioonly="false" bargeintype="speech" order="standard" version="1.0">
         <PromptLevel count="1" valid="true">
             <Properties>
                 <Property name="Timeout_Presentation" value="constant"/>
@@ -11,7 +11,7 @@
             <ChildItems>
                 <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
                     <Properties>
-                        <Property name="LeftField" value="Saldo"/>
+                        <Property name="LeftField" value="saldoPontos"/>
                         <Property name="LeftVar" value="WSSaldoParticipante"/>
                         <Property name="Compare" value="IsEmpty"/>
                     </Properties>
@@ -84,7 +84,7 @@
                         </Segment>
                         <Segment class="com.avaya.sce.prompts.internal.segment.AudioVariable" type="AudioVariable">
                             <Properties>
-                                <Property name="Field" value="PontosExp"/>
+                                <Property name="Field" value="pontosExpiracao"/>
                                 <Property name="gender" value="Nn"/>
                                 <Property name="format" value="number"/>
                                 <Property name="numbertype" value="integer"/>
