@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="37" package="flow.subflow.RedefinirSenhaUsuario" version="5.0">
+    <ApplicationFlow nextObjectId="39" package="flow.subflow.RedefinirSenhaUsuario" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="8"/>
@@ -67,6 +67,20 @@
                                 <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
                                 <Property name="trace.text" value="aqui Id Recibo Entrega preenchido"/>
                                 <Property name="trace.fieldId" value="idRecibo"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="38" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage  Redefinir Senha Usuario"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="39" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage Redefinir Senha Usuario"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

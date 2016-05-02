@@ -1,154 +1,22 @@
-01/05/2016 14:40:45:580  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
-01/05/2016 14:40:45:775  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
-01/05/2016 14:40:45:875  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
-01/05/2016 14:40:55:921  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:40:55:931  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
-01/05/2016 14:40:55:936  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
-01/05/2016 14:40:55:941  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
-01/05/2016 14:40:55:946  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
-01/05/2016 14:41:00:929  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
-01/05/2016 14:41:35:028  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
-01/05/2016 14:41:35:028  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
-01/05/2016 14:41:35:033  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
-01/05/2016 14:41:35:038  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
-01/05/2016 14:41:49:805  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:41:49:805  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
-01/05/2016 14:41:49:810  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
-01/05/2016 14:41:49:825  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
-01/05/2016 14:42:01:259  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 32329839871^0.949999988079071^0^0 | undefined
-01/05/2016 14:42:01:282 ERROR - In Progress | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF |  | javax.servlet.ServletException: Error instantiating servlet class flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante | Exception stack trace | Error processing request
- EXCEPTION> 
-javax.servlet.ServletException: Error instantiating servlet class flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante
-	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
-	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:615)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
-	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
-	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
-	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
-	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
-	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
-	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	The import br.com.transacoesMultiplus cannot be resolved
-	br.com.transacoesMultiplus cannot be resolved to a type
-	br.com.transacoesMultiplus cannot be resolved to a type
-	IdentificarParticipanteResponse cannot be resolved to a type
-	Syntax error on token "}", delete this token
-
-	at flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante.<init>(WSIdentificarParticipante.java:2)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at java.lang.Class.newInstance0(Unknown Source)
-	at java.lang.Class.newInstance(Unknown Source)
-	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1116)
-	... 24 more
- | undefined
-01/05/2016 14:44:27:351  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
-01/05/2016 14:44:27:446  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
-01/05/2016 14:44:27:496  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
-01/05/2016 14:44:35:505  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:44:35:532  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
-01/05/2016 14:44:35:538  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
-01/05/2016 14:44:35:542  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
-01/05/2016 14:44:35:546  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
-01/05/2016 14:44:40:417  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
-01/05/2016 14:45:13:937  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
-01/05/2016 14:45:13:937  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
-01/05/2016 14:45:13:942  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
-01/05/2016 14:45:13:950  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
-01/05/2016 14:45:28:604  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:45:28:609  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
-01/05/2016 14:45:28:609  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
-01/05/2016 14:45:28:629  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
-01/05/2016 14:45:28:639  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-AutenticarUsuario | Framework | Pontos-AutenticarUsuario |  |  | undefined
-01/05/2016 14:45:28:644  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-Begin | Framework | AutenticarUsuario-Begin |  |  | undefined
-01/05/2016 14:45:28:644  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-VerificaIndicadorParticipante | Framework | AutenticarUsuario-VerificaIndicadorParticipante |  |  | undefined
-01/05/2016 14:45:28:649  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-ColetaSenhaResgate | Framework | AutenticarUsuario-ColetaSenhaResgate |  |  | undefined
-01/05/2016 14:45:40:398  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-GuardaSenha | Framework | AutenticarUsuario-GuardaSenha | ColetaSenhaResgate___utterance | 1234^0.949999988079071^0^0 | undefined
-01/05/2016 14:45:40:403  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios | Framework | AutenticarUsuario-WSAutenticarUsuarios |  |  | undefined
-01/05/2016 14:45:40:448 ERROR - In Progress | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios |  | java.lang.NoClassDefFoundError: com/thoughtworks/xstream/io/HierarchicalStreamDriver | Exception stack trace | Error processing request
- EXCEPTION> 
-java.lang.NoClassDefFoundError: com/thoughtworks/xstream/io/HierarchicalStreamDriver
-	at br.com.dds.transacoesMultiplus.specialists.TransactionConfig.getAllConfig(TransactionConfig.java:20)
-	at br.com.dds.transacoesMultiplus.specialists.TransactionConfig.getConfigByTransactionName(TransactionConfig.java:32)
-	at br.com.dds.transacoesMultiplus.AutenticarUsuario.apiInvoke(AutenticarUsuario.java:37)
-	at br.com.dds.transacoesMultiplus.AutenticarUsuario.apiExecute(AutenticarUsuario.java:93)
-	at flow.subflow.AutenticarUsuario.WSAutenticarUsuarios.servletImplementation(WSAutenticarUsuarios.java:57)
-	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:99)
-	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
-	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
-	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
-	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
-	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
-	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
-	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
-	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
-	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
-	at java.lang.Thread.run(Unknown Source)
- | undefined
-01/05/2016 14:49:14:036  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
-01/05/2016 14:49:14:196  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
-01/05/2016 14:49:14:286  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
-01/05/2016 14:49:29:093  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:49:29:108  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
-01/05/2016 14:49:29:108  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
-01/05/2016 14:49:29:113  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
-01/05/2016 14:49:29:118  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
-01/05/2016 14:49:34:068  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
-01/05/2016 14:50:11:618  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
-01/05/2016 14:50:11:618  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
-01/05/2016 14:50:11:623  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
-01/05/2016 14:50:11:623  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
-01/05/2016 14:50:27:810  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
-01/05/2016 14:50:27:810  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
-01/05/2016 14:50:27:815  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
-01/05/2016 14:50:27:830  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
-01/05/2016 14:50:27:840  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-AutenticarUsuario | Framework | Pontos-AutenticarUsuario |  |  | undefined
-01/05/2016 14:50:27:845  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-Begin | Framework | AutenticarUsuario-Begin |  |  | undefined
-01/05/2016 14:50:27:850  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-VerificaIndicadorParticipante | Framework | AutenticarUsuario-VerificaIndicadorParticipante |  |  | undefined
-01/05/2016 14:50:27:860  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-ColetaSenhaResgate | Framework | AutenticarUsuario-ColetaSenhaResgate |  |  | undefined
-01/05/2016 14:50:43:970  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-GuardaSenha | Framework | AutenticarUsuario-GuardaSenha | ColetaSenhaResgate___utterance | 1234^0.949999988079071^0^0 | undefined
-01/05/2016 14:50:43:975  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios | Framework | AutenticarUsuario-WSAutenticarUsuarios |  |  | undefined
-01/05/2016 14:50:44:025  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-TrataAutenticarUsuario | Framework | AutenticarUsuario-TrataAutenticarUsuario |  |  | undefined
-01/05/2016 14:50:44:035 ERROR - In Progress | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-TrataAutenticarUsuario |  | javax.servlet.ServletException:  EXCEPTION> 
+02/05/2016 15:53:20:980  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 15:53:21:176  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 15:53:21:254  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 15:53:49:245  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 15:53:49:245  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 15:53:49:245  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 15:53:49:261  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 15:53:49:261  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 15:53:54:246  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 15:54:30:832  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 15:54:30:832  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 15:54:30:832  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 15:54:30:832  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 15:54:30:832  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 15:54:30:863  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 15:54:59:066  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449909192^0.949999988079071^0^0 | undefined
+02/05/2016 15:54:59:066  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 15:54:59:082  INFO - Node Entry | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 15:54:59:097 ERROR - In Progress | session id:sess1385808 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante |  | javax.servlet.ServletException:  EXCEPTION> 
 java.lang.NumberFormatException: empty String
 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
 	at java.lang.Double.parseDouble(Unknown Source)
@@ -156,7 +24,7 @@ java.lang.NumberFormatException: empty String
 	at com.avaya.sce.runtime.Expression.getDoubleValue(Expression.java:128)
 	at com.avaya.sce.runtime.Expression.evaluate(Expression.java:509)
 	at com.avaya.sce.runtime.Condition.evaluate(Condition.java:121)
-	at flow.subflow.AutenticarUsuario.TrataAutenticarUsuario.executeDataActions(TrataAutenticarUsuario.java:80)
+	at flow.subflow.ValidacaoMultiplus.TrataIdentificarParticipante.executeDataActions(TrataIdentificarParticipante.java:80)
 	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
 	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
 	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
@@ -211,7 +79,7 @@ java.lang.NumberFormatException: empty String
 	at com.avaya.sce.runtime.Expression.getDoubleValue(Expression.java:128)
 	at com.avaya.sce.runtime.Expression.evaluate(Expression.java:509)
 	at com.avaya.sce.runtime.Condition.evaluate(Condition.java:121)
-	at flow.subflow.AutenticarUsuario.TrataAutenticarUsuario.executeDataActions(TrataAutenticarUsuario.java:80)
+	at flow.subflow.ValidacaoMultiplus.TrataIdentificarParticipante.executeDataActions(TrataIdentificarParticipante.java:80)
 	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
 	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
 	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
@@ -302,3 +170,581 @@ java.lang.NumberFormatException: empty String
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
 	at java.lang.Thread.run(Unknown Source)
  | undefined
+02/05/2016 16:00:43:874  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:00:43:978  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:00:44:041  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:01:00:262  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:SetaIngles | Framework | SetaIngles | MenuIdiomas___utterance | 2^0.949999988079071^0^0 | undefined
+02/05/2016 16:01:00:297  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 16:01:00:300  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 16:01:00:305  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 16:01:00:309  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 16:01:05:686  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 16:01:44:680  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:01:44:688  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 16:01:44:690  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:01:44:694  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:01:44:697  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:01:44:711  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:02:07:844  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 16:02:07:853  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:07:900  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:07:918  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:15:767  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:02:15:770  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 16:02:15:773  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 16:02:15:776  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 16:02:15:778  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 16:02:15:782  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 16:02:15:784  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 16:02:15:787  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:02:15:789  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:02:15:790  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:02:15:793  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:02:31:162  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 32329839871^0.949999988079071^0^0 | undefined
+02/05/2016 16:02:31:164  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:31:169  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:31:171  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:02:38:903  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:02:38:911  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-ClienteIdentificado | Framework | Operador-ClienteIdentificado |  |  | undefined
+02/05/2016 16:02:38:915  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-AN_Transfere | Framework | Operador-AN_Transfere |  |  | undefined
+02/05/2016 16:02:44:251  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-VerificaVDN | Framework | Operador-VerificaVDN |  |  | undefined
+02/05/2016 16:02:44:256  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-PreencheUUI | Framework | Operador-PreencheUUI |  |  | undefined
+02/05/2016 16:02:44:287  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Operador-Desliga | Framework | Operador-Desliga |  |  | undefined
+02/05/2016 16:02:44:290  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Desliga | Framework | Desliga |  |  | undefined
+02/05/2016 16:02:44:293  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 16:02:44:757  INFO - Node Entry | session id:sess5283605 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 16:02:44:763  INFO - Application Exit | session id:sess5283605 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 16:11:16:243  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:11:16:274  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:11:16:327  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:11:24:230  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:11:24:230  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 16:11:24:230  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 16:11:24:246  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 16:11:24:246  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 16:11:29:131  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 16:12:04:029  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:12:04:031  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 16:12:04:033  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:12:04:035  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:12:04:037  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:12:04:037  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:12:16:314  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 32329839871^0.949999988079071^0^0 | undefined
+02/05/2016 16:12:16:316  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:16:319  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:16:322  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:24:150  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:12:24:152  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:12:24:167  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:12:35:466  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 32329839871^0.949999988079071^0^0 | undefined
+02/05/2016 16:12:35:466  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:35:466  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:35:466  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:12:43:239  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:12:43:241  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-ClienteIdentificado | Framework | Operador-ClienteIdentificado |  |  | undefined
+02/05/2016 16:12:43:241  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-AN_Transfere | Framework | Operador-AN_Transfere |  |  | undefined
+02/05/2016 16:12:48:665  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-VerificaVDN | Framework | Operador-VerificaVDN |  |  | undefined
+02/05/2016 16:12:48:667  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-PreencheUUI | Framework | Operador-PreencheUUI |  |  | undefined
+02/05/2016 16:12:48:667  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Operador-Desliga | Framework | Operador-Desliga |  |  | undefined
+02/05/2016 16:12:48:667  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Desliga | Framework | Desliga |  |  | undefined
+02/05/2016 16:12:48:667  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 16:12:48:777  INFO - Node Entry | session id:sess1893934 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 16:12:48:777  INFO - Application Exit | session id:sess1893934 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 16:28:40:344  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:28:40:437  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:28:40:491  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:28:48:441  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 16:28:48:442  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 16:28:48:458  INFO - Node Entry | session id:sess6758897 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 16:28:48:474  INFO - Application Exit | session id:sess6758897 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 16:29:44:759  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:29:44:918  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:29:45:008  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:29:50:929  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:29:50:929  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 16:29:50:944  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 16:29:50:944  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 16:29:50:960  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 16:29:55:831  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 16:30:27:960  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:30:27:962  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 16:30:27:965  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:30:27:966  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:30:27:966  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:30:27:966  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:30:50:023  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 16:30:50:023  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:30:50:054  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:30:50:054  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:30:55:835  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:30:55:837  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 16:30:55:837  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 16:30:55:837  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 16:30:55:837  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:30:55:853  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:30:55:868  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 16:30:55:868  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 16:30:55:926  INFO - Node Entry | session id:sess4617246 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 16:30:55:932  INFO - Application Exit | session id:sess4617246 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 16:52:10:551  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:52:10:687  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:52:10:755  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:52:16:633  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:52:16:644  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 16:52:16:650  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 16:52:16:654  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 16:52:16:657  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 16:52:21:491  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 16:52:56:090  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:52:56:093  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 16:52:56:095  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:52:56:098  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:52:56:101  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:52:56:114  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:53:11:443  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 16:53:11:445  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:53:11:476  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:53:11:482  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 16:53:18:758  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 16:53:18:762  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 16:53:18:764  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 16:53:18:767  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 16:53:18:769  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 16:53:18:772  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 16:53:18:774  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 16:53:18:776  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:53:18:778  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:53:18:780  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:53:18:782  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:53:18:805  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 16:53:18:807  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 16:53:18:833  INFO - Node Entry | session id:sess1443087 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 16:53:18:840  INFO - Application Exit | session id:sess1443087 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 16:57:51:776  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 16:57:51:907  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 16:57:51:976  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 16:58:13:165  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:58:13:177  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 16:58:13:180  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 16:58:13:184  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 16:58:13:188  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 16:58:18:079  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 16:58:52:091  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 16:58:52:093  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 16:58:52:096  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 16:58:52:098  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 16:58:52:100  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 16:58:52:119  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 16:59:07:155  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 16:59:07:158  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 16:59:07:189  INFO - Node Entry | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 16:59:07:206 ERROR - In Progress | session id:sess7871608 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form TrataIdentificarParticipante, missing reference to next flow node | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form TrataIdentificarParticipante, missing reference to next flow node
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2080)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:125)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+02/05/2016 17:02:46:279  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:02:46:423  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:02:46:485  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:02:56:485  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:02:56:496  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:02:56:498  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:02:56:501  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:02:56:506  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:03:01:340  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:03:33:315  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:03:33:318  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:03:33:320  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:03:33:323  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:03:33:326  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:03:33:339  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:03:46:584  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:03:46:587  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:03:46:622  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 17:03:46:625  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 17:03:54:055  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 17:03:54:057  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 17:03:54:060  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 17:03:54:062  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 17:03:54:065  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 17:03:54:068  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 17:03:54:071  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 17:03:54:073  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:03:54:074  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:03:54:076  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:03:54:078  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:03:54:109  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 17:03:54:112  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 17:03:54:131  INFO - Node Entry | session id:sess6167808 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 17:03:54:138  INFO - Application Exit | session id:sess6167808 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 17:09:44:610  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:09:44:752  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:09:44:825  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:09:48:644  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:09:48:655  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:09:48:658  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:09:48:661  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:09:48:664  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:09:53:513  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:10:25:506  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:10:25:508  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:10:25:511  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:10:25:514  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:10:25:516  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:10:25:537  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:10:41:277  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:10:41:280  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:10:41:304  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 17:10:41:308  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 17:10:47:050  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 17:10:47:053  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 17:10:47:056  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 17:10:47:058  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 17:10:47:061  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 17:10:47:064  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 17:10:47:065  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 17:10:47:067  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:10:47:068  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:10:47:075  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:10:47:078  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:10:47:101  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 17:10:47:103  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 17:10:47:124  INFO - Node Entry | session id:sess3090406 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 17:10:47:130  INFO - Application Exit | session id:sess3090406 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 17:19:17:193  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:19:17:389  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:19:17:528  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:19:21:474  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:19:21:487  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:19:21:490  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:19:21:493  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:19:21:496  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:19:26:472  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:20:00:476  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:20:00:479  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:20:00:481  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:20:00:485  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:20:00:488  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:20:00:501  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:20:13:375  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:20:13:378  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:20:13:415  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 17:20:13:421  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 17:20:19:198  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 17:20:19:209  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 17:20:19:212  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 17:20:19:215  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 17:20:19:217  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 17:20:19:220  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 17:20:19:223  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 17:20:19:225  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:20:19:227  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:20:19:229  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:20:19:231  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:20:19:245  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 17:20:19:249  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 17:20:19:276  INFO - Node Entry | session id:sess9745576 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 17:20:19:284  INFO - Application Exit | session id:sess9745576 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 17:25:21:207  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:25:21:337  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:25:21:470  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:25:27:461  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:25:27:477  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:25:27:481  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:25:27:486  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:25:27:490  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:25:32:415  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:26:06:700  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:26:06:703  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:26:06:706  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:26:06:710  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:26:06:714  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:26:06:730  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:26:19:642  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:26:19:654  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:28:21:137  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 17:28:21:141  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 17:28:28:926  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 17:28:28:929  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 17:28:28:933  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 17:28:28:935  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 17:28:28:938  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 17:28:28:941  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 17:28:28:944  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 17:28:28:947  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:28:28:949  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:28:28:952  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:28:28:958  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:28:41:814  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:ValidacaoMultiplus-Desliga | Framework | ValidacaoMultiplus-Desliga |  | ^^0^0 | undefined
+02/05/2016 17:28:41:817  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Operador-Desliga | Framework | Operador-Desliga |  |  | undefined
+02/05/2016 17:28:41:820  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Desliga | Framework | Desliga |  |  | undefined
+02/05/2016 17:28:41:823  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 17:28:41:841  INFO - Node Entry | session id:sess8606077 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 17:28:41:853  INFO - Application Exit | session id:sess8606077 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 17:34:17:489  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:34:17:662  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:34:17:756  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:34:19:574  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 17:34:19:581  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 17:34:19:611  INFO - Node Entry | session id:sess7689199 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 17:34:19:624  INFO - Application Exit | session id:sess7689199 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 17:37:10:824  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:37:10:984  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:37:11:093  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:37:15:000  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:37:15:018  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:37:15:034  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:37:15:037  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:37:15:041  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:37:19:971  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:37:53:446  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:37:53:446  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:37:53:461  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:37:53:461  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:37:53:461  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:37:53:477  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:38:06:199  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:38:06:215  INFO - Node Entry | session id:sess3933677 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:42:58:919  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:42:59:106  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:42:59:200  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:43:09:261  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:43:09:261  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:43:09:276  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:43:09:276  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:43:09:276  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:43:14:197  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:43:48:143  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:43:48:143  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:43:48:143  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:43:48:143  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:43:48:143  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:43:48:175  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:44:01:590  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:44:01:590  INFO - Node Entry | session id:sess8873399 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 17:55:54:404  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 17:55:54:560  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 17:55:54:638  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 17:55:58:554  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:55:58:585  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 17:55:58:601  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 17:55:58:601  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 17:55:58:616  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 17:56:03:529  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 17:56:35:364  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 17:56:35:364  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 17:56:35:379  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 17:56:35:379  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 17:56:35:379  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 17:56:35:395  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 17:56:50:896  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 17:56:50:912  INFO - Node Entry | session id:sess7155142 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 18:09:19:350  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 18:09:19:460  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 18:09:19:522  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 18:09:25:489  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:09:25:504  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 18:09:25:520  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 18:09:25:520  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 18:09:25:520  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 18:09:30:387  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 18:10:04:296  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:10:04:312  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 18:10:04:312  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:10:04:312  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:10:04:312  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:10:04:327  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 18:10:19:573  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 18:10:19:573  INFO - Node Entry | session id:sess6839803 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 18:16:50:205  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 18:16:50:299  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 18:16:50:362  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 18:17:00:412  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:17:00:428  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 18:17:00:459  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 18:17:00:459  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 18:17:00:475  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 18:17:04:608  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 18:17:04:655  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 18:17:04:687  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 18:17:04:718  INFO - Node Entry | session id:sess7219341 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 18:17:04:718  INFO - Application Exit | session id:sess7219341 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 18:17:32:457  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 18:17:32:582  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 18:17:32:676  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 18:17:40:641  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:17:40:663  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 18:17:40:677  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 18:17:40:683  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 18:17:40:691  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 18:17:45:565  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 18:18:17:443  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:18:17:443  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 18:18:17:443  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:18:17:443  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:18:17:458  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:18:17:474  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 18:18:31:474  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 18:18:31:474  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 18:19:22:771  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 18:19:22:771  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-WSConsultarSaldoParticipantes | Framework | ValidacaoMultiplus-WSConsultarSaldoParticipantes |  |  | undefined
+02/05/2016 18:19:22:818  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-TrataConsultarSaldoParticipante | Framework | ValidacaoMultiplus-TrataConsultarSaldoParticipante |  |  | undefined
+02/05/2016 18:19:22:818  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 18:19:30:610  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 18:19:30:612  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 18:19:30:612  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 18:19:30:612  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 18:19:30:612  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 18:19:30:612  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 18:19:30:627  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 18:19:30:627  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:19:30:627  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:19:30:627  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:19:30:627  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
+02/05/2016 18:19:30:643  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador-ClienteIdentificado | Framework | Operador-ClienteIdentificado |  |  | undefined
+02/05/2016 18:19:30:643  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador-ConsultarParticipante | Framework | Operador-ConsultarParticipante |  |  | undefined
+02/05/2016 18:19:30:643  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-Begin | Framework | ConsultarParticipante-Begin |  |  | undefined
+02/05/2016 18:19:30:643  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-SetaVeriaveis | Framework | ConsultarParticipante-SetaVeriaveis |  |  | undefined
+02/05/2016 18:19:30:643  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-WSConsultarParticipantes | Framework | ConsultarParticipante-WSConsultarParticipantes |  |  | undefined
+02/05/2016 18:19:30:690  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-TrataConsultarParticipante | Framework | ConsultarParticipante-TrataConsultarParticipante |  |  | undefined
+02/05/2016 18:19:30:690  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-AN_ErroTransacao | Framework | ConsultarParticipante-AN_ErroTransacao |  |  | undefined
+02/05/2016 18:19:34:768  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:ConsultarParticipante-TransNOK | Framework | ConsultarParticipante-TransNOK |  |  | undefined
+02/05/2016 18:19:34:770  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Operador-AN_Transfere | Framework | Operador-AN_Transfere |  |  | undefined
+02/05/2016 18:19:34:785  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 18:19:34:801  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 18:19:34:816  INFO - Node Entry | session id:sess836723 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 18:19:34:816  INFO - Application Exit | session id:sess836723 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 18:23:03:286  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 18:23:03:427  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 18:23:03:505  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 18:23:11:490  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:23:11:490  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 18:23:11:505  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 18:23:11:505  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 18:23:11:505  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 18:23:16:408  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 18:23:50:716  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:23:50:716  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 18:23:50:716  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:23:50:716  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:23:50:732  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:23:50:732  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 18:24:03:498  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 18:24:03:498  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 18:24:04:170  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 18:24:04:170  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 18:24:11:458  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 18:24:11:460  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 18:24:11:476  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:24:11:476  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:24:11:476  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:24:11:476  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 18:24:11:491  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 18:24:11:491  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 18:24:11:523  INFO - Node Entry | session id:sess3938915 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 18:24:11:538  INFO - Application Exit | session id:sess3938915 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined
+02/05/2016 18:26:38:109  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+02/05/2016 18:26:38:234  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+02/05/2016 18:26:38:328  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+02/05/2016 18:26:46:301  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:26:46:317  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+02/05/2016 18:26:46:317  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+02/05/2016 18:26:46:317  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+02/05/2016 18:26:46:317  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+02/05/2016 18:26:51:193  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+02/05/2016 18:27:25:094  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-MenuAssuntosSenha | Framework | MenuPrincipal-MenuAssuntosSenha | MN_Principal___utterance | 1^0.949999988079071^0^0 | undefined
+02/05/2016 18:27:25:094  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:AssuntosSenha-Begin | Framework | AssuntosSenha-Begin |  |  | undefined
+02/05/2016 18:27:25:094  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:AssuntosSenha-ValidacaoMultiplus | Framework | AssuntosSenha-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:27:25:094  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:27:25:094  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:27:25:126  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+02/05/2016 18:27:37:443  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 04449091922^0.949999988079071^0^0 | undefined
+02/05/2016 18:27:37:443  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-WSIdentificarParticipante | Framework | ValidacaoMultiplus-WSIdentificarParticipante |  |  | undefined
+02/05/2016 18:27:38:671  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-TrataIdentificarParticipante | Framework | ValidacaoMultiplus-TrataIdentificarParticipante |  |  | undefined
+02/05/2016 18:27:38:673  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-WSConsultarSaldoParticipantes | Framework | ValidacaoMultiplus-WSConsultarSaldoParticipantes |  |  | undefined
+02/05/2016 18:27:38:986  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-TrataConsultarSaldoParticipante | Framework | ValidacaoMultiplus-TrataConsultarSaldoParticipante |  |  | undefined
+02/05/2016 18:27:38:986  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-AN_ErroIdentificarParticipante | Framework | ValidacaoMultiplus-AN_ErroIdentificarParticipante |  |  | undefined
+02/05/2016 18:27:42:752  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-Operador | Framework | ValidacaoMultiplus-Operador |  |  | undefined
+02/05/2016 18:27:42:754  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:AssuntosSenha-VerificaRetorno | Framework | AssuntosSenha-VerificaRetorno |  |  | undefined
+02/05/2016 18:27:42:754  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:AssuntosSenha-Retorna | Framework | AssuntosSenha-Retorna |  |  | undefined
+02/05/2016 18:27:42:754  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:MenuPrincipal-Retorno | Framework | MenuPrincipal-Retorno |  |  | undefined
+02/05/2016 18:27:42:754  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:VerificaRetorno | Framework | VerificaRetorno |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Operador | Framework | Operador |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Operador-Begin | Framework | Operador-Begin |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Operador-ValidacaoMultiplus | Framework | Operador-ValidacaoMultiplus |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+02/05/2016 18:27:42:770  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
+02/05/2016 18:27:42:785  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Operador-ClienteIdentificado | Framework | Operador-ClienteIdentificado |  |  | undefined
+02/05/2016 18:27:42:785  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Operador-ConsultarParticipante | Framework | Operador-ConsultarParticipante |  |  | undefined
+02/05/2016 18:27:42:785  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ConsultarParticipante-Begin | Framework | ConsultarParticipante-Begin |  |  | undefined
+02/05/2016 18:27:42:785  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ConsultarParticipante-SetaVeriaveis | Framework | ConsultarParticipante-SetaVeriaveis |  |  | undefined
+02/05/2016 18:27:42:785  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ConsultarParticipante-WSConsultarParticipantes | Framework | ConsultarParticipante-WSConsultarParticipantes |  |  | undefined
+02/05/2016 18:27:42:848  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ConsultarParticipante-TrataConsultarParticipante | Framework | ConsultarParticipante-TrataConsultarParticipante |  |  | undefined
+02/05/2016 18:27:42:848  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:ConsultarParticipante-AN_ErroTransacao | Framework | ConsultarParticipante-AN_ErroTransacao |  |  | undefined
+02/05/2016 18:27:42:863  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Desliga | Framework | Desliga |  | ^^0^0 | undefined
+02/05/2016 18:27:42:863  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Desligar | Framework | Desligar |  |  | undefined
+02/05/2016 18:27:42:895  INFO - Node Entry | session id:sess4563666 | URA_Multiplus_V2:Encerra | Framework | Encerra |  | ^^0^0 | undefined
+02/05/2016 18:27:42:895  INFO - Application Exit | session id:sess4563666 | URA_Multiplus_V2:Encerra | Framework | Application Exiting |  |  | undefined

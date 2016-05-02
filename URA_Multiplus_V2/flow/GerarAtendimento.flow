@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="112" package="flow.subflow.GerarAtendimento" version="5.0">
+    <ApplicationFlow nextObjectId="114" package="flow.subflow.GerarAtendimento" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="6"/>
@@ -52,6 +52,20 @@
                                 <Property name="trace.varId" value="WSGerarAtendimento"/>
                                 <Property name="trace.text" value="aqui Numero protocolo gerar atendimento"/>
                                 <Property name="trace.fieldId" value="numeroProtocolo"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="113" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage Gerar Atendimento"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="114" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage Gerar Atendimento"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

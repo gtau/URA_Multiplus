@@ -20,7 +20,7 @@
     <variable factoryID="" name="atendimento1" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="atendimento2" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Call_site" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="CertificadoTransacoes" owner="" type="" value="C:\Users\Bruno\Desktop\Projeto MULTIPLUS - FREELA" version="1.0"/>
+    <variable factoryID="" name="CertificadoTransacoes" owner="" type="" value="D:\\Orchestration\\OD6\\tau.jks" version="1.0"/>
     <variable factoryID="" name="Channel:Lenght" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Channel:Value" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="CheckRetorno" owner="" type="" value="" version="1.0"/>
@@ -238,7 +238,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/AutenticarUsuariov1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/AutenticarUsuarioAPISv1"/>
         <property name="DisplayName" value="Autenticar Usuario"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -246,7 +246,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarParticipantev1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/ConsultarParticipanteAPISv1"/>
         <property name="DisplayName" value="Consultar Participante"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -254,7 +254,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarSaldoParticipantev1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/ConsultarSaldoParticipanteAPISv1"/>
         <property name="DisplayName" value="Consultar Saldo Participante"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -262,7 +262,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/EnviarEmailParticipantev1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/EnviarEmailParticipanteAPISv1"/>
         <property name="DisplayName" value="Enviar Email Participante"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -270,7 +270,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/GerarAtendimentov1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/GerarAtendimentoAPISv1"/>
         <property name="DisplayName" value="Gerar Atendimento"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -278,7 +278,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/IdentificarParticipantev1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/IdentificarParticipanteAPISv1"/>
         <property name="DisplayName" value="Identificar Participante"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -286,7 +286,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/RedefinirSenhaUsuariov1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/RedefinirSenhaUsuarioAPISv1"/>
         <property name="DisplayName" value="Redefinir Senha Usuario"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -294,7 +294,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/SolicitarExtratoParticipantev1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/SolicitarExtratoParticipanteAPISv1"/>
         <property name="DisplayName" value="Solicitar Extrato Participante"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -302,7 +302,7 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="https://mplusuf002.multiplusfidelidade.com.br/EBS/VerificarPermissaoAlteracaoCadastralv1?wsdl"/>
+        <property name="DefaltValue" value="https://qab2b.pontosmultiplus.com.br:8443/API/VerificarPermissaoAlteracaoCadastralAPISv1"/>
         <property name="DisplayName" value="Verificar Permissao Alteracao Cadastral"/>
         <property name="VarType" value="String"/>
     </variable>
@@ -320,6 +320,7 @@
     <variable factoryID="" name="GerarAtendimentoInput" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="GerarAtendimentoOutput" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Idioma" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="InMessage" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="MenuAtualizacaoCadastral:confidence" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="MenuAtualizacaoCadastral:inputmode" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="MenuAtualizacaoCadastral:interpretation" owner="" type="" value="" version="1.0"/>
@@ -551,6 +552,7 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
+    <variable factoryID="" name="OutMessage" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="participante" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="participante1" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="redirectinfo:presentationinfo" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">

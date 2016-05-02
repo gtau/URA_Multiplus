@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="71" package="flow.subflow.SolicitarExtratoParticipante" version="5.0">
+    <ApplicationFlow nextObjectId="73" package="flow.subflow.SolicitarExtratoParticipante" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="32" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="698"/>
@@ -106,6 +106,20 @@
                                 <Property name="trace.varId" value="WSSolicitarExtratoParticipante"/>
                                 <Property name="trace.text" value="aqui Id solicitar extrato participante"/>
                                 <Property name="trace.fieldId" value="IdReciboEntrega"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="72" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage solicitar extrato participante"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="73" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage solicitar extrato participante"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

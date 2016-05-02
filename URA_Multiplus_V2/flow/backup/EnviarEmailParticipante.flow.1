@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="76" package="flow.subflow.EnviarEmailParticipante" version="5.0">
+    <ApplicationFlow nextObjectId="78" package="flow.subflow.EnviarEmailParticipante" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="10"/>
@@ -50,6 +50,20 @@
                                 <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
                                 <Property name="trace.text" value="aqui Id Recibo Entrega preenchido"/>
                                 <Property name="trace.fieldId" value="idRecibo"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="77" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="78" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -162,9 +176,9 @@
                 <Property name="Name" value="TransNOK"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Servlet" id="72" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="134"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="117"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="57"/>
-                <Property name="Name" value="untitledServlet1"/>
+                <Property name="Name" value="WSEnviarEmailParticipante"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Servlet" id="73" version="1.2">
                     <ItemProperties/>
                     <ChildItems>

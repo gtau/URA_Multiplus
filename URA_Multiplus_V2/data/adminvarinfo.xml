@@ -19,7 +19,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/AutenticarUsuariov1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/AutenticarUsuarioAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -37,7 +37,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarParticipantev1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/ConsultarParticipanteAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -55,7 +55,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/ConsultarSaldoParticipantev1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/ConsultarSaldoParticipanteAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -73,7 +73,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/EnviarEmailParticipantev1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/EnviarEmailParticipanteAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -91,7 +91,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/GerarAtendimentov1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/GerarAtendimentoAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -109,7 +109,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/IdentificarParticipantev1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/IdentificarParticipanteAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -127,7 +127,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/RedefinirSenhaUsuariov1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/RedefinirSenhaUsuarioAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -145,7 +145,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/SolicitarExtratoParticipantev1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/SolicitarExtratoParticipanteAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>
@@ -163,7 +163,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>https://mplusuf002.multiplusfidelidade.com.br/EBS/VerificarPermissaoAlteracaoCadastralv1?wsdl</FieldDefaultValue>
+                    <FieldDefaultValue>https://qab2b.pontosmultiplus.com.br:8443/API/VerificarPermissaoAlteracaoCadastralAPISv1</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>true</IsFieldMandatory>
                     <FieldDescription/>

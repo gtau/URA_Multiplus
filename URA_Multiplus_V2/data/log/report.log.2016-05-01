@@ -1,0 +1,304 @@
+01/05/2016 14:40:45:580  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+01/05/2016 14:40:45:775  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+01/05/2016 14:40:45:875  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+01/05/2016 14:40:55:921  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:40:55:931  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+01/05/2016 14:40:55:936  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+01/05/2016 14:40:55:941  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+01/05/2016 14:40:55:946  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+01/05/2016 14:41:00:929  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+01/05/2016 14:41:35:028  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
+01/05/2016 14:41:35:028  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
+01/05/2016 14:41:35:033  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
+01/05/2016 14:41:35:038  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
+01/05/2016 14:41:49:805  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:41:49:805  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+01/05/2016 14:41:49:810  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+01/05/2016 14:41:49:825  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-ColetaCPFNumMultiplus | Framework | ValidacaoMultiplus-ColetaCPFNumMultiplus |  |  | undefined
+01/05/2016 14:42:01:259  INFO - Node Entry | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF | Framework | ValidacaoMultiplus-GuardaCPF | ColetaCPFNumMultiplus___utterance | 32329839871^0.949999988079071^0^0 | undefined
+01/05/2016 14:42:01:282 ERROR - In Progress | session id:sess4910698 | URA_Multiplus_V2:ValidacaoMultiplus-GuardaCPF |  | javax.servlet.ServletException: Error instantiating servlet class flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante | Exception stack trace | Error processing request
+ EXCEPTION> 
+javax.servlet.ServletException: Error instantiating servlet class flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:615)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import br.com.transacoesMultiplus cannot be resolved
+	br.com.transacoesMultiplus cannot be resolved to a type
+	br.com.transacoesMultiplus cannot be resolved to a type
+	IdentificarParticipanteResponse cannot be resolved to a type
+	Syntax error on token "}", delete this token
+
+	at flow.subflow.ValidacaoMultiplus.WSIdentificarParticipante.<init>(WSIdentificarParticipante.java:2)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance0(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1116)
+	... 24 more
+ | undefined
+01/05/2016 14:44:27:351  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+01/05/2016 14:44:27:446  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+01/05/2016 14:44:27:496  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+01/05/2016 14:44:35:505  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:44:35:532  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+01/05/2016 14:44:35:538  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+01/05/2016 14:44:35:542  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+01/05/2016 14:44:35:546  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+01/05/2016 14:44:40:417  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+01/05/2016 14:45:13:937  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
+01/05/2016 14:45:13:937  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
+01/05/2016 14:45:13:942  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
+01/05/2016 14:45:13:950  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
+01/05/2016 14:45:28:604  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:45:28:609  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+01/05/2016 14:45:28:609  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+01/05/2016 14:45:28:629  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
+01/05/2016 14:45:28:639  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:Pontos-AutenticarUsuario | Framework | Pontos-AutenticarUsuario |  |  | undefined
+01/05/2016 14:45:28:644  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-Begin | Framework | AutenticarUsuario-Begin |  |  | undefined
+01/05/2016 14:45:28:644  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-VerificaIndicadorParticipante | Framework | AutenticarUsuario-VerificaIndicadorParticipante |  |  | undefined
+01/05/2016 14:45:28:649  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-ColetaSenhaResgate | Framework | AutenticarUsuario-ColetaSenhaResgate |  |  | undefined
+01/05/2016 14:45:40:398  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-GuardaSenha | Framework | AutenticarUsuario-GuardaSenha | ColetaSenhaResgate___utterance | 1234^0.949999988079071^0^0 | undefined
+01/05/2016 14:45:40:403  INFO - Node Entry | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios | Framework | AutenticarUsuario-WSAutenticarUsuarios |  |  | undefined
+01/05/2016 14:45:40:448 ERROR - In Progress | session id:sess3884149 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios |  | java.lang.NoClassDefFoundError: com/thoughtworks/xstream/io/HierarchicalStreamDriver | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NoClassDefFoundError: com/thoughtworks/xstream/io/HierarchicalStreamDriver
+	at br.com.dds.transacoesMultiplus.specialists.TransactionConfig.getAllConfig(TransactionConfig.java:20)
+	at br.com.dds.transacoesMultiplus.specialists.TransactionConfig.getConfigByTransactionName(TransactionConfig.java:32)
+	at br.com.dds.transacoesMultiplus.AutenticarUsuario.apiInvoke(AutenticarUsuario.java:37)
+	at br.com.dds.transacoesMultiplus.AutenticarUsuario.apiExecute(AutenticarUsuario.java:93)
+	at flow.subflow.AutenticarUsuario.WSAutenticarUsuarios.servletImplementation(WSAutenticarUsuarios.java:57)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:99)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+01/05/2016 14:49:14:036  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Start | Framework | Start |  |  | 
+01/05/2016 14:49:14:196  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Log_Inicio | Framework | Log_Inicio |  |  | undefined
+01/05/2016 14:49:14:286  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuIdiomas | Framework | MenuIdiomas |  |  | undefined
+01/05/2016 14:49:29:093  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:SetaPortugues | Framework | SetaPortugues | MenuIdiomas___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:49:29:108  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal | Framework | MenuPrincipal |  |  | undefined
+01/05/2016 14:49:29:108  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-Begin | Framework | MenuPrincipal-Begin |  |  | undefined
+01/05/2016 14:49:29:113  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-ZeraContador | Framework | MenuPrincipal-ZeraContador |  |  | undefined
+01/05/2016 14:49:29:118  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-AN_BemVindo | Framework | MenuPrincipal-AN_BemVindo |  |  | undefined
+01/05/2016 14:49:34:068  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-MN_Principal | Framework | MenuPrincipal-MN_Principal |  |  | undefined
+01/05/2016 14:50:11:618  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:MenuPrincipal-Pontos | Framework | MenuPrincipal-Pontos | MN_Principal___utterance | 3^0.949999988079071^0^0 | undefined
+01/05/2016 14:50:11:618  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-Begin | Framework | Pontos-Begin |  |  | undefined
+01/05/2016 14:50:11:623  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-ZeraContador | Framework | Pontos-ZeraContador |  |  | undefined
+01/05/2016 14:50:11:623  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-Mn_Pontos | Framework | Pontos-Mn_Pontos |  |  | undefined
+01/05/2016 14:50:27:810  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-ValidacaoMultiplus | Framework | Pontos-ValidacaoMultiplus | Mn_Pontos___utterance | 1^0.949999988079071^0^0 | undefined
+01/05/2016 14:50:27:810  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-Begin | Framework | ValidacaoMultiplus-Begin |  |  | undefined
+01/05/2016 14:50:27:815  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-VerificaIndicadorParticipante | Framework | ValidacaoMultiplus-VerificaIndicadorParticipante |  |  | undefined
+01/05/2016 14:50:27:830  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:ValidacaoMultiplus-Retorno | Framework | ValidacaoMultiplus-Retorno |  |  | undefined
+01/05/2016 14:50:27:840  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:Pontos-AutenticarUsuario | Framework | Pontos-AutenticarUsuario |  |  | undefined
+01/05/2016 14:50:27:845  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-Begin | Framework | AutenticarUsuario-Begin |  |  | undefined
+01/05/2016 14:50:27:850  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-VerificaIndicadorParticipante | Framework | AutenticarUsuario-VerificaIndicadorParticipante |  |  | undefined
+01/05/2016 14:50:27:860  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-ColetaSenhaResgate | Framework | AutenticarUsuario-ColetaSenhaResgate |  |  | undefined
+01/05/2016 14:50:43:970  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-GuardaSenha | Framework | AutenticarUsuario-GuardaSenha | ColetaSenhaResgate___utterance | 1234^0.949999988079071^0^0 | undefined
+01/05/2016 14:50:43:975  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-WSAutenticarUsuarios | Framework | AutenticarUsuario-WSAutenticarUsuarios |  |  | undefined
+01/05/2016 14:50:44:025  INFO - Node Entry | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-TrataAutenticarUsuario | Framework | AutenticarUsuario-TrataAutenticarUsuario |  |  | undefined
+01/05/2016 14:50:44:035 ERROR - In Progress | session id:sess3882897 | URA_Multiplus_V2:AutenticarUsuario-TrataAutenticarUsuario |  | javax.servlet.ServletException:  EXCEPTION> 
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getDoubleValue(VariableField.java:500)
+	at com.avaya.sce.runtime.Expression.getDoubleValue(Expression.java:128)
+	at com.avaya.sce.runtime.Expression.evaluate(Expression.java:509)
+	at com.avaya.sce.runtime.Condition.evaluate(Condition.java:121)
+	at flow.subflow.AutenticarUsuario.TrataAutenticarUsuario.executeDataActions(TrataAutenticarUsuario.java:80)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+ | Exception stack trace | Error processing request
+ EXCEPTION> 
+javax.servlet.ServletException:  EXCEPTION> 
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getDoubleValue(VariableField.java:500)
+	at com.avaya.sce.runtime.Expression.getDoubleValue(Expression.java:128)
+	at com.avaya.sce.runtime.Expression.evaluate(Expression.java:509)
+	at com.avaya.sce.runtime.Condition.evaluate(Condition.java:121)
+	at flow.subflow.AutenticarUsuario.TrataAutenticarUsuario.executeDataActions(TrataAutenticarUsuario.java:80)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:115)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1303)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:282)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:189)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined

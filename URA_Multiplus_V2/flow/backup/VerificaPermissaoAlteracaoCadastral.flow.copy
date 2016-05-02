@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="39" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
+    <ApplicationFlow nextObjectId="41" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="17" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="705"/>
@@ -101,6 +101,20 @@
                                 <Property name="trace.varId" value="WSVerificarPermissaoAlteracaoCadastral"/>
                                 <Property name="trace.text" value="aqui identificador verificar permissao alteracao cadastral"/>
                                 <Property name="trace.fieldId" value="PermissaoAlteracao"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="40" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage verificar permissao alteracao cadastral"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="41" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage verificar permissao alteracao cadastral"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

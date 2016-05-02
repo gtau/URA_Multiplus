@@ -54,24 +54,6 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="31" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSRedefinirSenhaUsuario"/>
-                                <Property name="destFieldId" value="Retorno"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="0"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="32" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSRedefinirSenhaUsuario"/>
-                                <Property name="destFieldId" value="IdReciboEntrega"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="ok"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="11" version="1.2">
                             <ItemProperties>
                                 <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
@@ -84,7 +66,7 @@
                             <ItemProperties>
                                 <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
                                 <Property name="trace.text" value="aqui Id Recibo Entrega preenchido"/>
-                                <Property name="trace.fieldId" value="IdReciboEntrega"/>
+                                <Property name="trace.fieldId" value="idRecibo"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -100,7 +82,7 @@
                                     <ItemProperties>
                                         <Property name="Operator" value="NotEmpty"/>
                                         <Property name="LeftOperandID" value="WSRedefinirSenhaUsuario"/>
-                                        <Property name="LeftOperandFieldID" value="IdReciboEntrega"/>
+                                        <Property name="LeftOperandFieldID" value="idRecibo"/>
                                     </ItemProperties>
                                     <ChildItems>
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="15" version="1.2">

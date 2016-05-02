@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="237" package="flow.subflow.AutenticarUsuario" version="5.0">
+    <ApplicationFlow nextObjectId="239" package="flow.subflow.AutenticarUsuario" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="192" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="471"/>
@@ -212,6 +212,20 @@
                                 <Property name="trace.varId" value="WSAutenticarUsuario"/>
                                 <Property name="trace.text" value="aqui status usuario"/>
                                 <Property name="trace.fieldId" value="Chave"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="238" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="InMessage"/>
+                                <Property name="trace.text" value="aqui InMessage Autenticar Usuario"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="239" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="OutMessage"/>
+                                <Property name="trace.text" value="aqui OutMessage Autenticar Usuario"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
