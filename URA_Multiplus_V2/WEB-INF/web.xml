@@ -1274,6 +1274,14 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
         <servlet-class>flow.subflow.EnviarEmailParticipante.WSEnviarEmailParticipante</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_GerarAtendimento_100">
+        <servlet-name>GerarAtendimento-SetaVariaveis</servlet-name>
+        <servlet-class>flow.subflow.GerarAtendimento.SetaVariaveis</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ConsultarParticipante_67">
+        <servlet-name>ConsultarParticipante-SetaVeriaveis</servlet-name>
+        <servlet-class>flow.subflow.ConsultarParticipante.SetaVeriaveis</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -2477,5 +2485,13 @@ Copyright 2004-2011 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_EnviarEmailParticipante_72">
         <servlet-name>EnviarEmailParticipante-WSEnviarEmailParticipante</servlet-name>
         <url-pattern>/EnviarEmailParticipante-WSEnviarEmailParticipante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_GerarAtendimento_100">
+        <servlet-name>GerarAtendimento-SetaVariaveis</servlet-name>
+        <url-pattern>/GerarAtendimento-SetaVariaveis</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ConsultarParticipante_67">
+        <servlet-name>ConsultarParticipante-SetaVeriaveis</servlet-name>
+        <url-pattern>/ConsultarParticipante-SetaVeriaveis</url-pattern>
     </servlet-mapping>
 </web-app>

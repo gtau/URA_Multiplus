@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="72" package="flow.subflow.Operador" version="5.0">
+    <ApplicationFlow nextObjectId="84" package="flow.subflow.Operador" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
@@ -18,7 +18,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="33" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="25"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="175"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="184"/>
                 <Property name="Name" value="PreencheUUI"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="34" version="1.2">
@@ -258,7 +258,90 @@
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="56" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="766"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="98"/>
-                <Property name="ReferencedNodeID" value="33"/>
+                <Property name="ReferencedNodeID" value="73"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="73" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="22"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="184"/>
+                <Property name="Name" value="VerificaVDN"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="74" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="75" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="78" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="IsEmpty"/>
+                                <Property name="LeftOperandID" value="VDNTransf"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="79" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="sourceFieldId" value="NaoPrioritario"/>
+                                        <Property name="destVarId" value="VDNTransf"/>
+                                        <Property name="sourceVarId" value="VDN"/>
+                                        <Property name="type" value="assign"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="80" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="LeftOperandID" value="Idioma"/>
+                                <Property name="RightConstOperand" value="ingles"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="81" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="sourceFieldId" value="Ingles"/>
+                                        <Property name="destVarId" value="VDNTransf"/>
+                                        <Property name="sourceVarId" value="VDN"/>
+                                        <Property name="type" value="assign"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="82" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="LeftOperandID" value="Idioma"/>
+                                <Property name="RightConstOperand" value="espanhol"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="83" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="sourceFieldId" value="Espanhol"/>
+                                        <Property name="destVarId" value="VDNTransf"/>
+                                        <Property name="sourceVarId" value="VDN"/>
+                                        <Property name="type" value="assign"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="84" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.varId" value="VDNTransf"/>
+                                <Property name="trace.text" value="aqui VDN"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="76" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="33"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="10" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="371"/>
@@ -380,6 +463,12 @@
                 <TargetNode id="54"/>
                 <Property name="Connection.SourceObjectID" value="36"/>
                 <Property name="Connection.TargetObjectID" value="54"/>
+            </NodeConnection>
+            <NodeConnection id="77" version="1.2">
+                <SourceNode id="73"/>
+                <TargetNode id="33"/>
+                <Property name="Connection.SourceObjectID" value="76"/>
+                <Property name="Connection.TargetObjectID" value="33"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

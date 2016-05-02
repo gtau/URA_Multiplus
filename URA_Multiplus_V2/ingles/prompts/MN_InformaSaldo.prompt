@@ -12,7 +12,7 @@
                 <Segment class="com.avaya.sce.prompts.internal.segment.IfStatement" type="If">
                     <Properties>
                         <Property name="LeftField" value="saldoPontos"/>
-                        <Property name="LeftVar" value="WSSaldoParticipante"/>
+                        <Property name="LeftVar" value="WSConsultarSaldoParticipante"/>
                         <Property name="Compare" value="IsEmpty"/>
                     </Properties>
                     <ChildItems>
@@ -65,9 +65,9 @@
                         </Segment>
                         <Segment class="com.avaya.sce.prompts.internal.segment.AudioVariable" type="AudioVariable">
                             <Properties>
-                                <Property name="Field" value="Pontos"/>
+                                <Property name="Field" value="saldoPontos"/>
                                 <Property name="format" value="number"/>
-                                <Property name="Name" value="WSSaldoParticipante"/>
+                                <Property name="Name" value="WSConsultarSaldoParticipante"/>
                                 <Property name="Number Type" value="integer"/>
                                 <Property name="inflection" value="Nn"/>
                             </Properties>
@@ -85,7 +85,7 @@
                                 <Property name="Field" value="pontosExpiracao"/>
                                 <Property name="Valid" value="true"/>
                                 <Property name="format" value="number"/>
-                                <Property name="Name" value="WSSaldoParticipante"/>
+                                <Property name="Name" value="WSConsultarSaldoParticipante"/>
                                 <Property name="Number Type" value="integer"/>
                                 <Property name="inflection" value="Nn"/>
                             </Properties>
@@ -101,11 +101,39 @@
                         <Segment class="com.avaya.sce.prompts.internal.segment.AudioVariable" type="AudioVariable">
                             <Properties>
                                 <Property name="Month Type" value="spokenmonth"/>
-                                <Property name="Field" value="DataPontosExp"/>
+                                <Property name="Field" value="dataExpiracao"/>
                                 <Property name="Date Format" value="DMSPD"/>
                                 <Property name="Valid" value="true"/>
                                 <Property name="format" value="date"/>
-                                <Property name="Name" value="WSSaldoParticipante"/>
+                                <Property name="Name" value="WSConsultarSaldoParticipante"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
+                            <Properties>
+                                <Property name="Phraseset" value="FrasesMultiplus"/>
+                                <Property name="Phrase" value="31b"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
+                            <Properties>
+                                <Property name="Phraseset" value="FrasesMultiplus"/>
+                                <Property name="Phrase" value="VoltarMenuInicial"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
+                            <Properties>
+                                <Property name="Phraseset" value="FrasesMultiplus"/>
+                                <Property name="Phrase" value="FalarOp"/>
+                            </Properties>
+                            <ChildItems/>
+                        </Segment>
+                        <Segment class="com.avaya.sce.prompts.internal.segment.Phrase" type="Phraseset">
+                            <Properties>
+                                <Property name="Phraseset" value="FrasesMultiplus"/>
+                                <Property name="Phrase" value="SemDuvida"/>
                             </Properties>
                             <ChildItems/>
                         </Segment>

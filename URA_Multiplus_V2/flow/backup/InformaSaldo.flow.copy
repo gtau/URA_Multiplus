@@ -384,15 +384,15 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="35" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui pontos cliente"/>
-                                <Property name="trace.fieldId" value="Pontos"/>
+                                <Property name="trace.fieldId" value="saldoPontos"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="36" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui pontos expirando"/>
                                 <Property name="trace.fieldId" value="pontosExpiracao"/>
                             </ItemProperties>
@@ -400,9 +400,9 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="37" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui data pontos expirando"/>
-                                <Property name="trace.fieldId" value="DataPontosExp"/>
+                                <Property name="trace.fieldId" value="dataExpiracao"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -412,10 +412,10 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="41" version="1.2">
                             <ItemProperties>
-                                <Property name="sourceFieldId" value="DataPontosExp"/>
-                                <Property name="start" value="0"/>
-                                <Property name="sourceVarId" value="WSSaldoParticipante"/>
-                                <Property name="destVarId" value="WSSaldoParticipante"/>
+                                <Property name="sourceFieldId" value="dataExpiracao"/>
+                                <Property name="start" value="8"/>
+                                <Property name="sourceVarId" value="WSConsultarSaldoParticipante"/>
+                                <Property name="destVarId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="destFieldId" value="dia"/>
                                 <Property name="numChars" value="2"/>
                                 <Property name="type" value="substring"/>
@@ -424,10 +424,10 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="42" version="1.2">
                             <ItemProperties>
-                                <Property name="sourceFieldId" value="DataPontosExp"/>
-                                <Property name="start" value="3"/>
-                                <Property name="sourceVarId" value="WSSaldoParticipante"/>
-                                <Property name="destVarId" value="WSSaldoParticipante"/>
+                                <Property name="sourceFieldId" value="dataExpiracao"/>
+                                <Property name="start" value="5"/>
+                                <Property name="sourceVarId" value="WSConsultarSaldoParticipante"/>
+                                <Property name="destVarId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="destFieldId" value="mes"/>
                                 <Property name="numChars" value="2"/>
                                 <Property name="type" value="substring"/>
@@ -436,10 +436,10 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="43" version="1.2">
                             <ItemProperties>
-                                <Property name="sourceFieldId" value="DataPontosExp"/>
-                                <Property name="start" value="6"/>
-                                <Property name="sourceVarId" value="WSSaldoParticipante"/>
-                                <Property name="destVarId" value="WSSaldoParticipante"/>
+                                <Property name="sourceFieldId" value="dataExpiracao"/>
+                                <Property name="start" value="0"/>
+                                <Property name="sourceVarId" value="WSConsultarSaldoParticipante"/>
+                                <Property name="destVarId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="destFieldId" value="ano"/>
                                 <Property name="numChars" value="4"/>
                                 <Property name="type" value="substring"/>
@@ -448,7 +448,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="44" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui dia pontos expirando"/>
                                 <Property name="trace.fieldId" value="dia"/>
                             </ItemProperties>
@@ -456,7 +456,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="45" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui mes pontos expirando"/>
                                 <Property name="trace.fieldId" value="mes"/>
                             </ItemProperties>
@@ -464,7 +464,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="46" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui ano pontos expirando"/>
                                 <Property name="trace.fieldId" value="ano"/>
                             </ItemProperties>

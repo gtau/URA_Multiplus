@@ -309,7 +309,14 @@
     <variable factoryID="" name="Evento:call_date" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Evento:call_evid" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Evento:call_seq" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="Farol" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="com.avaya.vp.admin.variables.runtime.AdminVariableFactory" name="Farol" owner="" type="com.avaya.vp.adminVar" value="" version="1.0">
+        <editpolicies>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+        <property name="DefaltValue" value="verde"/>
+        <property name="DisplayName" value="Farol"/>
+        <property name="VarType" value="String"/>
+    </variable>
     <variable factoryID="" name="GerarAtendimentoInput" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="GerarAtendimentoOutput" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="Idioma" owner="" type="" value="" version="1.0"/>
@@ -1246,33 +1253,63 @@
     <variable factoryID="" name="WSAutenticarUsuario:SenhaDigitada" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSAutenticarUsuario:Usuario" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSAutenticarUsuario:Valor" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSConsultarParticipante:dataExpiracao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:email" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:Erro" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:idioma" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:IdParticipante" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:instrucao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:mensagem" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:nome" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:numeroMultiplus" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSConsultarParticipante:pontosExpiracao" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSConsultarParticipante:referenciaSituacao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:numeroTam" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:Retorno" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSConsultarParticipante:saldoPontos" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSConsultarParticipante:sobrenome" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:suporteCache" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarParticipante:tempoMaximo" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:ano" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:dataExpiracao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:dia" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:IdParticipante" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:instrucao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:mensagem" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:mes" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:nome" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:numeroMultiplus" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:pontosExpiracao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:referenciaSituacao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:Retorno" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:saldoPontos" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSConsultarSaldoParticipante:sobrenome" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSEnviarEmailParticipante:Detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSEnviarEmailParticipante:envioAssincrono" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSEnviarEmailParticipante:Erro" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSEnviarEmailParticipante:IdReciboEntrega" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSEnviarEmailParticipante:Mensagem" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSEnviarEmailParticipante:referenciaTemplate" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSEnviarEmailParticipante:Retorno" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSEnviarEmailParticipante:Template" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSGerarAtendimento:NumProtocolo" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:Detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:Erro" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:getIdAtendimento" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:idAtendimento" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:Mensagem" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:numeroProtocolo" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaAreaAtendimento" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaCanal" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaSituacao" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaSubareaAtendimento" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaSubcanal" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:referenciaTipoAtendimento" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSGerarAtendimento:Retorno" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:CPFNumMultiplus" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:detalhe" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:IdParticipante" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:instrucao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:mensagem" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSIdentificarParticipante:Nome" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:numeroMultiplus" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:referenciaSituacao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSIdentificarParticipante:Retorno" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSIdentificarParticipante:Sobrenome" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSRedefinirSenhaUsuario:detalhe" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSRedefinirSenhaUsuario:email" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSRedefinirSenhaUsuario:idRecibo" owner="" type="" value="" version="1.0"/>
@@ -1285,26 +1322,15 @@
     <variable factoryID="" name="WSRedefinirSenhaUsuario:referenciaSubcanal" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSRedefinirSenhaUsuario:Retorno" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSRedefinirSenhaUsuario:Usuario" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:ano" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:dataExpiracao" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:DataPontosExp" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:detalhe" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:dia" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:IdParticipante" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:instrucao" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:mensagem" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:mes" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:nome" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:numeroMultiplus" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:Pontos" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:pontosExpiracao" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:Referencia" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:referenciaSituacao" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:Retorno" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:saldoPontos" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSaldoParticipante:sobrenome" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSSolicitarExtratoParticipante:Detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSSolicitarExtratoParticipante:Erro" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSSolicitarExtratoParticipante:IdReciboEntrega" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSSolicitarExtratoParticipante:Mensagem" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSSolicitarExtratoParticipante:quantidadeDias" owner="" type="" value="90" version="1.0"/>
     <variable factoryID="" name="WSSolicitarExtratoParticipante:Retorno" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Identificador" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Detalhe" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Erro" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Mensagem" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:PermissaoAlteracao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Retorno" owner="" type="" value="" version="1.0"/>
 </projectvariables>

@@ -173,7 +173,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="77" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSSaldoParticipante"/>
+                                <Property name="trace.varId" value="WSConsultarSaldoParticipante"/>
                                 <Property name="trace.text" value="aqui retorno ws consultar saldo participante"/>
                                 <Property name="trace.fieldId" value="Retorno"/>
                             </ItemProperties>
@@ -182,7 +182,7 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="75" version="1.2">
                             <ItemProperties>
                                 <Property name="Operator" value="="/>
-                                <Property name="LeftOperandID" value="WSSaldoParticipante"/>
+                                <Property name="LeftOperandID" value="WSConsultarSaldoParticipante"/>
                                 <Property name="LeftOperandFieldID" value="Retorno"/>
                                 <Property name="RightConstOperand" value="0"/>
                             </ItemProperties>
@@ -190,7 +190,7 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="129" version="1.2">
                                     <ItemProperties>
                                         <Property name="Operator" value="NotEmpty"/>
-                                        <Property name="LeftOperandID" value="WSSaldoParticipante"/>
+                                        <Property name="LeftOperandID" value="WSConsultarSaldoParticipante"/>
                                         <Property name="LeftOperandFieldID" value="IdParticipante"/>
                                     </ItemProperties>
                                     <ChildItems>

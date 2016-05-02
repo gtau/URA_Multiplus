@@ -49,8 +49,8 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="45" version="1.2">
                             <ItemProperties>
-                                <Property name="sourceFieldId" value="Nome"/>
-                                <Property name="sourceVarId" value="WSIdentificarParticipante"/>
+                                <Property name="sourceFieldId" value="nome"/>
+                                <Property name="sourceVarId" value="WSConsultarParticipante"/>
                                 <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="concatenate"/>
                             </ItemProperties>
@@ -66,8 +66,8 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="47" version="1.2">
                             <ItemProperties>
-                                <Property name="sourceFieldId" value="Sobrenome"/>
-                                <Property name="sourceVarId" value="WSIdentificarParticipante"/>
+                                <Property name="sourceFieldId" value="sobrenome"/>
+                                <Property name="sourceVarId" value="WSConsultarParticipante"/>
                                 <Property name="destVarId" value="UUI"/>
                                 <Property name="type" value="concatenate"/>
                             </ItemProperties>

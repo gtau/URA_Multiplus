@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="77" package="flow.subflow.ProcedimentosEmail" version="5.0">
+    <ApplicationFlow nextObjectId="78" package="flow.subflow.ProcedimentosEmail" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="-114"/>
@@ -113,9 +113,18 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="76" version="1.2">
                             <ItemProperties>
                                 <Property name="destVarId" value="WSEnviarEmailParticipante"/>
-                                <Property name="destFieldId" value="Template"/>
+                                <Property name="destFieldId" value="referenciaTemplate"/>
                                 <Property name="type" value="assign"/>
                                 <Property name="sourceConstant" value="ESQUECI_MEU_NUMERO_MULTIPLUS"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="78" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSEnviarEmailParticipante"/>
+                                <Property name="destFieldId" value="envioAssincrono"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="false"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

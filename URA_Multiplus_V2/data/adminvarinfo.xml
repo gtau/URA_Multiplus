@@ -171,6 +171,24 @@
                     <FieldScope>Local</FieldScope>
                 </PageletField>
                 <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>Farol</FieldName>
+                    <FieldDisplayName>Farol</FieldDisplayName>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>verde</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>true</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
                     <FieldOrderID>6</FieldOrderID>
                     <FieldName>VDN:AlteracaoCadastral</FieldName>
                     <FieldDisplayName>Alteracao Cadastral</FieldDisplayName>

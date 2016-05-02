@@ -100,7 +100,7 @@
                             <ItemProperties>
                                 <Property name="trace.varId" value="WSVerificarPermissaoAlteracaoCadastral"/>
                                 <Property name="trace.text" value="aqui identificador verificar permissao alteracao cadastral"/>
-                                <Property name="trace.fieldId" value="Identificador"/>
+                                <Property name="trace.fieldId" value="PermissaoAlteracao"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -116,7 +116,7 @@
                                     <ItemProperties>
                                         <Property name="Operator" value="NotEmpty"/>
                                         <Property name="LeftOperandID" value="WSVerificarPermissaoAlteracaoCadastral"/>
-                                        <Property name="LeftOperandFieldID" value="Identificador"/>
+                                        <Property name="LeftOperandFieldID" value="PermissaoAlteracao"/>
                                     </ItemProperties>
                                     <ChildItems>
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="9" version="1.2">

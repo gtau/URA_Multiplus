@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="128" package="flow.subflow.ValidacaoMultiplus" version="5.0">
+    <ApplicationFlow nextObjectId="129" package="flow.subflow.ValidacaoMultiplus" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="Name" value="Begin"/>
@@ -66,14 +66,15 @@
                                         <Property name="LeftOperandFieldID" value="IdParticipante"/>
                                         <Property name="RightConstOperand" value="true"/>
                                     </ItemProperties>
-                                    <ChildItems/>
-                                </FlowItem>
-                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="43" version="1.2">
-                                    <ItemProperties>
-                                        <Property name="LinkedNodeID" value="73"/>
-                                        <Property name="Name" value="OK"/>
-                                    </ItemProperties>
-                                    <ChildItems/>
+                                    <ChildItems>
+                                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="43" version="1.2">
+                                            <ItemProperties>
+                                                <Property name="LinkedNodeID" value="73"/>
+                                                <Property name="Name" value="OK"/>
+                                            </ItemProperties>
+                                            <ChildItems/>
+                                        </FlowItem>
+                                    </ChildItems>
                                 </FlowItem>
                             </ChildItems>
                         </FlowItem>
@@ -178,15 +179,6 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="125" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="WSSaldoParticipante"/>
-                                <Property name="destFieldId" value="Retorno"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="0"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="75" version="1.2">
                             <ItemProperties>
                                 <Property name="Operator" value="="/>
@@ -195,12 +187,21 @@
                                 <Property name="RightConstOperand" value="0"/>
                             </ItemProperties>
                             <ChildItems>
-                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="72" version="1.2">
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="129" version="1.2">
                                     <ItemProperties>
-                                        <Property name="LinkedNodeID" value="85"/>
-                                        <Property name="Name" value="OK"/>
+                                        <Property name="Operator" value="NotEmpty"/>
+                                        <Property name="LeftOperandID" value="WSSaldoParticipante"/>
+                                        <Property name="LeftOperandFieldID" value="IdParticipante"/>
                                     </ItemProperties>
-                                    <ChildItems/>
+                                    <ChildItems>
+                                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="72" version="1.2">
+                                            <ItemProperties>
+                                                <Property name="LinkedNodeID" value="85"/>
+                                                <Property name="Name" value="OK"/>
+                                            </ItemProperties>
+                                            <ChildItems/>
+                                        </FlowItem>
+                                    </ChildItems>
                                 </FlowItem>
                             </ChildItems>
                         </FlowItem>

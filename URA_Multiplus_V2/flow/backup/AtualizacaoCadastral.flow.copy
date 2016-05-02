@@ -684,7 +684,6 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="48" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="Farol"/>
                                 <Property name="trace.text" value="aqui Farol"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -991,6 +990,7 @@
                 <TargetNode id="11"/>
                 <Property name="Connection.SourceObjectID" value="7"/>
                 <Property name="Connection.TargetObjectID" value="11"/>
+                <Bendpoint x="316" y="44"/>
             </NodeConnection>
             <NodeConnection id="21" version="1.2">
                 <SourceNode id="11"/>

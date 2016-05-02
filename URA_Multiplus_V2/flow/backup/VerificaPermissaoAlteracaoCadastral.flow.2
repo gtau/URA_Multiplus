@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="37" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
+    <ApplicationFlow nextObjectId="39" package="flow.subflow.VerificaPermissaoAlteracaoCadastral" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="17" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="705"/>
@@ -88,30 +88,28 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="30" version="1.2">
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="38" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="WSVerificarPermissaoAlteracaoCadastral"/>
-                                <Property name="destFieldId" value="Retorno"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="OK"/>
+                                <Property name="trace.varId" value="WSVerificarPermissaoAlteracaoCadastral"/>
+                                <Property name="trace.text" value="aqui retorno verificar permissao alteracao cadastral"/>
+                                <Property name="trace.fieldId" value="Retorno"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="31" version="1.2">
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="39" version="1.2">
                             <ItemProperties>
-                                <Property name="destVarId" value="WSVerificarPermissaoAlteracaoCadastral"/>
-                                <Property name="destFieldId" value="Identificador"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="OK"/>
+                                <Property name="trace.varId" value="WSVerificarPermissaoAlteracaoCadastral"/>
+                                <Property name="trace.text" value="aqui identificador verificar permissao alteracao cadastral"/>
+                                <Property name="trace.fieldId" value="Identificador"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="11" version="1.2">
                             <ItemProperties>
-                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="Operator" value="="/>
                                 <Property name="LeftOperandID" value="WSVerificarPermissaoAlteracaoCadastral"/>
                                 <Property name="LeftOperandFieldID" value="Retorno"/>
-                                <Property name="RightConstOperand" value="OK"/>
+                                <Property name="RightConstOperand" value="0"/>
                             </ItemProperties>
                             <ChildItems>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="12" version="1.2">
