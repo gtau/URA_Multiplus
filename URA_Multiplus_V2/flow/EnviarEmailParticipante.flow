@@ -47,9 +47,9 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="40" version="1.2">
                             <ItemProperties>
-                                <Property name="trace.varId" value="WSRedefinirSenhaUsuario"/>
+                                <Property name="trace.varId" value="WSEnviarEmailParticipante"/>
                                 <Property name="trace.text" value="aqui Id Recibo Entrega preenchido"/>
-                                <Property name="trace.fieldId" value="idRecibo"/>
+                                <Property name="trace.fieldId" value="IdReciboEntrega"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>

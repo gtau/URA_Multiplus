@@ -486,4 +486,31 @@
         <comments/>
         <audiofile>114b.wav</audiofile>
     </phrase>
+    <phrase version="1.0">
+        <displayname>3113a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>3113b</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113b.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>3113c</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>3113c.wav</audiofile>
+    </phrase>
 </phraseset>

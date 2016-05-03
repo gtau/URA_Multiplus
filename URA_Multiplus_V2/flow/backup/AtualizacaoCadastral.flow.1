@@ -176,7 +176,7 @@
                                 <Property name="Operator" value="EqualsIgnoreCase"/>
                                 <Property name="LeftOperandID" value="WSIdentificarParticipante"/>
                                 <Property name="LeftOperandFieldID" value="IdParticipante"/>
-                                <Property name="RightConstOperand" value="OK"/>
+                                <Property name="RightConstOperand" value="true"/>
                             </ItemProperties>
                             <ChildItems>
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="17" version="1.2">
@@ -233,6 +233,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="150" version="1.2">
                             <ItemProperties>
+                                <Property name="trace.varId" value="Farol"/>
                                 <Property name="trace.text" value="aqui farol"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -690,6 +691,7 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="44" version="1.2">
                             <ItemProperties>
                                 <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="LeftOperandID" value="Farol"/>
                                 <Property name="RightConstOperand" value="amarelo"/>
                             </ItemProperties>
                             <ChildItems>
@@ -1001,6 +1003,7 @@
                 <TargetNode id="22"/>
                 <Property name="Connection.SourceObjectID" value="17"/>
                 <Property name="Connection.TargetObjectID" value="22"/>
+                <Bendpoint x="502" y="58"/>
             </NodeConnection>
             <NodeConnection id="28" version="1.2">
                 <SourceNode id="22"/>

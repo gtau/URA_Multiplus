@@ -1291,6 +1291,7 @@
     <variable factoryID="" name="WSEnviarEmailParticipante:Mensagem" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSEnviarEmailParticipante:referenciaTemplate" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSEnviarEmailParticipante:Retorno" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="" name="WSGerarAtendimento:descricao" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSGerarAtendimento:Detalhe" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSGerarAtendimento:Erro" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSGerarAtendimento:getIdAtendimento" owner="" type="" value="" version="1.0"/>
@@ -1328,7 +1329,7 @@
     <variable factoryID="" name="WSSolicitarExtratoParticipante:Erro" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSSolicitarExtratoParticipante:IdReciboEntrega" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSSolicitarExtratoParticipante:Mensagem" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="WSSolicitarExtratoParticipante:quantidadeDias" owner="" type="" value="90" version="1.0"/>
+    <variable factoryID="" name="WSSolicitarExtratoParticipante:quantidadeDias" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSSolicitarExtratoParticipante:Retorno" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Detalhe" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="WSVerificarPermissaoAlteracaoCadastral:Erro" owner="" type="" value="" version="1.0"/>

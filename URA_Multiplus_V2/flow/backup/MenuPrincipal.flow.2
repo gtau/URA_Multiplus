@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="233" package="flow.subflow.MenuPrincipal" version="5.0">
+    <ApplicationFlow nextObjectId="235" package="flow.subflow.MenuPrincipal" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="192" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="796"/>
@@ -568,17 +568,17 @@
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubFlowRef" id="131" version="1.2">
                     <ItemProperties/>
                     <ChildItems>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubExitPoint" id="132" version="1.2">
-                            <ItemProperties>
-                                <Property name="LinkedNodeID" value="162"/>
-                                <Property name="Name" value="Retorno"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubExitPoint" id="149" version="1.2">
                             <ItemProperties>
                                 <Property name="LinkedNodeID" value="172"/>
                                 <Property name="Name" value="Desliga"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubExitPoint" id="234" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="164"/>
+                                <Property name="Name" value="Retorno"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -671,13 +671,6 @@
                 <Property name="Connection.SourceObjectID" value="156"/>
                 <Property name="Connection.TargetObjectID" value="164"/>
             </NodeConnection>
-            <NodeConnection id="171" version="1.2">
-                <SourceNode id="62"/>
-                <TargetNode id="162"/>
-                <Property name="Connection.SourceObjectID" value="132"/>
-                <Property name="Connection.TargetObjectID" value="162"/>
-                <Bendpoint x="766" y="-10"/>
-            </NodeConnection>
             <NodeConnection id="173" version="1.2">
                 <SourceNode id="62"/>
                 <TargetNode id="172"/>
@@ -765,6 +758,13 @@
                 <TargetNode id="228"/>
                 <Property name="Connection.SourceObjectID" value="226"/>
                 <Property name="Connection.TargetObjectID" value="228"/>
+            </NodeConnection>
+            <NodeConnection id="235" version="1.2">
+                <SourceNode id="62"/>
+                <TargetNode id="164"/>
+                <Property name="Connection.SourceObjectID" value="234"/>
+                <Property name="Connection.TargetObjectID" value="164"/>
+                <Bendpoint x="763" y="41"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

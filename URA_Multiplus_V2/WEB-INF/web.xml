@@ -1028,10 +1028,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>SolicitarExtratoParticipante-TransOK</servlet-name>
         <servlet-class>flow.subflow.SolicitarExtratoParticipante.TransOK</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_33">
-        <servlet-name>SolicitarExtratoParticipante-AN_ErroTransacao</servlet-name>
-        <servlet-class>flow.subflow.SolicitarExtratoParticipante.AN_ErroTransacao</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_39">
         <servlet-name>SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</servlet-name>
         <servlet-class>flow.subflow.SolicitarExtratoParticipante.TrataSolicitarExtratoParticipante</servlet-class>
@@ -1281,6 +1278,22 @@ Copyright 2004-2011 Avaya Inc.
     <servlet id="SAGE-callflow-servlet_ConsultarParticipante_67">
         <servlet-name>ConsultarParticipante-SetaVeriaveis</servlet-name>
         <servlet-class>flow.subflow.ConsultarParticipante.SetaVeriaveis</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_SolicitarExtratoParticipante_74">
+        <servlet-name>SolicitarExtratoParticipante-AN_ErroTransacao</servlet-name>
+        <servlet-class>flow.subflow.SolicitarExtratoParticipante.AN_ErroTransacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ExtratoEmail_275">
+        <servlet-name>ExtratoEmail-SetaDiasopc1</servlet-name>
+        <servlet-class>flow.subflow.ExtratoEmail.SetaDiasopc1</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ExtratoEmail_281">
+        <servlet-name>ExtratoEmail-SetaDiasopc2</servlet-name>
+        <servlet-class>flow.subflow.ExtratoEmail.SetaDiasopc2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ExtratoEmail_285">
+        <servlet-name>ExtratoEmail-SetaDiasopc3</servlet-name>
+        <servlet-class>flow.subflow.ExtratoEmail.SetaDiasopc3</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -2240,10 +2253,7 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>SolicitarExtratoParticipante-TransOK</servlet-name>
         <url-pattern>/SolicitarExtratoParticipante-TransOK</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_33">
-        <servlet-name>SolicitarExtratoParticipante-AN_ErroTransacao</servlet-name>
-        <url-pattern>/SolicitarExtratoParticipante-AN_ErroTransacao</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_39">
         <servlet-name>SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</servlet-name>
         <url-pattern>/SolicitarExtratoParticipante-TrataSolicitarExtratoParticipante</url-pattern>
@@ -2493,5 +2503,21 @@ Copyright 2004-2011 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_ConsultarParticipante_67">
         <servlet-name>ConsultarParticipante-SetaVeriaveis</servlet-name>
         <url-pattern>/ConsultarParticipante-SetaVeriaveis</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_SolicitarExtratoParticipante_74">
+        <servlet-name>SolicitarExtratoParticipante-AN_ErroTransacao</servlet-name>
+        <url-pattern>/SolicitarExtratoParticipante-AN_ErroTransacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ExtratoEmail_275">
+        <servlet-name>ExtratoEmail-SetaDiasopc1</servlet-name>
+        <url-pattern>/ExtratoEmail-SetaDiasopc1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ExtratoEmail_281">
+        <servlet-name>ExtratoEmail-SetaDiasopc2</servlet-name>
+        <url-pattern>/ExtratoEmail-SetaDiasopc2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ExtratoEmail_285">
+        <servlet-name>ExtratoEmail-SetaDiasopc3</servlet-name>
+        <url-pattern>/ExtratoEmail-SetaDiasopc3</url-pattern>
     </servlet-mapping>
 </web-app>

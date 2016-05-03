@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="234" package="flow.subflow.MenuPrincipal" version="5.0">
+    <ApplicationFlow nextObjectId="235" package="flow.subflow.MenuPrincipal" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="192" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="796"/>
@@ -577,6 +577,7 @@
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubExitPoint" id="234" version="1.2">
                             <ItemProperties>
+                                <Property name="LinkedNodeID" value="164"/>
                                 <Property name="Name" value="Retorno"/>
                             </ItemProperties>
                             <ChildItems/>
@@ -596,7 +597,7 @@
                 <TargetNode id="62"/>
                 <Property name="Connection.SourceObjectID" value="42"/>
                 <Property name="Connection.TargetObjectID" value="62"/>
-                <Bendpoint x="501" y="13"/>
+                <Bendpoint x="500" y="16"/>
             </NodeConnection>
             <NodeConnection id="73" version="1.2">
                 <SourceNode id="23"/>
@@ -757,6 +758,13 @@
                 <TargetNode id="228"/>
                 <Property name="Connection.SourceObjectID" value="226"/>
                 <Property name="Connection.TargetObjectID" value="228"/>
+            </NodeConnection>
+            <NodeConnection id="235" version="1.2">
+                <SourceNode id="62"/>
+                <TargetNode id="164"/>
+                <Property name="Connection.SourceObjectID" value="234"/>
+                <Property name="Connection.TargetObjectID" value="164"/>
+                <Bendpoint x="763" y="41"/>
             </NodeConnection>
         </FlowGraph>
         <ProjectEventTypes/>

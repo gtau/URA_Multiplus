@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="114" package="flow.subflow.GerarAtendimento" version="5.0">
+    <ApplicationFlow nextObjectId="115" package="flow.subflow.GerarAtendimento" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
                 <Property name="FlowNodeEditPart.WidgetX" value="6"/>
@@ -183,6 +183,15 @@
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="115" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="WSGerarAtendimento"/>
+                                <Property name="destFieldId" value="descricao"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="sourceConstant" value="Participante encontrado na blacklist"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="107" version="1.2">
                             <ItemProperties>
                                 <Property name="destVarId" value="WSGerarAtendimento"/>
@@ -229,8 +238,8 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="61" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="686"/>
-                <Property name="FlowNodeEditPart.WidgetY" value="33"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="742"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="30"/>
                 <Property name="Name" value="TransOK"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Form" id="62" version="3.1">
